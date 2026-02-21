@@ -1,0 +1,15 @@
+datasets
+transformers
+torch
+huggingface_hub
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+tqdm
+requests
+python-dotenv
+evaluate
+rouge-score
