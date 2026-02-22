@@ -38,9 +38,18 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
 
 ## Log
 
-### 02/21/2026 — Day 1
+### 02/20/2026 — Day 1
 - Set up project folder structure
 - Initialized virtual environment
 - Installed dependencies
 - Created GitHub repo
 - Defined research question and hypothesis
+
+### 02/21/2026 — Day 2
+- Wrote dataset loader (src/load_datasets.py)
+- Successfully loaded 3 datasets from HuggingFace:
+  - MedQA (USMLE): 200 samples, columns: question, options, answer
+  - MedMCQA (AIIMS/NEET): 200 samples, columns: question, opa/b/c/d, cop, subject
+  - PubMedQA: 200 samples, columns: question, context, long_answer, final_decision
+- Fixed bigbio/med_qa loading script error, switched to GBaker/MedQA-USMLE-4-options
+- Data saved to data/processed/
