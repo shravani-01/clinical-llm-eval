@@ -19,7 +19,8 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 
 MODELS = {
     "phi3_mini": "phi3:mini",
-    "llama3.2": "llama3.2:3b"
+    "llama3.2": "llama3.2:3b",
+    "gemma2":"gemma2:2b"
 }
 
 def query_ollama(model: str, prompt: str, timeout: int = 60) -> str:

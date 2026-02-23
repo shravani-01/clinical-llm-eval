@@ -92,6 +92,17 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
   - Direct/original prompts most reliable
   - MedQA unknown rate 10.5% — instruction following failures
   - Accuracy ranges: 48-53% across datasets
+
+### 02/26/2026 — Day 8
+- Completed llama3.2 inference and scoring across all 3 datasets
+- Key comparisons vs phi3_mini:
+  - Llama3.2 better consistency on MedQA (0.776 vs 0.698)
+  - Llama3.2 dramatically lower unknown rate on MedQA (0.8% vs 10.5%)
+  - Llama3.2 higher accuracy on PubMedQA (65% vs 48%)
+  - Roleplay no longer worst style for llama3.2 — finding is model specific
+  - Key insight: consistency and accuracy are independent — a model can be
+    consistently wrong, which is dangerous in clinical settings
+
 ```
 ---
 

@@ -1,0 +1,204 @@
+id,question,correct_answer,majority_answer,is_accurate,consistency_score,unknown_rate,dataset,model,ans_original,correct_original,ans_formal,correct_formal,ans_simplified,correct_simplified,ans_roleplay,correct_roleplay,ans_direct,correct_direct
+0,A healthy 23-year-old male is undergoing an exercise stress test as part of his ,B,A,False,0.8,0.0,medqa,gemma2,A,False,A,False,A,False,B,True,A,False
+1,A 31-year-old female patient presents with significant swelling and redness of h,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+2,A 47-year-old woman comes to the physician because of progressive muscle weaknes,A,D,False,0.6,0.0,medqa,gemma2,D,False,C,False,D,False,C,False,D,False
+3,"Background:
+Some patients with severe asthma have frequent exacerbations associa",A,A,True,0.6,0.0,medqa,gemma2,A,True,A,True,A,True,B,False,B,False
+4,A 45-year-old man comes to the physician for a routine health maintenance examin,C,C,True,0.6,0.0,medqa,gemma2,D,False,C,True,C,True,C,True,D,False
+5,A 38-year-old woman presents to her physician’s clinic for recurrent episodes of,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+6,A 68-year-old woman presents with an intermittent throbbing headache with an ons,D,C,False,0.6,0.2,medqa,gemma2,D,True,C,False,C,False,UNKNOWN,False,C,False
+7,A 58-year-old male presents with an acutely elevated blood pressure of 220/140 m,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+8,A 48-year-old man is brought to the emergency department for sudden onset of dif,B,B,True,0.8,0.0,medqa,gemma2,B,True,B,True,D,False,B,True,B,True
+9,A 3rd year resident in good standing with his residency training program would l,C,A,False,0.6,0.0,medqa,gemma2,A,False,A,False,A,False,B,False,B,False
+10,A 22-year-old gravida 1 presents to her physician at 15 weeks gestation for a pr,D,A,False,1.0,0.0,medqa,gemma2,A,False,A,False,A,False,A,False,A,False
+11,A 6-day-old male newborn is brought to the physician because he has become incre,A,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+12,A 23-year-old woman comes to the physician because of a 2-month history of episo,B,D,False,0.6,0.0,medqa,gemma2,D,False,C,False,D,False,C,False,D,False
+13,"A 2-hour-old, 3.2 kg (7.0 lb) newborn boy born by cesarean delivery is being eva",C,C,True,0.8,0.2,medqa,gemma2,C,True,C,True,C,True,UNKNOWN,False,C,True
+14,A 2-day-old boy delivered at 34 weeks gestation is found to have a murmur on rou,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+15,"A 41-year-old G3P1 woman presents with a sudden onset throbbing headache, tinnit",A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+16,"A 27-year-old woman, gravida 2, para 1, at 40 weeks' gestation is admitted to th",A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+17,A 58-year-old man comes to the physician because he is unable to achieve erectio,C,C,True,0.8,0.2,medqa,gemma2,C,True,C,True,C,True,UNKNOWN,False,C,True
+18,"A 42-year-old man with AIDS comes to the physician for intermittent fever, nonpr",D,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+19,"A 45-year-old man presents to the doctor’s office with shortness of breath, coug",D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+20,A 44-year-old woman with hypothyroidism comes to the physician because of a 1-mo,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+21,A 56-year-old man with a history of hypertension presents to his physician with ,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+22,A 19-year-old man is brought to the emergency department by ambulance because of,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+23,A 44-year-old woman comes to the physician because of a 6-month history of fatig,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+24,A 59-year-old man comes to the emergency department because of excruciating left,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+25,"A 28-year-old male presents with a recent onset of upsetting dreams, anxiety, an",C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+26,An investigator is studying the effect of drug X on the retinoblastoma (Rb) gene,C,A,False,1.0,0.0,medqa,gemma2,A,False,A,False,A,False,A,False,A,False
+27,An 80-year-old man is transferred from a step-down unit to a med-surg floor in t,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+28,A 69-year-old right-handed man comes to the physician for a routine health maint,A,A,True,1.0,0.0,medqa,gemma2,A,True,A,True,A,True,A,True,A,True
+29,A mother brings her 6-year-old daughter to the pediatrician to discuss her child,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+30,A 62-year-old patient has been hospitalized for a week due to a stroke. One week,D,D,True,0.8,0.0,medqa,gemma2,C,False,D,True,D,True,D,True,D,True
+31,A 76-year-old man with chronic obstructive pulmonary disease (COPD) presents com,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+32,"A 74-year-old woman with a history of hypertension, hyperlipidemia, and type 2 d",B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+33,A 62-year old female comes to the physician because of vaginal spotting and urin,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+34,The only immunoglobulin found as a dimer has what primary function?,C,B,False,0.8,0.0,medqa,gemma2,C,True,B,False,B,False,B,False,B,False
+35,"Please refer to the summary above to answer this question
+The authors of the stu",D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+36,A 58-year-old white man with hypertension and type 2 diabetes mellitus comes to ,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+37,A 55-year-old man presents to the emergency department with complaints of nausea,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+38,A 48-year-old man is brought to the emergency department by his son with a fever,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+39,"A 22-year-old woman comes to the physician because of yellow vaginal discharge, ",D,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+40,A 65-year old man presents with gradually worsening rigidity of his arms and leg,A,A,True,0.6,0.0,medqa,gemma2,A,True,A,True,A,True,D,False,D,False
+41,A 55-year-old man is brought to the emergency department 12 hours after the sudd,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+42,A 16-year-old female patient with a history of mental retardation presents to yo,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+43,A 31-year-old male comes to your office for his annual exam. He states that he r,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+44,An 80-year-old African American man is brought to the emergency department in a ,A,C,False,0.6,0.2,medqa,gemma2,C,False,C,False,D,False,UNKNOWN,False,C,False
+45,A 22-year-old man presents to the medical clinic after getting bit in the hand b,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+46,A 36-year-old man is brought to the emergency department 40 minutes after being ,C,A,False,1.0,0.0,medqa,gemma2,A,False,A,False,A,False,A,False,A,False
+47,A 72-year-old Caucasian male presents to your office with dysphagia and halitosi,D,D,True,0.6,0.0,medqa,gemma2,C,False,D,True,D,True,D,True,B,False
+48,"The first 24 hours after delivery, a 2888 g (6.37 lb) male newborn is not feedin",A,D,False,0.8,0.2,medqa,gemma2,D,False,D,False,D,False,UNKNOWN,False,D,False
+49,A 56-year-old man is brought to the emergency department. He was found unconscio,B,B,True,0.8,0.2,medqa,gemma2,B,True,B,True,B,True,UNKNOWN,False,B,True
+50,A 45-year-old mechanic presents to the emergency department complaining of acute,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+51,A 21-month-old boy is brought to the physician for a well-child examination. His,B,B,True,0.6,0.0,medqa,gemma2,C,False,B,True,C,False,B,True,B,True
+52,A 16-year-old girl is brought to the physician by her father because of concerns,A,A,True,0.4,0.0,medqa,gemma2,A,True,A,True,C,False,D,False,D,False
+53,A 49-year-old man comes to the physician for a routine health maintenance examin,A,A,True,0.6,0.0,medqa,gemma2,A,True,B,False,A,True,B,False,A,True
+54,A 30-year-old Japanese woman is brought to the emergency department after fainti,A,C,False,0.6,0.0,medqa,gemma2,C,False,C,False,D,False,C,False,D,False
+55,A 74-year-old woman is brought to her primary care doctor by her adult son. The ,D,C,False,0.8,0.0,medqa,gemma2,C,False,C,False,C,False,B,False,C,False
+56,A patient presents to the emergency department with severe pain in her head. She,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+57,"A 25-year-old woman comes to the physician because of an acute, painful swelling",B,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+58,A 56-year-old man with a history of pancreatic cancer presents to the surgical i,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+59,A student studying pharmacology is a member of a team that is conducting researc,A,A,True,1.0,0.0,medqa,gemma2,A,True,A,True,A,True,A,True,A,True
+60,A 45-year-old man comes to his primary-care doctor with his wife for a 4-week hi,C,A,False,1.0,0.0,medqa,gemma2,A,False,A,False,A,False,A,False,A,False
+61,A 35-year-old man presents with a 7 month history of insomnia. The patient admit,A,A,True,1.0,0.0,medqa,gemma2,A,True,A,True,A,True,A,True,A,True
+62,A 51-year-old man is brought to the physician by his wife because of a 3-week hi,B,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+63,A 75-year-old man comes to the physician because of a 7-day history of nausea an,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+64,A 55-year-old man presents with complaints of exertional dyspnea and dry cough. ,D,D,True,0.8,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,C,False
+65,A 48-year-old man seeks evaluation at a clinic with a complaint of breathlessnes,C,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+66,A 23-year-old man presents to his primary care physician after bleeding from his,A,D,False,0.6,0.0,medqa,gemma2,D,False,D,False,D,False,A,True,A,True
+67,A 56-year-old woman presents to a physician with severe pain and swelling of the,C,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+68,"A 30-year-old woman presents to your office with decreased appetite, malaise, an",C,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+69,A 70-year-old man with chronic heart failure presents to the emergency departmen,C,B,False,0.6,0.0,medqa,gemma2,A,False,B,False,B,False,B,False,A,False
+70,A 31-year-old female patient complains of numbness and tingling in her left hand,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+71,A 30-year-old male presents to the emergency department with a complaint of abdo,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+72,A 54-year-old male makes an appointment with his primary care physician due to c,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+73,A 23-year-old man comes to the physician because of a 1-week history of anorexia,D,B,False,0.6,0.0,medqa,gemma2,C,False,B,False,C,False,B,False,B,False
+74,A newborn is found to be extremely cyanotic immediately after birth. He then dev,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+75,A 60-year-old man comes to the physician for a routine physical examination. He ,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+76,"A 13-year-old boy is brought to the emergency room by his mother with confusion,",A,D,False,0.8,0.0,medqa,gemma2,D,False,D,False,D,False,B,False,D,False
+77,A 2-year-old boy is brought to the physician for evaluation of pallor and increa,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+78,A 32-year-old man jumps off a 3 story building during a suicide attempt. Paramed,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+79,A 22-year-old woman presents to the emergency department for abdominal pain. The,B,B,True,0.8,0.0,medqa,gemma2,B,True,B,True,B,True,D,False,B,True
+80,A 76-year-old woman visits a physician for a general medical examination. She is,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+81,A 51-year-old woman goes to respiratory function testing in order to evaluate he,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+82,A 27-year-old woman presents to the emergency department with acute onset bloody,D,A,False,0.4,0.2,medqa,gemma2,A,False,B,False,A,False,UNKNOWN,False,B,False
+83,A 67-year-old man is hospitalized after several days of fever and increasing sho,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+84,A previously healthy 2-year-old boy is brought to the physician because of a 10-,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+85,A 44-year-old woman presents to her primary care physician because she has been ,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+86,A 16-year-old teenager presents to the emergency department with a sudden onset ,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+87,A 5-year-old male presents to the pediatrician with a 10-day history of cough th,B,D,False,0.8,0.2,medqa,gemma2,D,False,D,False,D,False,UNKNOWN,False,D,False
+88,"A 23-year-old man presents to the office for a circular, itchy rash over the abd",A,B,False,0.6,0.0,medqa,gemma2,B,False,A,True,A,True,B,False,B,False
+89,A 32-year-old G1P1 patient presents to her obstetrician after having a positive ,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+90,A previously healthy 24-year-old man comes to the physician 1 day after the onse,A,D,False,0.6,0.0,medqa,gemma2,D,False,D,False,D,False,B,False,B,False
+91,A 49-year-old woman is brought to the emergency department with progressive dysp,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+92,"A 50-year-old man presents to his physician with chronic cough, aching joints in",D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+93,"Thirty minutes after delivery, a 3600-g (7-lb 15-oz) newborn has noisy breathing",D,D,True,0.8,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,A,False
+94,A 40-year-old patient is brought into the emergency department after suffering a,A,A,True,1.0,0.0,medqa,gemma2,A,True,A,True,A,True,A,True,A,True
+95,A 52-year-old man comes to the physician for the evaluation of a painless right-,A,B,False,0.8,0.2,medqa,gemma2,B,False,B,False,B,False,UNKNOWN,False,B,False
+96,A 25-year-old girl is brought to the emergency room after a suicide attempt. Her,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+97,A 65-year-old woman is brought to the emergency department by her husband after ,B,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+98,A 28-year-old male presents to the emergency department with chest pain. He repo,B,B,True,0.4,0.2,medqa,gemma2,B,True,B,True,D,False,UNKNOWN,False,D,False
+99,A clinical researcher is interested in creating a new drug for HIV patients. Dar,B,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+100,A 46-year-old man presents to the physician with a complaint of a cough for 6 mo,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+101,A 40-year-old man is referred to an optometrist. He complains of mild vision imp,D,D,True,0.8,0.2,medqa,gemma2,D,True,D,True,D,True,UNKNOWN,False,D,True
+102, A 61-year-old man was started on rosuvastatin 40 mg 8 weeks ago and presents to,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+103,A 24-year-old woman presents to a physician with a history of exposure to a clos,A,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+104,A 56-year-old man recently diagnosed with cirrhosis secondary to alcohol use pre,C,A,False,0.6,0.0,medqa,gemma2,A,False,C,True,C,True,A,False,A,False
+105,"A 37-year-old woman presents to the emergency department with confusion, anxiety",D,C,False,0.6,0.2,medqa,gemma2,C,False,C,False,C,False,UNKNOWN,False,D,True
+106,A 70-year-old man is brought to the emergency department by his wife for incompr,C,C,True,0.6,0.2,medqa,gemma2,C,True,C,True,C,True,UNKNOWN,False,B,False
+107,A 7-year-old boy is brought to your office with complaints of wheezing and dyspn,C,A,False,1.0,0.0,medqa,gemma2,A,False,A,False,A,False,A,False,A,False
+108,An investigator conducts a study to determine whether earlier detection of gliob,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+109,An 11-month-old boy is brought to the physician for a well-child examination. He,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+110,A 65-year-old male presents to his pulmonologist for a follow-up visit. He has a,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+111,A 16-year-old girl comes to the emergency department because of left wrist pain ,B,B,True,0.6,0.0,medqa,gemma2,B,True,C,False,C,False,B,True,B,True
+112,A 45-year-old G5P4105 presents to her gynecologist’s office with six months of i,A,C,False,0.6,0.0,medqa,gemma2,B,False,C,False,C,False,C,False,B,False
+113,A 40-year-old woman comes to the physician because of a 2-month history of incre,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+114,A 32-year-old man comes to the physician because of a 2-day history of a tinglin,A,D,False,0.8,0.0,medqa,gemma2,D,False,D,False,D,False,B,False,D,False
+115,A 3-week-old male newborn is brought to the physician because of an inward turni,C,D,False,0.8,0.0,medqa,gemma2,D,False,D,False,D,False,C,True,D,False
+116,A 72-year-old woman is admitted to the intensive care unit for shortness of brea,C,D,False,0.8,0.0,medqa,gemma2,D,False,D,False,D,False,C,True,D,False
+117,A 4-year-old boy with acute lymphoblastic leukemia is admitted to the hospital t,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+118,"A 32-year-old woman comes to the physician because she feels depressed, has diff",C,B,False,0.6,0.0,medqa,gemma2,B,False,D,False,D,False,B,False,B,False
+119,A 58-year-old woman comes to the physician because of intermittent painful retro,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+120,A 46-year-old woman presents to her primary care physician with one week of inte,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+121,A previously healthy 30-year-old woman comes to the physician for the evaluation,C,C,True,0.8,0.2,medqa,gemma2,C,True,C,True,C,True,UNKNOWN,False,C,True
+122,A 64-year-old man presents to the clinic with easy fatigability and breathlessne,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+123,A 50-year-old man with congestive heart failure (CHF) was started on an experime,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+124,An otherwise healthy 29-year-old man presents to his family physician with a slo,B,C,False,0.8,0.0,medqa,gemma2,C,False,C,False,D,False,C,False,C,False
+125,"A one-week-old, full-term infant born by uncomplicated vaginal delivery is broug",D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+126,A 66-year-old man is brought to the emergency room by his wife due to abdominal ,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+127,A 15-year-old boy is brought to the emergency department 1 hour after falling fr,B,C,False,0.8,0.0,medqa,gemma2,C,False,C,False,C,False,B,True,C,False
+128,An 8-year-old girl presents to her pediatrician with intensely pruritic lesions ,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+129,A 3-year-old girl is brought to the emergency department by her parents for an a,B,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+130,An unidentified surgical specimen is received for histopathologic analysis. A po,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+131,A hospitalized 34-year-old man with severe diarrhea and bloating for 1 month is ,A,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+132,A 36-year-old woman comes to the physician because of difficulty discarding item,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+133,"Please refer to the summary above to answer this question
+A medical student is e",C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+134,A 5-year-old boy is brought to his pediatrician due to sore throat and fever. He,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+135,A 27-year-old woman with no past medical history presents to the emergency depar,B,B,True,0.8,0.2,medqa,gemma2,B,True,B,True,B,True,UNKNOWN,False,B,True
+136,A 67-year-old man with chronic kidney disease comes to the physician because of ,C,C,True,0.4,0.0,medqa,gemma2,C,True,C,True,A,False,D,False,A,False
+137,A 29-year-old woman presents to the physician with a blurred vision of her right,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+138,A 45-year-old man presents to his primary care provider after feeling sad and de,A,B,False,0.8,0.0,medqa,gemma2,B,False,B,False,D,False,B,False,B,False
+139,A 62-year-old man is brought to the physician by his wife because of difficultie,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+140,A 56-year-old man is brought to the emergency room after a motor vehicle acciden,D,D,True,0.6,0.2,medqa,gemma2,D,True,D,True,D,True,UNKNOWN,False,A,False
+141,A 29-year-old man comes in for evaluation of infertility. He has been trying to ,A,A,True,0.6,0.0,medqa,gemma2,A,True,C,False,C,False,A,True,A,True
+142,A 75-year-old man presents to the physician for his annual blood pressure visit ,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+143,A 2-year-old girl is brought in to the office by her parents. They state that th,A,A,True,0.8,0.0,medqa,gemma2,A,True,A,True,A,True,B,False,A,True
+144,A 48-year-old man with type II diabetes mellitus complicated by peripheral neuro,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+145,A four-day-old neonate is brought to the pediatrician with vaginal discharge for,D,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+146,A 17-year-old female accidentally eats a granola bar manufactured on equipment t,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+147,A 3-year-old girl is brought to the physician because of a 3-day history of feve,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+148,A 19-year-old man in a 3-month relationship with a woman experiences frequent se,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+149,A 31-year-old man comes to the physician because of a 4-week history of a painle,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+150,"A one-week-old boy presents with yellow sclerae, severe lethargy, and decreased ",A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+151,Which of the following patient presentations seen in a pediatric immunology clin,D,A,False,1.0,0.0,medqa,gemma2,A,False,A,False,A,False,A,False,A,False
+152,An investigator is studying the cell morphologies of the respiratory tract. He o,A,B,False,0.8,0.0,medqa,gemma2,B,False,B,False,C,False,B,False,B,False
+153,A 27-year-old female is brought to the emergency department by police when she a,D,B,False,0.8,0.0,medqa,gemma2,B,False,B,False,B,False,C,False,B,False
+154,A 27-year-old HIV positive female gave birth to a 7lb 2oz (3.2 kg) baby girl. Th,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+155,A 68-year-old man presents with difficulty breathing for the last 3 hours. Upon ,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+156,A 7-year-old boy is brought to the clinic by his mother with increasing swelling,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+157,A 31-year-old G1-P0 woman at 28-weeks gestation presents with shortness of breat,C,B,False,0.8,0.2,medqa,gemma2,B,False,B,False,B,False,UNKNOWN,False,B,False
+158,A 19-year-old man is brought to the physician by his mother because she is worri,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+159,A 55-year-old man presents to his primary care physician for a general checkup. ,A,C,False,0.8,0.2,medqa,gemma2,C,False,C,False,C,False,UNKNOWN,False,C,False
+160,A 61-year-old man with schizophrenia in a locked inpatient psychiatry unit was o,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+161,A 16-year-old female presents to her primary care physician due to lack of menst,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+162,A 45-year-old woman presents to the clinic with her husband to discuss her most ,A,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+163,An otherwise healthy 26-year-old man comes to the physician for medication couns,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+164,A 27-year-old female presents to her physician with a palpable thyroid nodule. I,A,C,False,0.6,0.0,medqa,gemma2,C,False,C,False,C,False,D,False,D,False
+165,A 28-year-old man comes to the physician because of diarrhea and crampy abdomina,B,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+166,An investigator is studying bacterial adaptations to the environment in an infec,C,D,False,0.8,0.0,medqa,gemma2,D,False,D,False,D,False,C,True,D,False
+167,A 75-year-old man is admitted to the hospital because of a 3-day history of a pr,A,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+168,A 21-year-old man is brought to the emergency department 30 minutes after being ,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+169,A 28-year-old woman comes to the obstetrics and gynecology clinic because she ha,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+170,A research group has created a novel screening test for a rare disorder. A robus,D,C,False,0.6,0.0,medqa,gemma2,D,True,C,False,C,False,D,True,C,False
+171,A 72-year-old woman presents to the emergency department with altered mental sta,A,A,True,0.8,0.0,medqa,gemma2,A,True,A,True,D,False,A,True,A,True
+172,A 13-year-old boy is brought to the emergency department because he was vomiting,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+173,A 25-year-old man is brought to the emergency department by police. He was found,B,D,False,0.4,0.0,medqa,gemma2,D,False,C,False,C,False,A,False,D,False
+174,A 64-year-old male presents to his primary care physician with a complaint of bi,D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+175,"A 77-year-old man comes to your office for a routine visit. He is doing well, an",B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+176,A 25-year-old female is brought to the emergency department by her family. They ,A,B,False,0.8,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,D,False
+177,A 52-year-old fisherman presents to the clinic for an evaluation of a pigmented ,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+178,A 35-year-old woman presents to the physician because of episodes of difficulty ,D,D,True,1.0,0.0,medqa,gemma2,D,True,D,True,D,True,D,True,D,True
+179,A 24-year-old man is brought to the emergency room by the police after a fall. T,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+180,A 63-year-old patient presents to the emergency department because of severe lef,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+181,A 49-year-old man comes to the physician because he has had multiple falls and m,C,D,False,0.8,0.0,medqa,gemma2,D,False,D,False,D,False,B,False,D,False
+182,A 62-year-old man presents to his primary care doctor with continued hypertensio,B,B,True,0.8,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,A,False
+183,A 30-year-old woman presents to the emergency department with a recent episode o,A,B,False,1.0,0.0,medqa,gemma2,B,False,B,False,B,False,B,False,B,False
+184,A 38-year-old woman comes to the physician because of persistent diarrhea and fa,D,B,False,0.8,0.2,medqa,gemma2,B,False,B,False,B,False,UNKNOWN,False,B,False
+185,A 24-year-old woman comes to the physician for a routine gynecological examinati,A,D,False,0.8,0.2,medqa,gemma2,D,False,D,False,D,False,UNKNOWN,False,D,False
+186,A 36-year-old man is brought to the emergency department 25 minutes after being ,D,D,True,0.8,0.2,medqa,gemma2,D,True,D,True,D,True,UNKNOWN,False,D,True
+187,"A 2,300 g (5 lb) male newborn is delivered to a 29-year-old primigravid woman. T",A,A,True,1.0,0.0,medqa,gemma2,A,True,A,True,A,True,A,True,A,True
+188,A 16-year-old female presents to her physician’s office after noticing a round l,C,C,True,0.6,0.0,medqa,gemma2,B,False,B,False,C,True,C,True,C,True
+189,A 25-year-old man presents to the emergency department with altered mental statu,C,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+190,A 17-year-old male presents to the emergency department after a motor vehicle ac,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+191,A 6-month-old boy presents to a pediatrician for the evaluation of recurrent bac,C,C,True,1.0,0.0,medqa,gemma2,C,True,C,True,C,True,C,True,C,True
+192,A 62-year-old woman comes to the physician for a routine health maintenance exam,B,D,False,1.0,0.0,medqa,gemma2,D,False,D,False,D,False,D,False,D,False
+193,A 30-year-old man presents to the emergency room complaining of malaise. Two hou,B,A,False,0.6,0.0,medqa,gemma2,C,False,A,False,C,False,A,False,A,False
+194,A 65-year-old man with a longstanding history of poorly-controlled hypertension ,D,C,False,0.8,0.0,medqa,gemma2,C,False,C,False,C,False,D,True,C,False
+195,"Two days after being admitted to the hospital following a fall, a 77-year-old wo",D,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+196,A 65-year-old woman comes to the physician for a routine bone mineral density sc,A,C,False,1.0,0.0,medqa,gemma2,C,False,C,False,C,False,C,False,C,False
+197,"On routine screening, a 62-year-old man is found to have positive fecal occult b",B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+198,A 28-year-old man is brought to the emergency department because of a 3-day hist,B,B,True,1.0,0.0,medqa,gemma2,B,True,B,True,B,True,B,True,B,True
+199,A previously healthy 28-year-old man comes to the emergency department because o,A,A,True,0.8,0.0,medqa,gemma2,A,True,A,True,A,True,D,False,A,True
