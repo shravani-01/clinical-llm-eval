@@ -81,6 +81,17 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
   - PubMedQA: 23 mins (6.9s/question)
 - Results saved to results/raw/
 - Ready for consistency scoring
+
+### 02/25/2026 — Day 6
+- Fixed MedQA correct answer format bug (was using full text, switched to answer_idx)
+- Completed consistency scoring for phi3_mini across all 3 datasets
+- Key findings:
+  - Mean consistency: MedQA=0.698, MedMCQA=0.730, PubMedQA=0.830
+  - Fully consistent questions: only 19.5-41% across datasets
+  - Roleplay prompt consistently worst style across all datasets
+  - Direct/original prompts most reliable
+  - MedQA unknown rate 10.5% — instruction following failures
+  - Accuracy ranges: 48-53% across datasets
 ```
 ---
 

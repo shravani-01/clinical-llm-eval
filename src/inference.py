@@ -19,6 +19,7 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 
 MODELS = {
     "phi3_mini": "phi3:mini",
+    "llama3.2": "llama3.2:3b"
 }
 
 def query_ollama(model: str, prompt: str, timeout: int = 60) -> str:
@@ -129,13 +130,22 @@ if __name__ == "__main__":
     # We use max_samples=10 first to verify pipeline works
     # Then remove max_samples to run full 200
 
-    for dataset in ["medqa", "medmcqa", "pubmedqa"]:
-        run_inference(
-            dataset_name=dataset,
-            model_key="phi3_mini",
-            model_name=MODELS["phi3_mini"],
-            # max_samples=10      # ← test run first, change to None for full run
-            max_samples=None      # ← full run
-        )
+    # for dataset in ["medqa", "medmcqa", "pubmedqa"]:
+    #     run_inference(
+    #         dataset_name=dataset,
+    #         model_key="phi3_mini",
+    #         model_name=MODELS["phi3_mini"],
+    #         # max_samples=10      # ← test run first, change to None for full run
+    #         max_samples=None      # ← full run
+    #     )
+        
+    for model_key, model_name in MODELS.items():
+        for dataset in ["medqa", "medmcqa", "pubmedqa"]:
+            run_inference(
+                dataset_name=dataset,
+                model_key=model_key,
+                model_name=model_name,
+                max_samples=None
+            )
 
     print("\n✅ Test inference complete. Check results/raw/ for output.")

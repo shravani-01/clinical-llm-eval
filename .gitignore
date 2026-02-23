@@ -7,3 +7,4 @@ data/raw/
 .env
 results/*.csv
 *.ipynb_checkpoints
+MY_UNDERSTANDING.md

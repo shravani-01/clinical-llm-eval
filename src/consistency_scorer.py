@@ -139,7 +139,7 @@ def summarize(df: pd.DataFrame, dataset_name: str, model_key: str) -> dict:
 
 if __name__ == "__main__":
     datasets = ["medqa", "medmcqa", "pubmedqa"]
-    models = ["phi3_mini"]
+    models = ["phi3_mini","llama3.2"]
 
     all_summaries = []
 
