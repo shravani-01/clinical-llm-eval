@@ -1,0 +1,206 @@
+id,question,correct_answer,majority_answer,is_accurate,consistency_score,unknown_rate,dataset,model,ans_original,correct_original,ans_formal,correct_formal,ans_simplified,correct_simplified,ans_roleplay,correct_roleplay,ans_direct,correct_direct
+0,Major mechanism of action of nitrates in acute attack of angina is:,B,A,False,0.8,0.2,medmcqa,phi3_mini,A,False,A,False,A,False,UNKNOWN,False,A,False
+1,MHC Class II proteins are expressed by:,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+2,A couple comes for evaluation of infeility. The HSG was normal but semen analysi,A,A,True,0.8,0.2,medmcqa,phi3_mini,A,True,A,True,A,True,UNKNOWN,False,A,True
+3,Vwf factor is produced by:,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,B,True
+4,"Patient had a A and put on mechanical ventilation, he is opening his eyes on ver",A,B,False,0.4,0.0,medmcqa,phi3_mini,B,False,B,False,C,False,A,True,A,True
+5,Sugar restricted to diet was beneficial in presence of unfavorable hygiene was f,A,C,False,1.0,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,C,False,C,False
+6,In hemorrhage lost plasma is replaced by:,B,B,True,0.6,0.0,medmcqa,phi3_mini,A,False,B,True,B,True,A,False,B,True
+7,Which of the following is not a small round cell tumor?,D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+8,"A patient was schedule for surgery. Before giving anaesthesia, he was administer",B,B,True,0.8,0.2,medmcqa,phi3_mini,B,True,B,True,B,True,UNKNOWN,False,B,True
+9,Which of the following is not characteristic feature of Binder syndrome?,D,D,True,0.8,0.2,medmcqa,phi3_mini,D,True,D,True,UNKNOWN,False,D,True,D,True
+10,A 25 yr old person with history of repeated episodes of rheumatic fever is hyper,B,D,False,0.4,0.0,medmcqa,phi3_mini,D,False,C,False,B,True,D,False,B,True
+11,Interruption of the optic chiasm will lead to:,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+12,An infant presented with the following lesions on his face and limbs. Which of t,C,C,True,0.8,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,A,False,C,True
+13,A Female patient was brought to the ER with altered sensorium. On examination BP,A,A,True,0.8,0.2,medmcqa,phi3_mini,A,True,A,True,A,True,UNKNOWN,False,A,True
+14,"All the statements are true about standardization, except",B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+15,Bite cells are seen in,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+16,"In a patient with fresh blow out fracture of the orbit, best immediate managemen",A,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,True,C,False
+17,Cross-sectional studies are carried on,D,B,False,0.8,0.0,medmcqa,phi3_mini,A,False,B,False,B,False,B,False,B,False
+18,Drug adveisement letter is a necessary component of each drug formulation and co,B,B,True,0.6,0.0,medmcqa,phi3_mini,A,False,B,True,B,True,A,False,B,True
+19,Epidural hematoma is caused by,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+20,Anthracis causes which pulmonary manifestations-,B,D,False,0.6,0.0,medmcqa,phi3_mini,D,False,D,False,A,False,A,False,D,False
+21,Phenol red thread test is used for dry eye:,A,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,True,D,False
+22,The proximal walls of a class II cavity on a deciduous molar:,B,A,False,0.6,0.0,medmcqa,phi3_mini,B,True,A,False,A,False,A,False,B,True
+23,Percentage of surgical site infection in patients with clean contaminated wound ,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,B,True
+24,The key ridge useful in assessing malocclusion is present on:,B,D,False,0.8,0.2,medmcqa,phi3_mini,D,False,D,False,UNKNOWN,False,D,False,D,False
+25,"Regarding Influenza, not true statement is",C,C,True,0.4,0.0,medmcqa,phi3_mini,C,True,B,False,B,False,A,False,C,True
+26,Which of the following hormone is/are under inhibitory of hypothalamus?,D,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,B,False,D,True,A,False,B,False
+27,After spleenectomy patient becomes more prone to,D,D,True,0.6,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,A,False,B,False
+28,Increase in muscle mass at adolescence is probably caused by –,C,C,True,1.0,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,C,True,C,True
+29,A 7-years child having very deep carious lesions in multiple teeth with no pain ,A,C,False,0.8,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,A,True,C,False
+30,10-year-old boy visits dentist with complicated crown fracture with abscess form,B,B,True,0.4,0.2,medmcqa,phi3_mini,B,True,B,True,A,False,UNKNOWN,False,C,False
+31,A 55 years old male patient presents with 4 cm x 5 cm lump in right neck. FNAC a,D,C,False,0.6,0.0,medmcqa,phi3_mini,A,False,C,False,C,False,A,False,C,False
+32,"In SCHWARTZ formula for calculation of creatinine clearance in a child, the cons",D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+33,"A gravida 2 patient with previous LSCS comes at 37 weeks, has BP= 150/100 mm of ",C,C,True,0.8,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,A,False,C,True
+34,All of the following are features of systemic Juvenile Rheumatoid Arthritis exce,A,D,False,0.8,0.0,medmcqa,phi3_mini,A,True,D,False,D,False,D,False,D,False
+35,Which of the following is an indiction for tonsillectomy –a) Rheumatic feverb) G,B,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,B,True,B,True,A,False,C,False
+36,Lead cause following except,D,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,D,True,A,False,A,False,D,True
+37,"Glycogen synthesis and breakdown takes place in the same cell, having enzymes ne",B,C,False,1.0,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,C,False,C,False
+38,Which of the following is a primarily RNA based technique?,B,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,A,False,C,False,A,False,C,False
+39,A spirometry curve of a patient has been provided below. Calculate the FEV1/FVC ,C,C,True,0.2,0.8,medmcqa,phi3_mini,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,C,True
+40,Trismus is due to inflammation of:,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+41,Rooting reflex also known as search reflex disappears:,C,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,False,A,False
+42,Most common cause of post neonatal mortality is:,C,C,True,0.8,0.2,medmcqa,phi3_mini,C,True,C,True,C,True,UNKNOWN,False,C,True
+43,In examining the edentulous mouth of an aged patient wearing complete maxillary ,B,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,B,True,A,False,A,False,B,True
+44,Which of the following zone is characterized by macrophages and osteoclasts?,C,A,False,0.6,0.0,medmcqa,phi3_mini,C,True,C,True,A,False,A,False,A,False
+45,Culture media of candida is:,B,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,A,False,D,False,A,False,D,False
+46,Site specificity is seen in:,B,B,True,0.4,0.0,medmcqa,phi3_mini,B,True,C,False,B,True,A,False,C,False
+47,Number of fossa in upper 1st molar,A,A,True,0.6,0.0,medmcqa,phi3_mini,A,True,B,False,B,False,A,True,A,True
+48,"Which of the following type of flow occurs, when on applying critical shear stre",A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+49,A drop in fetal heart rate that typically last less than 2 minutes and usually a,C,C,True,0.6,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,A,False,A,False
+50,A smoker presents with recent onset breathlessness and ECG was done. The diagnos,D,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,False,D,True
+51,A patient with pain abdomen for 2 hours presents to the casualty and the followi,A,A,True,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,A,True,A,True,A,True
+52,Decrease in creep occurs in:,C,A,False,1.0,0.0,medmcqa,phi3_mini,A,False,A,False,A,False,A,False,A,False
+53,"4yr boy absence of right testes, diagnostic laparoscopy done, a blind end vessel",D,D,True,0.8,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,A,False,D,True
+54,True about congenital diseases in diabetes mellitus is all except:,B,B,True,0.6,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,D,False
+55,"The micro organism previously present in the Periapical
+tissues following obtura",B,A,False,0.6,0.0,medmcqa,phi3_mini,B,True,C,False,A,False,A,False,A,False
+56,A 1-month-old child presented with conjugated bilirubinemia and intrahepatic cho,C,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,C,True,A,False,B,False
+57,Single accessory canal arising from coronal third of the mandibular molars arise,A,B,False,0.8,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,True,B,False
+58,A patient with history of frequent abortions and pain in calf muscles from past ,B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+59,ZnPO4 setting time is 4-7 min. All of the following methods are employed to prol,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+60,"According to WHO classiﬁcation of periapical pathology, sinus to oral cavity com",D,A,False,0.8,0.2,medmcqa,phi3_mini,A,False,A,False,UNKNOWN,False,A,False,A,False
+61,Direction of force by class III elastic in face mask?,A,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,True,D,False
+62,A 16-year old girl was brought with primary amenorrhea. Her mother mentioned tha,D,C,False,0.8,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,A,False,C,False
+63,In alpha thalassemia,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,B,True
+64,"According to Weerheijm et al, prevalence of MIH (Molar-Incisor hypomineralisatio",D,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,False,C,False
+65,Not true about NRHM,C,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,C,True,D,False,A,False,C,True
+66,"What we will define it ""ratio of no. of death under 1 year of age to total live ",A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+67,All are true about Doctrine ofborrowed servant except?,C,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,B,False,B,False,A,False,D,False
+68,"A 11-year-old child comes to the dental office one hour
+after injury to a maxill",C,C,True,0.8,0.2,medmcqa,phi3_mini,C,True,C,True,C,True,UNKNOWN,False,C,True
+69,Most useful test in vesicovaginal fistula?,A,A,True,0.6,0.2,medmcqa,phi3_mini,A,True,A,True,D,False,UNKNOWN,False,A,True
+70,DOC for bacterial vaginosis in pregnancy,D,D,True,0.6,0.0,medmcqa,phi3_mini,A,False,A,False,D,True,D,True,D,True
+71,The function of a sprue is to,A,A,True,0.8,0.0,medmcqa,phi3_mini,A,True,C,False,A,True,A,True,A,True
+72,"A 22-year-old man presents with diarrhea and intolerance to dairy products, on i",D,C,False,0.6,0.0,medmcqa,phi3_mini,A,False,C,False,C,False,A,False,C,False
+73,The sulcular epithelium acts as a semi permeable membrane through which,C,C,True,0.8,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,A,False,C,True
+74,"In sleep apnea syndrome, AHI Index for mild sleep apnea is",A,C,False,1.0,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,C,False,C,False
+75,"A 10 year old child presented with headache, vomiting, gait instability and dipl",D,C,False,0.6,0.0,medmcqa,phi3_mini,A,False,C,False,C,False,A,False,C,False
+76,Access cavity shape in mandibular 1st molar with 4 canals,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+77,The function of 2% potassium sulphate in a gypsum product is:,B,B,True,0.4,0.0,medmcqa,phi3_mini,B,True,B,True,A,False,A,False,C,False
+78,The advantage of glass ionomer cement reinforced with metal particles is:,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,B,True
+79,Ratio of polymer to monomer in cold cure resin,A,B,False,0.8,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,B,False,A,True
+80,Cystinuria is characterised by –,D,C,False,1.0,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,C,False,C,False
+81,Periapical bone resorption occurs due to:,C,C,True,1.0,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,C,True,C,True
+82,"For periodontal patients, the most frequently recommended tooth brushing techniq",C,C,True,1.0,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,C,True,C,True
+83,A 20 year old man fell on an outstretched hand and later had pain in the anatomi,D,D,True,0.6,0.0,medmcqa,phi3_mini,D,True,D,True,A,False,A,False,D,True
+84,"16 year girl, Not sexually active, came for vaccination against cervical cancer.",A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+85,The most common bone cancer is:,B,A,False,0.8,0.2,medmcqa,phi3_mini,A,False,A,False,A,False,UNKNOWN,False,A,False
+86,Metallic taste is due to SnF in saliva is,C,A,False,0.4,0.2,medmcqa,phi3_mini,A,False,B,False,A,False,UNKNOWN,False,B,False
+87,Lente insulin is composed of:,A,B,False,1.0,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,B,False,B,False
+88,Segmentation of blood in blood vessel after death is known as:,A,D,False,0.6,0.2,medmcqa,phi3_mini,D,False,D,False,B,False,UNKNOWN,False,D,False
+89,Continuous GnRH therapy is used in All EXCEPT.,C,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,D,False,D,False,A,False,B,False
+90,Greatest movement is seen in which type of joint:,B,B,True,0.8,0.2,medmcqa,phi3_mini,B,True,B,True,B,True,UNKNOWN,False,B,True
+91,"According to the intelligence quotient classification, a score of 90-110 is:",B,B,True,0.4,0.0,medmcqa,phi3_mini,B,True,B,True,C,False,A,False,C,False
+92,Which of the following gives the rate of drug absorption in plasma concentration,A,B,False,0.6,0.0,medmcqa,phi3_mini,A,True,B,False,B,False,A,True,B,False
+93,What drug is used for prophylaxis against Pneumocystis jirovecii in patients on ,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+94,A 12 - year - old boy had a cut in his forearm 4 days ago. Now the bleeding has ,C,C,True,0.8,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,A,False,C,True
+95,The process by which the amount of a drug in the body decreases after administra,B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+96,Steps of intubation - arrange in sequence:- a. Head extension and flexion of nec,A,C,False,0.8,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,A,True,C,False
+97,Uses of atropine are A/E -,D,D,True,0.4,0.0,medmcqa,phi3_mini,D,True,C,False,C,False,D,True,B,False
+98,"Without supervision, allowed to give dentures",A,C,False,0.4,0.0,medmcqa,phi3_mini,C,False,C,False,D,False,A,True,D,False
+99,Adrenocorticosteroids in excess may cause:,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+100,How much population falls between median and median plus one standard deviation ,A,B,False,0.6,0.0,medmcqa,phi3_mini,A,True,B,False,B,False,A,True,B,False
+101,Hormones which is/are under inhibitory control of hypothalamus:,D,D,True,0.8,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,A,False,D,True
+102,Mother to children's transmission is a key feature of which pattern of inheritan,D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+103,Peau d'orange in carcinoma breast is due to:,A,A,True,0.8,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,D,False,A,True
+104,Biopsy from an eight-year-old child with leg swelling showed smallround blue tum,C,C,True,0.8,0.2,medmcqa,phi3_mini,C,True,C,True,C,True,UNKNOWN,False,C,True
+105,The penetration of the fissure sealant into the fissure:,D,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,False,D,True
+106,"A pregnant, diabetic female on oral hypoglycemics is shifted to insulin. All of ",D,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,D,True,C,False
+107,Which of the following methods is used for calculation of anatomical dead space?,D,C,False,0.4,0.0,medmcqa,phi3_mini,C,False,C,False,A,False,A,False,D,True
+108,"Type of cry, which is not a cry at all, there are no tears, no sobs, just a cons",D,D,True,0.6,0.0,medmcqa,phi3_mini,D,True,A,False,D,True,A,False,D,True
+109,Inca bone or Goethe's ossicles is a sutural bone present in?,B,B,True,0.8,0.2,medmcqa,phi3_mini,B,True,B,True,B,True,UNKNOWN,False,B,True
+110,What is the name of this technique for palpation of thyroid. A thumb is placed o,D,D,True,0.8,0.2,medmcqa,phi3_mini,D,True,D,True,D,True,UNKNOWN,False,D,True
+111,Which of the following malignancy is not caused by Human Papilloma Virus (HPV) i,D,D,True,0.8,0.0,medmcqa,phi3_mini,A,False,D,True,D,True,D,True,D,True
+112,What is the most poable diagnosis based on the findings in the CT scan given bel,A,B,False,0.6,0.4,medmcqa,phi3_mini,B,False,B,False,UNKNOWN,False,UNKNOWN,False,B,False
+113,A driver wearing seat belt applied brake suddenly to avoid a collision. Which of,C,C,True,0.6,0.0,medmcqa,phi3_mini,C,True,B,False,C,True,A,False,C,True
+114,Pediatric patient planned for costochondral graft for TMJ ankylosis is intubated,C,B,False,0.8,0.2,medmcqa,phi3_mini,B,False,B,False,B,False,UNKNOWN,False,B,False
+115,Epidural venous plexus is located in,D,C,False,1.0,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,C,False,C,False
+116,All are used for postpaum hemorrhage except -,B,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,D,False,B,True,A,False,C,False
+117,Reciprocal arm taper in,A,A,True,0.4,0.0,medmcqa,phi3_mini,A,True,B,False,C,False,A,True,C,False
+118,Bonding agents have hydrophilic and hydrophobic groups. The hydrophobic group bi,C,C,True,0.8,0.0,medmcqa,phi3_mini,C,True,C,True,B,False,C,True,C,True
+119,Most modern precapsulated dental amalgam formulated with,B,B,True,0.6,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,A,False
+120,Which of the following diseases is diagnosed with the help of the flowcytometry ,C,C,True,0.6,0.0,medmcqa,phi3_mini,C,True,C,True,A,False,A,False,C,True
+121,A Study conducted in a population. Diastolic Blood Pressure mean 110 mm Hg with ,B,C,False,0.6,0.2,medmcqa,phi3_mini,C,False,C,False,A,False,UNKNOWN,False,C,False
+122,"A 40 year male complaining of hot flushes each time he baths. Hb: 20%gm, Platele",C,A,False,0.6,0.0,medmcqa,phi3_mini,B,False,A,False,A,False,A,False,B,False
+123,Dengue shock syndrome is characterized by the following except :,D,B,False,0.6,0.0,medmcqa,phi3_mini,A,False,B,False,B,False,A,False,B,False
+124,Which of the following is false about indirect opthalmoscopy?,B,D,False,0.4,0.4,medmcqa,phi3_mini,A,False,D,False,UNKNOWN,False,UNKNOWN,False,D,False
+125,A patient is suffering from dehydration secondary to diarrhea. Which of the foll,C,C,True,1.0,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,C,True,C,True
+126,Diagnosis of the following ECG-,B,B,True,0.4,0.0,medmcqa,phi3_mini,B,True,C,False,B,True,A,False,C,False
+127,Fate of IDL(Intermediate Density Lipoprotein) in plasma,C,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,C,True,A,False,A,False,C,True
+128,Microaneurysms are the earliest manifestation of diabetic retinopathy. Which of ,B,C,False,1.0,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,C,False,C,False
+129,"All these are Included In active tissue engineering, except",D,B,False,0.8,0.0,medmcqa,phi3_mini,B,False,C,False,B,False,B,False,B,False
+130,"A female come to gynaeoPD for preconceptual counseling, with history of two seco",A,A,True,0.8,0.2,medmcqa,phi3_mini,A,True,A,True,A,True,UNKNOWN,False,A,True
+131,Which of the following analysis helps in determining the disproportion in the si,B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+132,"To assess outcome from labour, cost, time",A,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,C,False,C,False
+133,"To prevent ventilator associated pneumonia, the most effective and evidence base",B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+134,Using stopko tip irrigation which of these is used cleaning and drying of pulp c,D,B,False,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,False,D,True
+135,"The green stains frequently seen on children's teeth are
+caused by",D,D,True,0.8,0.2,medmcqa,phi3_mini,D,True,D,True,D,True,UNKNOWN,False,D,True
+136,The bisecting angle technique is used to take,B,B,True,0.6,0.2,medmcqa,phi3_mini,B,True,B,True,A,False,UNKNOWN,False,B,True
+137,"Lactobacillus count AFTER CARIES ACTIVITY test is 10,500CFU. What is the rate of",D,A,False,0.6,0.2,medmcqa,phi3_mini,A,False,A,False,UNKNOWN,False,A,False,D,True
+138,Which one of the following drugs are not used in hea failure?,C,C,True,1.0,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,C,True,C,True
+139,False regarding protective co-contraction muscle splinting:,A,B,False,1.0,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,B,False,B,False
+140,Which is associated with defect in DNA repair,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+141,Dietary goals for avoiding Coronary Artery Disease include,D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+142,Type-IV isthmii is?,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+143,During exercise in physiological limits what is the effect on end systolic volum,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+144,Overload of denture base is caused by:,A,B,False,0.6,0.0,medmcqa,phi3_mini,A,True,B,False,B,False,A,True,B,False
+145,The inter-arch distance measured when the occlusal rims are in uniform contact i,B,A,False,1.0,0.0,medmcqa,phi3_mini,A,False,A,False,A,False,A,False,A,False
+146,Sodium bicarbonate when given with local anaesthetics has which of the following,A,A,True,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,A,True,A,True,A,True
+147,Which of the following statements is true for rapid prototyping?,D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+148,Junctional epithelium,B,A,False,0.6,0.0,medmcqa,phi3_mini,C,False,A,False,A,False,A,False,C,False
+149,The advantage of metal base denture is:,A,C,False,0.6,0.0,medmcqa,phi3_mini,C,False,C,False,A,True,A,True,C,False
+150,A 6 year old patient with extra cusp on maxillary central incisor is associated ,D,A,False,0.8,0.0,medmcqa,phi3_mini,A,False,A,False,A,False,A,False,B,False
+151,"All are true about rheumatic fever, except –",C,C,True,0.6,0.2,medmcqa,phi3_mini,C,True,C,True,UNKNOWN,False,D,False,C,True
+152,The contractile element in a skeletal muscle is present in:,C,C,True,1.0,0.0,medmcqa,phi3_mini,C,True,C,True,C,True,C,True,C,True
+153,Mandibular fossa is a part of:,D,D,True,0.6,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,A,False,A,False
+154,"In amalgam filling there is a wide buccolingual space, the wedge technique used ",A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+155,"A 2 years old child suffers flame burns involving face, bilateral upper limbs an",A,C,False,0.4,0.6,medmcqa,phi3_mini,UNKNOWN,False,C,False,UNKNOWN,False,UNKNOWN,False,C,False
+156,All of the following are potentially serious side effects of thioamide group of ,D,B,False,0.6,0.0,medmcqa,phi3_mini,A,False,B,False,B,False,A,False,B,False
+157,"In a	6-month-old child, thick curd like white	patch
+appears on the buccal mucosa",D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+158,The fear of a 6 year old related to dentistry is primarily:,A,D,False,0.4,0.0,medmcqa,phi3_mini,D,False,D,False,C,False,A,True,C,False
+159,Major pattern of accessory canals in mandibular molar is?,A,B,False,0.8,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,True,B,False
+160,Anaerobic glycolysis of which of these produces 3 ATPs per unit glucose consumed,D,D,True,1.0,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,D,True,D,True
+161,Digoxin is obtained from a plant product and has a half-life of 36 hours. How do,A,A,True,0.6,0.0,medmcqa,phi3_mini,B,False,B,False,A,True,A,True,A,True
+162,"The principal reason for placing an aluminium filter in
+the primary beam of radi",C,C,True,0.8,0.2,medmcqa,phi3_mini,C,True,C,True,C,True,UNKNOWN,False,C,True
+163,Saliva buffer system having low importance in stimulated saliva,A,D,False,0.6,0.2,medmcqa,phi3_mini,B,False,D,False,D,False,UNKNOWN,False,D,False
+164,A child is admitted on 7 days of life with severe respiratory distress and shock,B,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,B,True,D,False,A,False,D,False
+165,"The facial proportions  between upper, middle and lower thirds of fare Is:",D,A,False,0.4,0.0,medmcqa,phi3_mini,A,False,B,False,C,False,A,False,C,False
+166,"An 8 year old boy during a routine checkup is found to have E. coli 1,00,000 cc/",A,B,False,0.6,0.2,medmcqa,phi3_mini,B,False,B,False,A,True,UNKNOWN,False,B,False
+167,A young healthy male patient presented with abdominal pain and history of altere,D,C,False,0.6,0.0,medmcqa,phi3_mini,A,False,C,False,C,False,A,False,C,False
+168,"SD plasma destroys lipid enveloped virus. On SD plasma transfusion, which of the",B,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,B,True,B,True,A,False,A,False
+169,45 chromosomes are seen in,A,A,True,0.6,0.0,medmcqa,phi3_mini,A,True,B,False,B,False,A,True,A,True
+170,In submandibular surgery incision is given 2 cm below the border of mandible to ,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+171,Acromegaly is associated with,D,C,False,0.6,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,A,False,A,False
+172,A female in labor ward was administered opioid analgesic. Which of the following,B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+173,Most common type of Non-Hodgkin's lymphoma in the orbit:,A,A,True,0.8,0.2,medmcqa,phi3_mini,A,True,A,True,A,True,UNKNOWN,False,A,True
+174,Muscles of mastication are supplied by:,A,C,False,0.6,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,A,True,B,False
+175,"A child presented at 2 years of age with delayed motor development, mental retar",C,A,False,0.4,0.2,medmcqa,phi3_mini,A,False,B,False,A,False,UNKNOWN,False,B,False
+176,Estimate the dental age from the radiograph:,C,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,B,False,A,False,A,False,B,False
+177,All are true of midazolam over diazepam except,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,C,False
+178,"Polyglycolic acid suture material (""vicryl/Dexon"") is an:",B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+179,Fracture of gold restoration primarily depends on,A,D,False,1.0,0.0,medmcqa,phi3_mini,D,False,D,False,D,False,D,False,D,False
+180,All of the following are done to remove Confounding except,B,B,True,1.0,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,B,True,B,True
+181,"Extremely axle insecticide according to WHO classification, are coded as:",A,C,False,0.8,0.0,medmcqa,phi3_mini,C,False,C,False,C,False,A,True,C,False
+182,"X,Y,Z are the ee ions pet meaule..\\ and V=-30. If at resting membrane potential",C,B,False,0.4,0.4,medmcqa,phi3_mini,UNKNOWN,False,B,False,UNKNOWN,False,A,False,B,False
+183,Reticulocytosis is seen in:,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+184,Rapid tooth separation works on following principle:,C,A,False,0.6,0.0,medmcqa,phi3_mini,A,False,C,True,A,False,A,False,C,True
+185,Acrocephaly is also known as:,D,A,False,1.0,0.0,medmcqa,phi3_mini,A,False,A,False,A,False,A,False,A,False
+186,Nerve fibres in pulp are,A,D,False,1.0,0.0,medmcqa,phi3_mini,D,False,D,False,D,False,D,False,D,False
+187,"In a patient with obstructive jaundice, what is the possible explanation for a b",C,B,False,0.8,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,False,B,False
+188,The drug not belonging to amide group,A,A,True,0.4,0.0,medmcqa,phi3_mini,A,True,C,False,D,False,A,True,C,False
+189,About Bacteroids. True are all except,A,A,True,0.8,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,B,False
+190,"Features of cardiac rest pain are all, except",D,D,True,0.4,0.0,medmcqa,phi3_mini,A,False,D,True,B,False,D,True,B,False
+191,Which centre first gets the input from neural control of CVS?,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,B,True
+192,Which of the following leads to an increase in enzyme activity -,B,B,True,0.8,0.0,medmcqa,phi3_mini,B,True,B,True,B,True,A,False,B,True
+193,Heavy forces on periodontal ligament causes:,A,D,False,0.4,0.2,medmcqa,phi3_mini,B,False,D,False,A,True,UNKNOWN,False,D,False
+194,Electromyography is used to:,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True
+195,"A 6-year old girl presents with fever tor the past 5 days, generalized erythemat",B,B,True,0.8,0.2,medmcqa,phi3_mini,B,True,B,True,B,True,UNKNOWN,False,B,True
+196,A non synovial joint with connective tissue in between is:,A,B,False,0.8,0.0,medmcqa,phi3_mini,B,False,B,False,B,False,A,True,B,False
+197,Perception of taste even in absence of stimuli is known as,D,D,True,0.8,0.0,medmcqa,phi3_mini,D,True,D,True,D,True,A,False,D,True
+198,Most common functional tumors of endocrine pancreas?,B,C,False,0.8,0.2,medmcqa,phi3_mini,C,False,C,False,C,False,UNKNOWN,False,C,False
+199,A young lady with symptoms of hypehyroidism with elevated T4 and TSH levels were,A,A,True,1.0,0.0,medmcqa,phi3_mini,A,True,A,True,A,True,A,True,A,True

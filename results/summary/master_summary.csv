@@ -1,0 +1,4 @@
+dataset,model,n_questions,mean_consistency,std_consistency,fully_consistent,fully_consistent_pct,overall_accuracy,unknown_rate,acc_original,acc_formal,acc_simplified,acc_roleplay,acc_direct
+medqa,phi3_mini,200,0.698,0.208,39,19.5,48.0,10.5,44.5,44.5,42.5,26.5,48.0
+medmcqa,phi3_mini,200,0.73,0.209,54,27.0,53.0,4.6,52.0,49.5,48.5,37.5,52.0
+pubmedqa,phi3_mini,200,0.83,0.166,82,41.0,48.0,0.0,42.5,53.5,52.5,47.5,31.0

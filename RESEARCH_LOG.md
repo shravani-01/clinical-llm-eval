@@ -72,6 +72,15 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
   - PubMedQA Q1: split between maybe and no across styles, all incorrect
 - Pipeline validated — ready for full 200 sample run
 
+### 02/24/2026 — Day 5
+- Completed full inference run for phi3_mini
+- 200 questions × 5 prompt styles × 3 datasets = 3000 prompts processed
+- Timing:
+  - MedQA: 20 mins (6.2s/question)
+  - MedMCQA: 11 mins (3.3s/question)
+  - PubMedQA: 23 mins (6.9s/question)
+- Results saved to results/raw/
+- Ready for consistency scoring
 ```
 ---
 

@@ -204,7 +204,7 @@ def build_prompt_dataset():
         entry = {
             "id": idx,
             "question": row["question"],
-            "correct_answer": row["answer"],
+            "correct_answer": row["answer_idx"],
             "prompts": make_medqa_prompts(row["question"], options)
         }
         medqa_prompts.append(entry)
