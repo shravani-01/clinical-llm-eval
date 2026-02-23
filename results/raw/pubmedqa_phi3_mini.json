@@ -1,0 +1,272 @@
+[
+  {
+    "id": 0,
+    "question": "Pap smears with glandular cell abnormalities: Are they detected by rapid prescreening?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. Rapid Prescreening has been studied",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "No, the abstract does not provide sufficient information to",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "no",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No, the excerpt does not provide evidence",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "Maybe, based on the context provided it seems that",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "question": "Are patients with Werlhof's disease at increased risk for bleeding complications when undergoing cardiac surgery?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes. The abstract indicates that there is a general",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on this excerpt from a",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, it is generally assumed that patients with Wer",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Is there a connection between sublingual varices and hypertension?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes. The context suggests that the study aimed",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes. The abstract indicates that the study aimed",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on this excerpt from the",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Maybe, based on this context which suggests that research",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Does health information exchange reduce redundant imaging?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe - The excerpt suggests a retros",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on this context which suggests a ret",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "The promise of specialty pharmaceuticals: are they worth the price?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. While there is potential for increased life expect",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. While there is potential for increased life expect",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes.",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. While there is potential for increased life expect",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. While there is potential for increased life expect",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "The colour of pain: can patients use colour to describe osteoarthritis pain?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes, but not universally accepted by all participants",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes.",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes, but not universally suitable for all participants",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe - While some participants found it generally acceptable,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. Based on group interviews with participants who",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Is fluoroscopy essential for retrieval of lower ureteric stones?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No. The abstract indicates that complete clearance without",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No. The text indicates that complete clearance without",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No. The research paper indicates that complete clearance",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, based on the context provided from a study",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "question": "Increased neutrophil migratory activity after major trauma: a factor in the etiology of acute respiratory distress syndrome?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes. The context suggests that enhanced interle",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes. The abstract suggests that enhanced interle",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes. The text suggests that enhanced interle",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on this excerpt from the",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Maybe, based on this context which suggests that en",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": "Does the SCL 90-R obsessive-compulsive dimension identify cognitive impairments?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "No, because it was not related to objective measures",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No. The abstract indicates that while there is a",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No. The text indicates that while there is a",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No. The excerpt indicates that while there",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, based on this context, it appears that",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": "Can transcranial direct current stimulation be useful in differentiating unresponsive wakefulness syndrome from minimally conscious state patients?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "No, the context provided does not specifically mention using",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No. The abstract does not provide information about the",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No, the text does not provide information about using",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that researchers",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. While the context provided does not directly mention",
+        "extracted": "no"
+      }
+    }
+  }
+]

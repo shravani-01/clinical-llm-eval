@@ -53,3 +53,23 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
   - PubMedQA: 200 samples, columns: question, context, long_answer, final_decision
 - Fixed bigbio/med_qa loading script error, switched to GBaker/MedQA-USMLE-4-options
 - Data saved to data/processed/
+
+### 02/22/2026 — Day 3
+- Built prompt variation engine (src/prompt_variations.py)
+- Generated 5 prompt styles per question: original, formal, simplified, roleplay, direct
+- Output: 200 prompt sets per dataset = 1000 prompts per dataset = 3000 total prompts
+- Saved to data/prompts/ as JSON files
+- This is the core novelty of the paper — testing consistency across prompt styles
+```
+
+---
+
+Here's where we stand and what's coming next so you can see the full picture:
+```
+✅ Day 1 — Environment setup
+✅ Day 2 — Datasets loaded (600 questions)
+✅ Day 3 — Prompt variations built (3000 prompts total)
+⬜ Day 4 — Model inference engine (feed prompts to LLMs, collect answers)
+⬜ Day 5 — Consistency scorer (calculate your core metric)
+⬜ Day 6 — Run first model (Phi-3 Mini — fastest on CPU)
+⬜ Day 7 — Analysis + visualizations

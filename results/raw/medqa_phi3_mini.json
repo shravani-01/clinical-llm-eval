@@ -1,0 +1,272 @@
+[
+  {
+    "id": 0,
+    "question": "A healthy 23-year-old male is undergoing an exercise stress test as part of his physiology class. If blood were to be sampled at different locations before and after the stress test, which area of the body would contain the lowest oxygen content at both time points?",
+    "correct_answer": "Coronary sinus",
+    "responses": {
+      "original": {
+        "raw": "Option A: Inferior vena c",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Coronary sinus",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Coronary sinus\n\nThe",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Inferior v",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "question": "A 31-year-old female patient presents with significant swelling and redness of her fingers that is causing her significant pain. Her right knee has also been stiff and slightly swollen for the past 6 weeks. She is overall fatigued and has difficulty moving around but has not sought medical attention until now. On physical examination, the distal interphalangeal joints are swollen, warm, and painful; her nails are pitted and cracked. There are also rough, erythematous skin patches seen over her elbows which have been present for the last few months. She reports that herer father has a similar condition. They both use hydrating creams and topical glucocorticoids with moderate benefit. Which of the following is the most likely diagnosis?",
+    "correct_answer": "Psoriatic arthritis",
+    "responses": {
+      "original": {
+        "raw": "C: Psoriatic arthritis.",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Psoriatic arthritis.",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Psoriatic arthritis",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The patient's presentation of swollen and",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "A 47-year-old woman comes to the physician because of progressive muscle weakness for five months. She feels that the muscles in her shoulders and hips have been getting weaker and sometimes feel sore. She now has difficulty getting up from chairs, climbing stairs, and combing her hair. She has also noticed new difficulty with swallowing solid foods, but has no trouble with liquids. She has a 5-year history of hyperlipidemia controlled with fluvastatin. Her maternal uncle died at age 26 from Duchenne's muscular dystrophy and her mother has Hashimoto's thyroiditis. Vital signs are within normal limits. Neurologic examination shows moderate weakness in the arm abductors and hip flexors bilaterally. Deep tendon reflexes are 2+ bilaterally. Laboratory studies show:\nHemoglobin 13.7 g/dL\nLeukocytes 11,200/mm3\nErythrocyte sedimentation rate 33 mm/h\nSerum\nCreatine kinase 212 U/L\nLactate dehydrogenase 164 U/L\nAST 34 U/L\nALT 35 U/L\nWhich of the following is most likely to confirm the diagnosis?\"",
+    "correct_answer": "Intrafascicular infiltration on muscle biopsy",
+    "responses": {
+      "original": {
+        "raw": "B: Perifascicular and perivasc",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Based on the patient's symptoms of",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Background:\nSome patients with severe asthma have frequent exacerbations associated with persistent eosinophilic inflammation despite continuous treatment with high-dose inhaled glucocorticoids with or without oral glucocorticoids.\nMethods:\nIn this randomized, double-blind clinical trial we assigned 576 patients with recurrent asthma exacerbations and evidence of eosinophilic inflammation despite high doses of inhaled glucocorticoids to one of three study groups. Patients were assigned to receive mepolizumab, a humanized monoclonal antibody against interleukin-5, which was administered as either a 75-mg intravenous dose or a 100-mg subcutaneous dose or placebo every 4 weeks for 32 weeks. The primary outcome was the rate of exacerbations. Other outcomes included the forced expiratory volume in 1 second (FEV1) and scores on the St. George\u2019s Respiratory Questionnaire (SGRQ) and the 5-item Asthma Control Questionnaire (ACQ-5).\nResults:\nThe rate of exacerbations was reduced by 47% (95% confidence interval [CI], 29 to 61) among patients receiving intravenous mepolizumab and by 53% (95% CI, 37 to 65) among those receiving subcutaneous mepolizumab, as compared with those receiving placebo (p<0.001 for both comparisons). Exacerbations necessitating an emergency department visit or hospitalization were reduced by 32% in the group receiving intravenous mepolizumab and by 61% in the group receiving subcutaneous mepolizumab. At week 32, the mean increase from baseline in FEV1 was 100 ml greater in patients receiving intravenous mepolizumab than in those receiving placebo (p=0.02) and 98 ml greater in patients receiving subcutaneous mepolizumab than in those receiving placebo (p=0.03). The improvement from baseline in the SGRQ score was 6.4 points and 7.0 points greater in the intravenous and subcutaneous mepolizumab groups, respectively than in the placebo group, and the improvement in the ACQ-5 score was 0.42 points and 0.44 points greater in the two mepolizumab groups, respectively than in the placebo group (p<0.001 for all comparisons).\nConclusions:\nMepolizumab administered either intravenously or subcutaneously significantly reduced asthma exacerbations and was associated with improvements in markers of asthma control.\nGiven the original research abstract above, which of the following would be true if the authors had inadvertently encountered a type 1 error?",
+    "correct_answer": "A type 1 error occurs when the null hypothesis is true but is rejected in error.",
+    "responses": {
+      "original": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "B - A type I error occurs when the null",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "A 45-year-old man comes to the physician for a routine health maintenance examination. He was diagnosed with HIV 15 years ago. He was taking triple antiretroviral therapy but stopped a few months ago because he was feeling well. He lives in Wyoming. Vital signs are within normal limits. Cardiopulmonary examination shows no abnormalities. His CD4+ T-lymphocyte count is 47/mm3 (N \u2265 500). The patient currently refuses to restart antiretroviral therapy. Which of the following medication regimens is most appropriate at this time?",
+    "correct_answer": "Trimethoprim, sulfamethoxazole, azithromycin",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The most appropriate medication regimen for this patient",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "A 38-year-old woman presents to her physician\u2019s clinic for recurrent episodes of chest pain that wakes her from her sleep. While usually occurring late at night, she has also had similar pains during the day at random times, most recently while sitting at her desk in her office and at other times while doing the dishes at home. The pain lasts 10\u201315 minutes and resolves spontaneously. She is unable to identify any common preceding event to pain onset. The remainder of her history is unremarkable and she takes no regular medications. She works as an accountant. There is no history of smoking or drug use, however, she does consume 5 alcoholic drinks per week. Examination reveals: pulse 70/min, respirations 16/min, and blood pressure 120/70 mm Hg. A physical examination is unremarkable. Which of the following would be effective in reducing her symptoms?",
+    "correct_answer": "Isosorbide dinitrate",
+    "responses": {
+      "original": {
+        "raw": "Option A: Aspirin. Given her sympt",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The patient's history of chest pain that",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "A 68-year-old woman presents with an intermittent throbbing headache with an onset approximately 3 weeks ago. The pain is bilateral, \u201cband-like,\u201d and extends to the neck. The patient rates the 4 points out of 10 on a visual scale. The headache is not accompanied by nausea, vomiting, photophobia, or phonophobia, and is not aggravated by movements, but gets worse when the patient coughs or laughs. The headache has persisted throughout the day and is usually worse in the morning an hour after she has breakfast and taken her medications. The patient was diagnosed with stage 1 arterial hypertension 2 years ago and stable angina pectoris 3 weeks ago. Currently, she takes aspirin (81 mg once daily), rosuvastatin (10 mg once daily), lisinopril (20 mg once daily), and isosorbide mononitrate (60 mg once daily). She has been menopausal for the last 15 years. In addition to her chief complaint, she also notes that she had a runny nose with a temperature elevation approximately 3 weeks ago, and her headache was linked to that acute illness. The vital signs are as follows: blood pressure 135/80 mm Hg, heart rate 76/min, respiratory rate 14/min, and temperature 36.5\u2103 (97.7\u2109). The physical examination reveals S2 accentuation that is best heard in the second intercostal space at the right sternal border. Palpation of the paranasal sinuses is painless. The neurologic exam shows no focal symptoms, no pain on palpation of the trigeminal points, and no meningeal symptoms. What is the most likely mechanism underlying the patient\u2019s headaches?",
+    "correct_answer": "Dilation of the intracerebral arterioles",
+    "responses": {
+      "original": {
+        "raw": "B: Dissection of an intracerebr",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The most likely mechanism underlying this patient's head",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "question": "A 58-year-old male presents with an acutely elevated blood pressure of 220/140 mmHg. The patient complains of a headache and chest pain, and he has been vomiting for the last several hours. Physical exam demonstrates papilledema and a depressed level of consciousness. To treat this patient's hypertensive emergency, he is started on an IV medication commonly used in this situation. The agent exerts its effect by releasing nitric oxide as a metabolite, which subsequently activates guanylate cyclase and increases production of cGMP in vascular smooth muscle. Which of the following clinical effects would be expected from administration of this medication?",
+    "correct_answer": "Decreased pulmonary capillary wedge pressure",
+    "responses": {
+      "original": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "B: Increased left ventricular end",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is **D: decreased pul",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": "A 48-year-old man is brought to the emergency department for sudden onset of difficulty breathing 6 hours ago. For the past several months, he has had shortness of breath on exertion and while lying down on the bed, frequent headaches, and swelling of his feet. He does not take any medications despite being diagnosed with hypertension 10 years ago. His pulse is 90/min, respirations are 20/min, blood pressure is 150/110 mm Hg, and temperature is 37.0\u00b0C (98.6\u00b0F). Physical examination shows an overweight male in acute distress with audible wheezes. Crackles are heard bilaterally and are loudest at the lung bases. Which of the following findings on cardiac auscultation will most likely be present in this patient?",
+    "correct_answer": "S3 gallop",
+    "responses": {
+      "original": {
+        "raw": "Option B.S3 gallop",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The clinical presentation",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": "A 3rd year resident in good standing with his residency training program would like to work more hours outside his residency obligations to gain more experience and pay for his medical school loans. He currently works and trains 60 hours per week as a resident and has a 10-hour shift external to his residency program on Saturdays. He is free of any educational and work obligations on Sundays. Based on the most recent standards set by the Accreditation Council for Graduate Medical Education (ACGME), which of the following is the most accurate statement regarding this resident\u2019s moonlighting and patient safety?",
+    "correct_answer": "He may work longer shifts",
+    "responses": {
+      "original": {
+        "raw": "B: He is not allowed to work outside the",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: He is not allowed to work outside the",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The most accurate statement regarding this resident's moon",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  }
+]
