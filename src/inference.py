@@ -134,7 +134,8 @@ if __name__ == "__main__":
             dataset_name=dataset,
             model_key="phi3_mini",
             model_name=MODELS["phi3_mini"],
-            max_samples=10      # ← test run first, change to None for full run
+            # max_samples=10      # ← test run first, change to None for full run
+            max_samples=None      # ← full run
         )
 
     print("\n✅ Test inference complete. Check results/raw/ for output.")

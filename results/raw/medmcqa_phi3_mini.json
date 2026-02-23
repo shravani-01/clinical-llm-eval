@@ -268,5 +268,5135 @@
         "extracted": "D"
       }
     }
+  },
+  {
+    "id": 10,
+    "question": "A 25 yr old person with history of repeated episodes of rheumatic fever is hypersensitive to penicillin. Which of following drug can be prescribed to him?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option D: Streptomycin. Since",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "B: Sulfisoxazole",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. Streptomyc",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "question": "Interruption of the optic chiasm will lead to:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Bitemporal hemianopia",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A.",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Bitemporal hemianopia",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Interruption of the",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "question": "An infant presented with the following lesions on his face and limbs. Which of the following is the most likely causative organism?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Herpes Sim",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "question": "A Female patient was brought to the ER with altered sensorium. On examination BP was 88/67mm with a pulse of 60/min. Rectal temperature was 34 Celsius. There was associated history of constipation, dry skin and menorrhagia. What is the diagnosis?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Myxedema Coma",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Myxedema Coma",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Myxedema coma. This condition is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "question": "All the statements are true about standardization, except",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: The national population is always taken as the",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: The national population is always taken as the",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: The national population is always taken as the",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "B: The national population is always taken as the",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "question": "Bite cells are seen in",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A.",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A.",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: G6PD deficiency",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. In Glucose",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "question": "In a patient with fresh blow out fracture of the orbit, best immediate management is",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Antral pack",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. In a patient",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "question": "Cross-sectional studies are carried on",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Same individuals but of same age.",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Different individuals but of same age groups",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Different individuals but of same age groups",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is B. Cross-sectional",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "question": "Drug adveisement letter is a necessary component of each drug formulation and contains various information about the drug like drug dosing, frequency and half-life. Which of the following information need not be given in the drug adveisement letter?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A. Research papers and other articles proving",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Date of expiry of the drug",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Research papers and other",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "question": "Epidural hematoma is caused by",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Middle meningeal artery.",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Middle meningeal artery is most",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Middle meningeal artery",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Epidural h",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "question": "Anthracis causes which pulmonary manifestations-",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "D: Bronchopulmonary pneum",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Bronchopulmonary pneum",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "As a doctor taking an examination for medical school",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "question": "Phenol red thread test is used for dry eye:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: If the color changes to blue, it",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: If the color changes to blue, it",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The Phenol",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "question": "The proximal walls of a class II cavity on a deciduous molar:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Converge toward occlusal",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "A. The proximal walls of a class II",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Follow directions of enamel rods",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. The proximal",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "question": "Percentage of surgical site infection in patients with clean contaminated wound after prophylactic antibiotic?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: <10%",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: <10%",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: <10%",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A. The percentage of surgical site",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "question": "The key ridge useful in assessing malocclusion is present on:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "D: Mandible",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Mandible",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "The key ridge useful in assessing maloc",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be D. Mandible.",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "question": "Regarding Influenza, not true statement is",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option C: 1-5 years age is",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "B: Virus shedding present before the patient",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Virus shedding present before the patient",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Secondary attack",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C: 1-5 years age is not",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "question": "Which of the following hormone is/are under inhibitory of hypothalamus?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Prolactin. The",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "D: Both prolactin and growth h",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Prolactin",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "question": "After spleenectomy patient becomes more prone to",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Encapsulated organisms. After",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Encapsulated organisms. After a",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Encapsulated organisms",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: A. After spleenectomy",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "question": "Increase in muscle mass at adolescence is probably caused by \u2013",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Growth hormone",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Growth hormone. The",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Growth hormone",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "Answer: C. Growth hormone",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "question": "A 7-years child having very deep carious lesions in multiple teeth with no pain what should he the treatment plan:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The most appropriate initial treatment for a child with very",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "question": "10-year-old boy visits dentist with complicated crown fracture with abscess formation in 12. X-ray reveals radiolucency in relation to 11, 12. 12 is having immature  blunderbuss canal while 11 has complete root formation, vitality of 11, 21 is negative. What would be the management of this patient?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Revascularization in 12",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Revascularization in 12",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: Apexification of 12",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct management for this patient would be Ape",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "question": "A 55 years old male patient presents with 4 cm x 5 cm lump in right neck. FNAC assessment revealed it to be a squamous cell carcinoma. Clinical assessment of the oral cavity, pharynx, hypopharynx and larynx did not yield any tumor. Whole body PET scan did not show any increased uptake except for the neck mass. A diagnosis of unknown primary was made. According to AJCC system of classification, the TNM status of the tumor would be:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "The correct answer is A. The tumor",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "The best answer would be C: T1N",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Here's why",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "question": "In SCHWARTZ formula for calculation of creatinine clearance in a child, the constant depends on the following except \u2013",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option D. The severity of renal failure",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "Answer is D. The severity of renal",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Severity of renal failure",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. In SCHW",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "question": "A gravida 2 patient with previous LSCS comes at 37 weeks, has BP= 150/100 mm of hg. And on pervaginal examination, cervix is 50% effaced station-3, os is closed and pelvis is adequate. Protein uria is +1, Most appropriate step at the moment would be:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Induce Labour",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Induce Labour. Given that this patient",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Induce labour",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The most appropriate step at the moment would be A",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "question": "All of the following are features of systemic Juvenile Rheumatoid Arthritis except \u2013",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A - Uveitis is a common feature",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D. Systemic Juvenile Rheum",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Hepatosplenomegaly",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: D. Hepatosplenom",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is an indiction for tonsillectomy \u2013a) Rheumatic feverb) Glomerulonephritisc) Recurrent upper respiratory infectiond) Persistent carrier of diptheria bacilli",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A: ab",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer A is incorrect because rheumatic fe",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "question": "Lead cause following except",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Uroporphyrinuria is",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "A: Uroporphyrinuria - This",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Lead cause following except U",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "question": "Glycogen synthesis and breakdown takes place in the same cell, having enzymes necessary for both the pathways. Why the glucose-6-phosphate, freshly synthesized during glycogenesis in cytoplasm of hepatocytes, is not immediately degraded by the enzyme glucose!6-phosphatase?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "C: Glycogenesis and gly",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Glycogenesis and gly",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Glycogenesis and gly",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "C: Glycogenesis and gly",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is a primarily RNA based technique?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A: Next generation sequencing. While",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "Answer: A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Next-gener",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "question": "A spirometry curve of a patient has been provided below. Calculate the FEV1/FVC ratio from the curve:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Without an actual spirometry curve provided in this",
+        "extracted": "UNKNOWN"
+      },
+      "formal": {
+        "raw": "To calculate FEV1/FVC ratio from",
+        "extracted": "UNKNOWN"
+      },
+      "simplified": {
+        "raw": "To answer this question accurately, one would need",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "To calculate the FEV1/FVC ratio",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "question": "Trismus is due to inflammation of:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Medial pterygoid",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Trismus is often associated with inflamm",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Medial pterygoid",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The medial p",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "question": "Rooting reflex also known as search reflex disappears:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "B: 3 month",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: 3 month",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 3 month",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The rooting ref",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "question": "Most common cause of post neonatal mortality is:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Environmental causes",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The most common cause of post-neonatal",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "question": "In examining the edentulous mouth of an aged patient wearing complete maxillary denture against six mandibular teeth, the dentist will see:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A. The edentulous mouth of",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. In an edent",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "question": "Which of the following zone is characterized by macrophages and osteoclasts?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Zone of Infection",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "question": "Culture media of candida is:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Methyl",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "question": "Site specificity is seen in:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Recurrent herpes Labialis",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "B: Recurrent herpes labialis",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Site specificity is seen in",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "question": "Number of fossa in upper 1st molar",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: 2 major 2 minor",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: 3 major 2 minor",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 3 major 2 minor",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Upper first molars",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "question": "Which of the following type of flow occurs, when on applying critical shear stress, a material turns to liquid?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Bingham body behavior",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A: Bingham body behavior",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Bingham body behavior",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. When on applying critical",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "question": "A drop in fetal heart rate that typically last less than 2 minutes and usually associated with umbilical cord compression is called:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Variable deceleration",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Variable deceleration",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Variable deceleration",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Early deceleration",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "question": "A smoker presents with recent onset breathlessness and ECG was done. The diagnosis is?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "B: Paroxysmal supraventric",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "Based on the information provided and common clinical",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Paroxysmal supraventric",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The most likely diagnosis in a smoker present",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "question": "A patient with pain abdomen for 2 hours presents to the casualty and the following X-ray was obtained. What is the most likely diagnosis?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Subphrenic abscess.",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "The best answer would be A: Pneumoper",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The presence of air",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "question": "Decrease in creep occurs in:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "A: Under trituration or over tr",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Under trituration results in a cre",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Under trituration or over trit",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Answer A. Under trituration or over tr",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "question": "4yr boy absence of right testes, diagnostic laparoscopy done, a blind end vessel seen what to do next?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Inguinal approach",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Inguinal approach",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Inguinal approach",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: A. The presence of a blind-",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "question": "True about congenital diseases in diabetes mellitus is all except:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: 6-1 end cases are associated",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: 6-1decade cases are",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 6-1 end cases are associated",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. While it's",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "question": "The micro organism previously present in the Periapical\ntissues following obturation",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Are eliminated by the natural defenses",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Persist and stim",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "question": "A 1-month-old child presented with conjugated bilirubinemia and intrahepatic cholestasis. On Liver biopsy staining with PAS, red colored granules were seen inside the hepatocytes. Probable diagnosis is:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "B: Wilson'seleptorie",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Wilson'selease",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "C: Alpha-1 antitryps",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Congenital he",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "question": "Single accessory canal arising from coronal third of the mandibular molars arises majorly in",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Mesial root",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Single accessory canal",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "question": "A patient with history of frequent abortions and pain in calf muscles from past 4 years is due to deficiency of",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option B: Protein c. This is because",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Protein c",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Protein c\n\nProtein",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be B. Protein C",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "question": "ZnPO4 setting time is 4-7 min. All of the following methods are employed to prolong its setting time except:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: Addition of drop of distilled",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "Answer is A. Adding distilled water will actually",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Addition of drop of distilled water",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Addition of drop",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "question": "According to WHO classi\ufb01cation of periapical pathology, sinus to oral cavity comes  under:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "The correct answer is A: 4.",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "None of the above. The WHO classification does",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "According to the WHO classification of peria",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "question": "Direction of force by class III elastic in face mask?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: 15-2neral in",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: 15-2 end degree up",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 15-2curious_",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. In a face mask",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "question": "A 16-year old girl was brought with primary amenorrhea. Her mother mentioned that she staed developing breast at the age of 12. She was prescribed OCPs 2 years back by a doctor with no effect. She was having normal stature and was a football player. On examination, breasts were well developed (Tanner's stage 5) and pubic hair was minimal (Tanner's stage 1). What is the most probable diagnosis?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Millerian agenesis",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The most probable diagn",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "question": "In alpha thalassemia",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: No alpha chain",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: No alpha chain",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: No alpha chain",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A - Alpha thalassemia",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "question": "According to Weerheijm et al, prevalence of MIH (Molar-Incisor hypomineralisation) :",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 2.4% to 4",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "According to Weerheijm et al",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "question": "Not true about NRHM",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option A: NRHM does not specifically appoint",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C: Health and family welfeneric organizations",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "D: State and district health mission",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. NRHM does",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "question": "What we will define it \"ratio of no. of death under 1 year of age to total live birth per 1000 live births per year\"?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Infant mortality rate",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A: Infant mortality rate",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Infant mortality rate",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Infant Mortality",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "question": "All are true about Doctrine ofborrowed servant except?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option A: Hospital administration is responsible for the actions",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: A nurse assisting a surgery",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: A nurse assisting a surgery",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. The Doctrine",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D - The doctrine does not hold physicians personally",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "question": "A 11-year-old child comes to the dental office one hour\nafter injury to a maxillary central incisor. The tooth is\nvital and\tslightly\tmobile.\tRadiographic\texamination\nreveals a fracture at the apical third of the root. What is\nthe best treatment at this point of time:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Relieve the occlusion and spl",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The best course of action in this scenario would be",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "question": "Most useful test in vesicovaginal fistula?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Cystoscopy",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A: Cystoscopy",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "D: Intravenous pyelogram",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The most useful initial diagnostic tool in vesic",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "question": "DOC for bacterial vaginosis in pregnancy",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "A. Clindamycin is often",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "D: Metronidazole",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "My Answer is D. Metronidazole",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "question": "The function of a sprue is to",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Form an opening for molten metal",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A: Form an opening for molten metal to",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The function of a",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "question": "A 22-year-old man presents with diarrhea and intolerance to dairy products, on investigation he was found to have lactase deficiency. Agent least likely to cause lactose intolerance among these is?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Condensed milk. While condensed",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Condensed milk contains a higher",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "question": "The sulcular epithelium acts as a semi permeable membrane through which",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Both of the Athlete's foot",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Both of the end-of-the",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The sulcular ep",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "question": "In sleep apnea syndrome, AHI Index for mild sleep apnea is",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C: >10",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: >10",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be C. In the classification",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "question": "A 10 year old child presented with headache, vomiting, gait instability and diplopia. On examination he had papilledema and gait ataxia. The most probable diagnosis is \u2013",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Hydrocephalus. The",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C: Suprasellar tumour",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Suprasellar tumour",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Hydroce",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "question": "Access cavity shape in mandibular 1st molar with 4 canals",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Trapezoidal",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Trapezoidal",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "Trapezoidal (Option A)",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The access cavity",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "question": "The function of 2% potassium sulphate in a gypsum product is:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Regulate setting time",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Regulate setting time",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: To regulate the setting expansion",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Potassium",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "question": "The advantage of glass ionomer cement reinforced with metal particles is:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Increased resistance to abrasion",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Increased resistance to abrasion",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Glass ion",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "question": "Ratio of polymer to monomer in cold cure resin",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: 3:1 by weight and",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: 3:1 by weight and",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 3:1 by weight and",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Based on the typical curing processes for res",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "question": "Cystinuria is characterised by \u2013",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is C. Cystinuria",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "question": "Periapical bone resorption occurs due to:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Both",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "Answer: C",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "question": "For periodontal patients, the most frequently recommended tooth brushing technique is:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Sulcular technique",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Sulcular technique",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be C: Sulcular technique",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "question": "A 20 year old man fell on an outstretched hand and later had pain in the anatomic snuff box area of hand. What is the deformity in this person. The x - ray after the fall is given below:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Scaphoid fracture.",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Scaphoid fracture.",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "A: Scaphoid - lunate f",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The patient's",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "question": "16 year girl, Not sexually active, came for vaccination against cervical cancer. Which vaccine to be given",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Gardasil",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Gardasil is designed to protect against",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "Gardasil (Option A)",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Gardasil.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "question": "The most common bone cancer is:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "A. Osteosarcoma is",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A.",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Osteosarcoma",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The most common primary malignant bone tum",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 86,
+    "question": "Metallic taste is due to SnF in saliva is",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "The correct answer is A: Stannous",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Stannic triphosphate",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: Stannous triphosphate",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Stannous fluoride is the compound",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 87,
+    "question": "Lente insulin is composed of:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: 30% Crystalline",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: 30% Crystalline",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 30% Crystalline",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Based on my knowledge of pharmacology",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "question": "Segmentation of blood in blood vessel after death is known as:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "D: Tache noire",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Tache noir",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "B: Rokitansky sign",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct term for the segmentation of blood in",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "question": "Continuous GnRH therapy is used in All EXCEPT.",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option A: Continuous GnRH",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Endometriosis",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: A\n\nContinuous Gn",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "question": "Greatest movement is seen in which type of joint:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Diarthroses.",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Diarthroses.",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The greatest movement occurs in diarthrotic joint",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 91,
+    "question": "According to the intelligence quotient classification, a score of 90-110 is:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Average",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Average",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "According to the intelligence quotient classification, a",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "question": "Which of the following gives the rate of drug absorption in plasma concentration graph?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A. The rate of drug absorption in",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Area under the curve",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Area under the curve",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Both Tmax (",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 93,
+    "question": "What drug is used for prophylaxis against Pneumocystis jirovecii in patients on chemotherapy?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Cotrimoxazole",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Cotrimoxazole is used for",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Cotrimoxazole",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Cotrimoxaz",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "question": "A 12 - year - old boy had a cut in his forearm 4 days ago. Now the bleeding has been stopped due to granulation tissue formation. While taking a skin biopsy a pa of the granulation tissue was also included in the specimen. The histology of granulation tissue is shown below. Which type of collagen is found in this granulation tissue?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Granulation tissue",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 95,
+    "question": "The process by which the amount of a drug in the body decreases after administration, but before entering the systemic circulation is called:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: First pass effect",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: First pass effect",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer to this question would be B:",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 96,
+    "question": "Steps of intubation - arrange in sequence:- a. Head extension and flexion of neck b. Introduction of laryngoscope c. Inflation of cuff d. Check breath sounds with stethoscope e. fixation of the tube to prevent dislodgement",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct sequence for intubation is A.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "question": "Uses of atropine are A/E -",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option D is incorrect because atropine has a",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. Atropine does",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "question": "Without supervision, allowed to give dentures",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "D: Dental Therapist",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Denturist",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 99,
+    "question": "Adrenocorticosteroids in excess may cause:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Osteoporosis",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Excess adrenocorticost",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Osteoporosis",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Answer A. Adrenocorticostero",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 100,
+    "question": "How much population falls between median and median plus one standard deviation in a normal distribution ?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: 0.34",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: 0.68",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 0.68",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: 0.3",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 101,
+    "question": "Hormones which is/are under inhibitory control of hypothalamus:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Both GH and prolactin",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Both GH and prolactin",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer is A. Prolactin is under",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 102,
+    "question": "Mother to children's transmission is a key feature of which pattern of inheritance?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Mitochondrial inheritance",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. Mitochond",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "question": "Peau d'orange in carcinoma breast is due to:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Obstruction of sub-dermal",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Peau d'orange in car",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Obstruction of sub-dermal",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Peau d'orange in carcinoma",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "question": "Biopsy from an eight-year-old child with leg swelling showed smallround blue tumor cells consistent with diagnosis of Ewing's sarcoma. What will be the best method to detect translocation t(ll;22) in this malignancy?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: FISH",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The best method to detect translocation t(4",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 105,
+    "question": "The penetration of the fissure sealant into the fissure:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "B: Is independent of the chemical composition of the",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: The penetration of the fiss",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Is independent of the chemical composition of the",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The penetration",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "question": "A pregnant, diabetic female on oral hypoglycemics is shifted to insulin. All of the following are true regarding this, except:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "B: During pregnancy insulin requirement",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: During pregnancy insulin requirement",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. While it's",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 107,
+    "question": "Which of the following methods is used for calculation of anatomical dead space?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "The best answer is A: Xenon dil",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The xenon",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "question": "Type of cry, which is not a cry at all, there are no tears, no sobs, just a constant whining noise:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Compensatory cry.",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Obstinate cry",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 109,
+    "question": "Inca bone or Goethe's ossicles is a sutural bone present in?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Lambda",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer to this question would be \"None",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 110,
+    "question": "What is the name of this technique for palpation of thyroid. A thumb is placed on the lateral side of trachea and patient is swallowing?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Crile method",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Crile method",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Lahey's method. This technique is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "question": "Which of the following malignancy is not caused by Human Papilloma Virus (HPV) infection?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Carcinoma base of tongue is",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Nasopharyngeal carcin",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. Nasopharyn",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "question": "What is the most poable diagnosis based on the findings in the CT scan given below?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Subdural hemorrhage.",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "The question cannot be answered without the findings from",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "The most probable diagnosis based on the findings",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 113,
+    "question": "A driver wearing seat belt applied brake suddenly to avoid a collision. Which of the following body pas is most likely to be injured?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. The liver",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "question": "Pediatric patient planned for costochondral graft for TMJ ankylosis is intubated best by",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: General anaesthesia",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The most appropriate method for pediatric patient planned",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 115,
+    "question": "Epidural venous plexus is located in",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: In vertebral canal below duram",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is C. Epidural ven",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 116,
+    "question": "All are used for postpaum hemorrhage except -",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A: Misoprostol is not primarily",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D. Oxytocin is not used for",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "B: Dinoprostone",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Misoprostol is not",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 117,
+    "question": "Reciprocal arm taper in",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: 1 dimension",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: 2 dimension",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "C: 3 dimension",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "Answer: A - In the context of medical imag",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 118,
+    "question": "Bonding agents have hydrophilic and hydrophobic groups. The hydrophobic group binds which structure?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Resin in restoration",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Resin in restoration",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "B: Hydroxyapatite group in hard",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is C. Bonding agents have",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "question": "Most modern precapsulated dental amalgam formulated with",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: 40-45% h",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: 40-45% h",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "My Answer is A: Most modern precapsulated",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A)",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 120,
+    "question": "Which of the following diseases is diagnosed with the help of the flowcytometry pattern?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Flowcytometry is a technique used to analyze",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "question": "A Study conducted in a population. Diastolic Blood Pressure mean 110 mm Hg with SD of 11 mm Hg, Vitamin D mean 18 ng/ml with SD of 3 ng/ml. what is the relation between the two variance",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Data insufficient to comment upon",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A: Variance of Vitamin D > DB",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "To determine the relationship between the variances of",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 122,
+    "question": "A 40 year male complaining of hot flushes each time he baths. Hb: 20%gm, Platelet: 89,000/mL, WBC: 30,000/mL, Investigation revealed JAK2 mutation. What is the most likely diagnosis?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "B: CML",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: PMF (Primary Myelofib",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A: Polycyth",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 123,
+    "question": "Dengue shock syndrome is characterized by the following except :",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Hepatomegaly. This",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Pleural effusion",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Hepatomeg",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 124,
+    "question": "Which of the following is false about indirect opthalmoscopy?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A. Convex lens is used in",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "The false statement about indirect ophthalmos",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "The false statement about indirect ophthalmos",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "question": "A patient is suffering from dehydration secondary to diarrhea. Which of the following intravenous agent is used in this case?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: 0.9% saline",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is C: 0 endot",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 126,
+    "question": "Diagnosis of the following ECG-",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Electrical alternans",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Ventricular bigeminy",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 127,
+    "question": "Fate of IDL(Intermediate Density Lipoprotein) in plasma",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option A. Fate of IDL in pl",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Approximately",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 128,
+    "question": "Microaneurysms are the earliest manifestation of diabetic retinopathy. Which of the following layer is involved in diabetic etinopathy?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "The best answer is C: Layer of ro",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is C. The earliest manifestation",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 129,
+    "question": "All these are Included In active tissue engineering, except",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option B: Bilayered cell therapy.",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "Answer: C. While antigens and fib",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "B: Bilayered cell therapy",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: B. Bilayered cell therapy",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "question": "A female come to gynaeoPD for preconceptual counseling, with history of two second trimester aboions. What is the next investigation you will advice",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: TVS",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Transvaginal ultrasound (",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: TVS (Transvaginal Ul",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The most appropriate initial investigation in this scenario would be",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 131,
+    "question": "Which of the following analysis helps in determining the disproportion in the size between maxillary and mandibular teeth?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Bolton's analysis",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Bolton's analysis",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is B: Bolton's",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 132,
+    "question": "To assess outcome from labour, cost, time",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Cost Effectiveness",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Cost Effectiveness",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Cost Effectiveness",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Cost-effectiveness analysis is the most appropriate method",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 133,
+    "question": "To prevent ventilator associated pneumonia, the most effective and evidence based results are seen with which of the following for critically ill patients:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: B. The most effective and evidence-",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 134,
+    "question": "Using stopko tip irrigation which of these is used cleaning and drying of pulp chamber:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "B: 95% alcohol+1",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: 95% alcohol+1",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: 5.2",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 135,
+    "question": "The green stains frequently seen on children's teeth are\ncaused by",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Chromogenic bacteria",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Chromogenic bacteria",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The green stains frequently seen on children's",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 136,
+    "question": "The bisecting angle technique is used to take",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: Bitewing radiographs",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The bisecting angle technique is used to take",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 137,
+    "question": "Lactobacillus count AFTER CARIES ACTIVITY test is 10,500CFU. What is the rate of caries progression ?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "There isn't enough information provided to determine a",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "There isn't enough information provided to determine a",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "The question does not provide enough information to determine the",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A: Slight.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 138,
+    "question": "Which one of the following drugs are not used in hea failure?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Trimetazidine",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is C. Trimetazid",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 139,
+    "question": "False regarding protective co-contraction muscle splinting:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Protective co-contraction is",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Protective co-contraction is",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Protective co-contraction is",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "B: Protective co-contraction is",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 140,
+    "question": "Which is associated with defect in DNA repair",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Xeroderma pigmentos",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Xeroderma pigmentos",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Xeroderma pigmentos",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Xeroderma Pig",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 141,
+    "question": "Dietary goals for avoiding Coronary Artery Disease include",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: All of the above",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer is D: All of the above. Diet",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 142,
+    "question": "Type-IV isthmii is?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: complete or incomplete isthmus between three",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A: complete or incomplete isthmus between three",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: complete or incomplete isthmus between three",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "As a doctor taking an entrance exam for medical school",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 143,
+    "question": "During exercise in physiological limits what is the effect on end systolic volume?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. During exercise within physiological limits,",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: ESV decreases",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. During exercise within phys",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 144,
+    "question": "Overload of denture base is caused by:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: Small bases. When denture bases",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Too large bases",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Too large bases",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A\n\nOverload of the dent",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 145,
+    "question": "The inter-arch distance measured when the occlusal rims are in uniform contact is:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "A. Freeway space",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. The inter-arch distance measured when",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Freeway space",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer to this question would be A:",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 146,
+    "question": "Sodium bicarbonate when given with local anaesthetics has which of the following effect?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Decreases diffusion of the ana",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Decreases diffusion of the ana",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: Increases speed and quality of an",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Based on my knowledge as a doctor taking this",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 147,
+    "question": "Which of the following statements is true for rapid prototyping?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "D: All of the above. Rapid pro",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 148,
+    "question": "Junctional epithelium",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Junctional ep",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 149,
+    "question": "The advantage of metal base denture is:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A: Increase in tissue tolerance",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Metal base dentures",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 150,
+    "question": "A 6 year old patient with extra cusp on maxillary central incisor is associated with all, except",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A is incorrect because Mohr's synd",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "Answer: A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A - Mohr's syndrome (also",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Mohr's",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 151,
+    "question": "All are true about rheumatic fever, except \u2013",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option C: Communicable disease. Rheum",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "The incorrect statement about rheumatic fever",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. Rheumatic",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 152,
+    "question": "The contractile element in a skeletal muscle is present in:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Myofibril",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Myofibril",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Myofibril",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be C: Myofib",
+        "extracted": "C"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 153,
+    "question": "Mandibular fossa is a part of:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Temporal bone",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Temporal bone",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Temporal bone",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The mandibular fossa is a depression",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 154,
+    "question": "In amalgam filling there is a wide buccolingual space, the wedge technique used should be (OR) If you are going to restore lower molar with amalgam which is having cavity with proximal box wide buccolingually which wedging technique will you use",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Double wedge",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A: Double wedge",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Double wedge",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Double wedge.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 155,
+    "question": "A 2 years old child suffers flame burns involving face, bilateral upper limbs and front of chest and abdomen. What is the body surface area involved?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "To solve this question accurately without direct access",
+        "extracted": "UNKNOWN"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "To determine the best answer without calculating exact percentages",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "To calculate this using the \"Rule of Nines",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 156,
+    "question": "All of the following are potentially serious side effects of thioamide group of antithyroid drugs except:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Hepatic dysfunction is",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Severe rash\n\nThio",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Thioamide group of",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 157,
+    "question": "In a\t6-month-old child, thick curd like white\tpatch\nappears on the buccal mucosa. On rubbing it leaves an\nerythematous patch. Most likely diagnosis is:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Candidiasis",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Candidiasis",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Candidiasis",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: D - Candidiasis. This",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 158,
+    "question": "The fear of a 6 year old related to dentistry is primarily:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "D: Psychological",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Psychological",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "C: Subjective & objective",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. The fear of",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 159,
+    "question": "Major pattern of accessory canals in mandibular molar is?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Presence of both lateral & fur",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Presence of both lateral & fur",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Presence of both lateral & fur",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A. On the major examination questions",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 160,
+    "question": "Anaerobic glycolysis of which of these produces 3 ATPs per unit glucose consumed?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. Glycogen",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 161,
+    "question": "Digoxin is obtained from a plant product and has a half-life of 36 hours. How does this information help us in formulating treatment?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Intravenous administration in emergency",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Intravenous administration in emergency",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: To adjust maintenance dose of digox",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Knowledge of dig",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 162,
+    "question": "The principal reason for placing an aluminium filter in\nthe primary beam of radiation is to:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "C: Reduce radiation to the skin of the",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Reduce radiation to the skin of the",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The principal reason for placing an aluminium filter",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 163,
+    "question": "Saliva buffer system having low importance in stimulated saliva",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option B: Carbonic acids. While",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is not listed among the options.",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 164,
+    "question": "A child is admitted on 7 days of life with severe respiratory distress and shock. He was discharged 2 days back healthy. What could be the probable diagnosis \u2013",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A: VSD large. This condition can",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Hypoplastic left heart syndrome",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The most likely diagnosis for a child who presents",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 165,
+    "question": "The facial proportions  between upper, middle and lower thirds of fare Is:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "The correct answer is A. The facial",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. According to the classical",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 166,
+    "question": "An 8 year old boy during a routine checkup is found to have E. coli 1,00,000 cc/ml on a urine culture. The urine specimen was obtained by mid\u2013stream clean\u2013catch void. The child is asymptomatic. Which is the most appropriate next step in the management \u2013",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: No therapy",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A: Treat as an acute episode of",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The most appropriate next step in the management of this",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 167,
+    "question": "A young healthy male patient presented with abdominal pain and history of altered bowel habits from the last 6 months. On CT examination, there was dilated distal pa of ileum, thickened ileocecal junction with thickened cecum with presence of sacculations on the antimesenteric border. The vascularity of adjoining mesentery is also increased and there is surrounding mesentery fat. Which of the following is not a differential diagnosis?",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Ulcerative colitis. While",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Tuberculosis",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. Ulcerative",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 168,
+    "question": "SD plasma destroys lipid enveloped virus. On SD plasma transfusion, which of the following infection is the likely possibility?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option A: HIV. SD plasma contains",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: HAV",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. While SD pl",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 169,
+    "question": "45 chromosomes are seen in",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A. Turner's syndrome is character",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Down's syndrome",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Down's syndrome",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Turner's Sy",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 170,
+    "question": "In submandibular surgery incision is given 2 cm below the border of mandible to preserve which nerve?",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A. Marginal mandibular nerve",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. The marginal mandibular nerve",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Marginal mandibular nerve",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Answer: A. The incision is given",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 171,
+    "question": "Acromegaly is associated with",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A: Class. I",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 172,
+    "question": "A female in labor ward was administered opioid analgesic. Which of the following drugs should be kept ready for emergency?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Naloxone",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Naloxone",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is B. Naloxone",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 173,
+    "question": "Most common type of Non-Hodgkin's lymphoma in the orbit:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A. Most common type of Non-Hod",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A.",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The most common type of Non-Hodg",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 174,
+    "question": "Muscles of mastication are supplied by:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C: First part of maxillary artery",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: First part of maxillary artery",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The muscles of",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 175,
+    "question": "A child presented at 2 years of age with delayed motor development, mental retardation and finger biting. He was normal at bih. He subsequently develops cerebral palsy ahritis and dies due to renal failure at age of 25 years. What is the likely enzyme deficiency implicated?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "Option A: Hexosaminidase",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B: Adenosine deaminase def",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The likely enzyme deficiency implicated",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 176,
+    "question": "Estimate the dental age from the radiograph:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "To estimate dental age from a radiograph accur",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "To accurately estimate dental age from a radi",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "To estimate a patient's dental age using",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 177,
+    "question": "All are true of midazolam over diazepam except",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: It has low water solubility and",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: It has low water solubility and",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: It has low water solubility and",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Based on the pharmacological properties of",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 178,
+    "question": "Polyglycolic acid suture material (\"vicryl/Dexon\") is an:",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Absorbable synthetic suture",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is B. Polyglycol",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 179,
+    "question": "Fracture of gold restoration primarily depends on",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "D: All of above. The fracture",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: All of the above. The fract",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: All of the above. The fract",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is D. All of the above",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 180,
+    "question": "All of the following are done to remove Confounding except",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "Option B: Random Selection. This method is used",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Random Selection",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "The best answer here would be \"B: Random",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is B: Random selection. This",
+        "extracted": "B"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 181,
+    "question": "Extremely axle insecticide according to WHO classification, are coded as:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "C: Yellow",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C: Yellow",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C: Yellow",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "According to the World Health Organization's",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 182,
+    "question": "X,Y,Z are the ee ions pet meaule..\\\\ and V=-30. If at resting membrane potential (RMP), when there is no net electro genic transfer, what is the value of Z?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "To answer this question correctly, we need to",
+        "extracted": "UNKNOWN"
+      },
+      "formal": {
+        "raw": "Based on Goldman-Hodgkin",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "To answer this question correctly, we need to understand",
+        "extracted": "UNKNOWN"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. However, as",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 183,
+    "question": "Reticulocytosis is seen in:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Hemolytic anemia",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A. Reticulocytosis is a condition",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Hemolytic anemia",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Answer: A. Reticulocytosis is",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 184,
+    "question": "Rapid tooth separation works on following principle:",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C: Both of the above.",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "A: Wedge principle. Rapid tooth",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Wedge principle.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 185,
+    "question": "Acrocephaly is also known as:",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "Acrocephaly is also known as O",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Oxyceph",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 186,
+    "question": "Nerve fibres in pulp are",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "D: Both autonomic parasympathetic",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Both autonomic parasympathetic",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "Answer: D. Both autonomic parasym",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 187,
+    "question": "In a patient with obstructive jaundice, what is the possible explanation for a bilirubin level of 40 mg/dL?",
+    "correct_answer": "C",
+    "responses": {
+      "original": {
+        "raw": "B: Complete obstruction of common bile du",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer: A and B. In a patient with",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 188,
+    "question": "The drug not belonging to amide group",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: Procaine. It belongs to",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "D: Bupivacaine",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Procaine.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 189,
+    "question": "About Bacteroids. True are all except",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "Option A: Susceptible to many antib",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Susceptible to many antibiot",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A. While some b",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B (Susceptible to many antib",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 190,
+    "question": "Features of cardiac rest pain are all, except",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "Option A: Compressive. Cardiac rest",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "D",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "B: Radiating",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "Answer is D: None of the above. Card",
+        "extracted": "D"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 191,
+    "question": "Which centre first gets the input from neural control of CVS?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: NTS",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: NTS",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. The rostral",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 192,
+    "question": "Which of the following leads to an increase in enzyme activity -",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Decrease in activation energy",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Decrease in activation energy",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Decrease in activation energy",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answers are A and B. Enzym",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 193,
+    "question": "Heavy forces on periodontal ligament causes:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Osteoclastic activity around",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "D: Crest bone resorption",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "A: Hyalinization",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "Heavy forces on the periodontal ligament",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 194,
+    "question": "Electromyography is used to:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: To study muscle activity",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A: To study muscle activity. Electrom",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: To study muscle activity",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A. Electromyography",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
+  },
+  {
+    "id": 195,
+    "question": "A 6-year old girl presents with fever tor the past 5 days, generalized erythematous rash, strawberry tongue and cervical lymphadenopathy. The most likely diagnosis is: (Asked twice)",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "B: Kawasaki disease",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Kawasaki disease",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The most likely diagnosis is **Kawas",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 196,
+    "question": "A non synovial joint with connective tissue in between is:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "B: Synchondrosis",
+        "extracted": "B"
+      },
+      "formal": {
+        "raw": "B: Synchondrosis",
+        "extracted": "B"
+      },
+      "simplified": {
+        "raw": "B: Synchondrosis",
+        "extracted": "B"
+      },
+      "roleplay": {
+        "raw": "The correct answer would be A: Syndes",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "B",
+        "extracted": "B"
+      }
+    }
+  },
+  {
+    "id": 197,
+    "question": "Perception of taste even in absence of stimuli is known as",
+    "correct_answer": "D",
+    "responses": {
+      "original": {
+        "raw": "D: Phantoguesia",
+        "extracted": "D"
+      },
+      "formal": {
+        "raw": "D: Phantoguesia",
+        "extracted": "D"
+      },
+      "simplified": {
+        "raw": "D: Phantoguesia",
+        "extracted": "D"
+      },
+      "roleplay": {
+        "raw": "The correct answer to this question would be A.",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "D",
+        "extracted": "D"
+      }
+    }
+  },
+  {
+    "id": 198,
+    "question": "Most common functional tumors of endocrine pancreas?",
+    "correct_answer": "B",
+    "responses": {
+      "original": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "formal": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "simplified": {
+        "raw": "C",
+        "extracted": "C"
+      },
+      "roleplay": {
+        "raw": "The most common functional tumor of the endocr",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "C",
+        "extracted": "C"
+      }
+    }
+  },
+  {
+    "id": 199,
+    "question": "A young lady with symptoms of hypehyroidism with elevated T4 and TSH levels were 8.5. Fuher examination reveals bitemporal hemianopia. Next step of management:",
+    "correct_answer": "A",
+    "responses": {
+      "original": {
+        "raw": "A: Sta antithyroid drugs,",
+        "extracted": "A"
+      },
+      "formal": {
+        "raw": "A",
+        "extracted": "A"
+      },
+      "simplified": {
+        "raw": "A: Sta antithyroid drugs,",
+        "extracted": "A"
+      },
+      "roleplay": {
+        "raw": "The correct answer is A: Start anti-thy",
+        "extracted": "A"
+      },
+      "direct": {
+        "raw": "A",
+        "extracted": "A"
+      }
+    }
   }
 ]

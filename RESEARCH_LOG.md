@@ -60,8 +60,19 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
 - Output: 200 prompt sets per dataset = 1000 prompts per dataset = 3000 total prompts
 - Saved to data/prompts/ as JSON files
 - This is the core novelty of the paper — testing consistency across prompt styles
-```
 
+
+### 02/23/2026 — Day 4
+- Built inference engine (src/inference.py)
+- Uses Ollama with temperature=0 for deterministic outputs
+- Test run: 10 questions per dataset, all 3 datasets completed
+- Key early finding: Phi-3 Mini shows clear prompt sensitivity
+  - MedQA Q1: answered A on original/roleplay, B on formal/simplified/direct
+  - MedMCQA Q1: consistent on 4/5 styles but returned UNKNOWN on roleplay
+  - PubMedQA Q1: split between maybe and no across styles, all incorrect
+- Pipeline validated — ready for full 200 sample run
+
+```
 ---
 
 Here's where we stand and what's coming next so you can see the full picture:
