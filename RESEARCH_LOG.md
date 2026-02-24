@@ -103,6 +103,19 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
   - Key insight: consistency and accuracy are independent — a model can be
     consistently wrong, which is dangerous in clinical settings
 
+### 02/27/2026 — Day 9
+- Completed Mistral 7B inference and scoring
+- All 4 models now complete across all 3 datasets
+- Full experimental results ready for analysis and visualization
+
+Key findings summary:
+- Consistency ranking: Gemma2 > Mistral > Llama3.2 > Phi3_mini
+- Accuracy ranking: Llama3.2 > Phi3_mini > Mistral > Gemma2
+- No model wins on both metrics — consistency-accuracy tradeoff confirmed
+- Roleplay prompt worst performing style across ALL 4 models
+- Mistral unknown rate surprisingly high (4.7-7.2%) despite being largest model
+- Gemma consistently wrong — most dangerous failure mode identified
+
 ```
 ---
 
@@ -111,7 +124,7 @@ Here's where we stand and what's coming next so you can see the full picture:
 ✅ Day 1 — Environment setup
 ✅ Day 2 — Datasets loaded (600 questions)
 ✅ Day 3 — Prompt variations built (3000 prompts total)
-⬜ Day 4 — Model inference engine (feed prompts to LLMs, collect answers)
-⬜ Day 5 — Consistency scorer (calculate your core metric)
-⬜ Day 6 — Run first model (Phi-3 Mini — fastest on CPU)
+✅ Day 4 — Model inference engine (feed prompts to LLMs, collect answers)
+✅ Day 5 — Consistency scorer (calculate your core metric)
+✅ Day 6 — Run first model (Phi-3 Mini — fastest on CPU)
 ⬜ Day 7 — Analysis + visualizations
