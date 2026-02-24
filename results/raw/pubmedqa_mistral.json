@@ -1,0 +1,5402 @@
+[
+  {
+    "id": 0,
+    "question": "Pap smears with glandular cell abnormalities: Are they detected by rapid prescreening?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, the excerpt suggests that some Pap",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, but not always effectively. According to the",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "question": "Are patients with Werlhof's disease at increased risk for bleeding complications when undergoing cardiac surgery?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Is there a connection between sublingual varices and hypertension?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the study",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Yes, based on the study findings, there seems",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Does health information exchange reduce redundant imaging?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (limited empirical evidence)",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the limited empirical evidence provided",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, according to the provided context, there is",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "The promise of specialty pharmaceuticals: are they worth the price?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. While specialty pharmaceuticals offer significant",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the current state of pharmac",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as the potential benefits such as increased life",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "The colour of pain: can patients use colour to describe osteoarthritis pain?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt, it",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the study findings that while some",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Is fluoroscopy essential for retrieval of lower ureteric stones?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "No, the study suggests that fluoroscopy",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "question": "Increased neutrophil migratory activity after major trauma: a factor in the etiology of acute respiratory distress syndrome?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that enhanced interleuk",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": "Does the SCL 90-R obsessive-compulsive dimension identify cognitive impairments?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "No, based on the provided data, the S",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": "Can transcranial direct current stimulation be useful in differentiating unresponsive wakefulness syndrome from minimally conscious state patients?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The study suggests that transcranial",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The provided abstract discusses the use of",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that electrophysiological",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt discusses the use",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. Transcranial magnetic stimulation,",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "question": "Does prostate morphology affect outcomes after holmium laser enucleation?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study found",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that trilobar",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "question": "Injury and poisoning mortality among young men--are there any common factors amenable to prevention?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided context, some common",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "question": "Are stroke patients' reports of home blood pressure readings reliable?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Yes, based on this excerpt, it",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Maybe, based on the data provided, 9",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "question": "Is endothelin-1 an aggravating factor in the development of acute pancreatitis?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "question": "Is leptin involved in phagocytic NADPH oxidase overactivity in obesity?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "question": "Are women who are treated for hypothyroidism at risk for pregnancy complications?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No, the study found that treated hypothyroid",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, according to this study, treated hypothy",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "question": "Does high blood pressure reduce the risk of chronic low back pain?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that there",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the information provided, there seems",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "question": "Do the changes in the serum levels of IL-2, IL-4, TNFalpha, and IL-6 reflect the inflammatory activity in the patients with post-ERCP pancreatitis?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that there is a significant",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided study results, it",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "question": "Ovarian torsion in children: is oophorectomy necessary?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that detorsion alone",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study suggests",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that detorsion alone",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "question": "Transsphenoidal pituitary surgery in Cushing's disease: can we predict outcome?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the data from 61",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the study, factors that could",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "question": "Metastatic carcinoma to the cervical nodes from an unknown head and neck primary site: Is there a need for neck dissection?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the study included patients who underw",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe study suggests that out of the",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that out of the",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "question": "Quality of life in lung cancer patients: does socioeconomic status matter?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that a higher percentage (",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as the study found that 57",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "question": "Does somatostatin confer insulinostatic effects of neuromedin u in the rat pancreas?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe (based on the abstract, it suggests that",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it appears that som",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "question": "Staging laparoscopy in patients with hepatocellular carcinoma: is it useful?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (with some caveats). The study shows",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the study",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe, based on the study findings. The study",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "question": "Can bone thickness and inter-radicular space affect miniscrew placement in posterior mandibular sites?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "question": "Is oncoplastic surgery a contraindication for accelerated partial breast radiation using the interstitial multicatheter brachytherapy method?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, it does",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, there is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided context, there is no information",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 26,
+    "question": "Do Electrochemiluminescence Assays Improve Prediction of Time to Type 1 Diabetes in Autoantibody-Positive TrialNet Subjects?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "question": "Can patient coaching reduce racial/ethnic disparities in cancer pain control?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it suggests that maybe",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 28,
+    "question": "Is intensive chemotherapy safe for rural cancer patients?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided, the study",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that the",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided data, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 29,
+    "question": "Are IgM-enriched immunoglobulins an effective adjuvant in septic VLBW infants?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided data, Ig",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 30,
+    "question": "Can multiple SNP testing in BRCA2 and BRCA1 female carriers be used to improve risk prediction models in conjunction with clinical assessment?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The excer",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, according to the context provided, recent studies",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 31,
+    "question": "Locoregional opening of the rodent blood-brain barrier for paclitaxel using Nd:YAG laser-induced thermo therapy: a new concept of adjuvant glioma therapy?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that Nd",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided information, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 32,
+    "question": "Is coeliac disease screening in risk groups justified?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study suggests",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided data, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "question": "Does loss of consciousness predict neuropsychological decrements after concussion?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No, based on the provided excerpt,",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, based on the information provided in the context",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "question": "Marital status, living arrangement and mortality: does the association vary by gender?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, the association varies by gender. The ex",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "question": "Transesophageal echocardiographic assessment of left ventricular function in brain-dead patients: are marginally acceptable hearts suitable for transplantation?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (with some qualification). The study suggests",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided, it'",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that echocardi",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the data provided, hearts with",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 36,
+    "question": "Delayed diagnosis of anorectal malformations: are current guidelines sufficient?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study shows that a significant proportion (",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided data, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 37,
+    "question": "Are higher rates of depression in women accounted for by differential symptom reporting?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that there might be differences",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "The provided text does not definitively answer whether higher",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 38,
+    "question": "Laparoscopic myomectomy: do size, number, and location of the myomas form limiting factors for laparoscopic myomectomy?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the data provided in the abstract",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "No, based on the provided study, it appears",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 39,
+    "question": "Can predilatation in transcatheter aortic valve implantation be omitted?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe, based on this study, it appears that",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 40,
+    "question": "Volume change of uterine myomas during pregnancy: do myomas really grow?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, the excerpt suggests that during pregnancy",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but not for all cases. The study",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 41,
+    "question": "Vertical lines in distal esophageal mucosa (VLEM): a true endoscopic manifestation of esophagitis in children?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 42,
+    "question": "Is half-dose contrast-enhanced three-dimensional MR angiography sufficient for the abdominal aorta and pelvis?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. While the study shows that the SNR",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, it seems",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the answer",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided information, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 43,
+    "question": "Malnutrition, a new inducer for arterial calcification in hemodialysis patients?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe\n\nThe study suggests that a high percentage",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 44,
+    "question": "Can the prognosis of polymyalgia rheumatica be predicted at disease onset?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The research suggests that certain factors such as",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (with some qualification)\n\nThe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text mentions that certain factors such",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Yes, based on this research paper, certain factors",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, some factors",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 45,
+    "question": "Does open access publishing increase the impact of scientific articles?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on this study, open access publishing",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the study results provided. The",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 46,
+    "question": "Are intraoperative precursor events associated with postoperative major adverse events?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 47,
+    "question": "Is ultrasound equal to X-ray in pediatric fracture diagnosis?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (with some limitations)",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the results of this study,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but with some limitations. Ultrasound",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 48,
+    "question": "Is an advance care planning model feasible in community palliative care?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the research conducted in 2",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 49,
+    "question": "Are 99mTc leukocyte scintigraphy and SBFT studies useful in children suspected of having inflammatory bowel disease?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, but with some limitations. The study suggests",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 50,
+    "question": "Do European people with type 1 diabetes consume a high atherogenic diet?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt, it",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as the text mentions that individuals with",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 51,
+    "question": "Is digoxin use for cardiovascular disease associated with risk of prostate cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests a positive correlation between dig",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided information, it appears that there",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 52,
+    "question": "Optimism and survival: does an optimistic outlook predict better survival at advanced ages?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to this study, an optimistic",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 53,
+    "question": "Do teleoncology models of care enable safe delivery of chemotherapy in rural towns?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the research",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it appears that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 54,
+    "question": "Do nomograms designed to predict biochemical recurrence (BCR) do a better job of predicting more clinically relevant prostate cancer outcomes than BCR?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The abstract suggests that the study is investig",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that some nom",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "Maybe. The question asks about the ability of nom",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 55,
+    "question": "Necrotizing fasciitis: an indication for hyperbaric oxygenation therapy?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: Based on the",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the provided context, the beneficial",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 56,
+    "question": "Has the use of complementary and alternative medicine therapies by U.S. adults with chronic disease-related functional limitations changed from 2002 to 2007?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 57,
+    "question": "Did Chile's traffic law reform push police enforcement?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 58,
+    "question": "Does the use of atypical antipsychotics as adjunctive therapy in depression result in cost savings?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that an observational study",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that atypical ant",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but it's not explicitly stated that",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 59,
+    "question": "The Omega-3 Index: a new risk factor for death from coronary heart disease?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 60,
+    "question": "The nurse cystoscopist: a feasible option?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, the excerpt suggests that the u",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the results provided, the u",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 61,
+    "question": "Sternal fracture in growing children : A rare and often overlooked fracture?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt states that sternal",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 62,
+    "question": "Could Adult European Pharmacoresistant Epilepsy Patients Be Treated With Higher Doses of Zonisamide?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Based on the provided data, it appears that maybe",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 63,
+    "question": "Three-dimensional ultrasound-validated large-core needle biopsy: is it a reliable method for the histological assessment of breast lesions?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the data provided in the ex",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the data provided in the context",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 64,
+    "question": "Is portable ultrasonography accurate in the evaluation of Schanz pin placement during extremity fracture fixation in austere environments?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe (with some limitations)",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (with caveats)",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided, it appears",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, with some limitations. The study shows that",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided study, the results suggest that",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 65,
+    "question": "Does normothermic normokalemic simultaneous antegrade/retrograde perfusion improve myocardial oxygenation and energy metabolism for hypertrophied hearts?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (based on the context provided, it seems",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided in the text",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the study",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "The study does not provide a definitive answer as",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "question": "Endovenous laser ablation in the treatment of small saphenous varicose veins: does site of access influence early outcomes?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (based on the provided context, there were",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (with some qualification)\n\nThe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text mentions that both groups",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but not significantly based on this study.",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "Maybe, but based on the provided data, no",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 67,
+    "question": "Can gingival crevicular blood be relied upon for assessment of blood glucose level?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt provided,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the information provided in the context",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 68,
+    "question": "Is a specialised training of phonological awareness indicated in every preschool child?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe. While the specialized training for phonological",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that children with hearing issues",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but not necessarily for every preschool",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "Maybe\n\nExplanation: While the specialized",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 69,
+    "question": "Does early migraine treatment shorten time to headache peak and reduce its severity?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the data",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it appears that early",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 70,
+    "question": "Department of Transportation vs self-reported data on motor vehicle collisions and driving convictions for stroke survivors: do they agree?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe (with some discrepancies)",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as there was a discrepancy found",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 71,
+    "question": "Is amoxapine an atypical antipsychotic?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 72,
+    "question": "Should all patients be optimized to the same preoperative hemoglobin level to avoid transfusion in primary knee arthroplasty?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that a",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe\n\nExplanation: While lower pre",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 73,
+    "question": "Can CT predict the level of CSF block in tuberculous hydrocephalus?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes (with some caveats)",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Maybe, based on the findings of this study,",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 74,
+    "question": "Prescriptions as a proxy for asthma in children: a good choice?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that prescriptions can be",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that while prescriptions can",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The excer",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but with some limitations. The study suggests",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 75,
+    "question": "Do approved doctors and medical referees in the UK agree when assessing a seafarer's fitness?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Maybe, but there is poor agreement overall (K",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "No, the overall agreement between Approved Doctors",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 76,
+    "question": "Chemoradiation instead of surgery to treat mid and low rectal tumors: is it safe?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study shows that preoperative chem",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text indicates that chemoradiation",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the answer",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided data, chemoradiation",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 77,
+    "question": "Does diabetes mellitus influence the efficacy of FDG-PET in the diagnosis of cervical cancer?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that diabetes m",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that diabetes mellit",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 78,
+    "question": "Do microbiological factors account for poor pregnancy outcome among unmarried pregnant women in Poland?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study does identify a higher prevalence",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that the study aimed",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt provided,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests a correlation between bacterial",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 79,
+    "question": "Does lunar position influence the time of delivery?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the findings of the study.",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the findings from the retros",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "question": "Inpatient Pediatric Tonsillectomy: Does Hospital Type Affect Cost and Outcomes of Care?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 81,
+    "question": "Does a colonoscopy after acute diverticulitis affect its management?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study found",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "No, based on the provided context, it does",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 82,
+    "question": "Are increased carotid artery pulsatility and resistance indexes early signs of vascular abnormalities in young obese males?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 83,
+    "question": "Do instrumental activities of daily living predict dementia at 1- and 2-year follow-up?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, the research suggests that problems in instrumental activities",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the study, individuals with problems",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "question": "Do familiar teammates request and accept more backup?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the study findings, teams with",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 85,
+    "question": "Do adjuvant aromatase inhibitors increase the cardiovascular risk in postmenopausal women with early breast cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, the data suggests that adjuvant arom",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 86,
+    "question": "Can autologous platelet-rich plasma gel enhance healing after surgical extraction of mandibular third molars?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it appears that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 87,
+    "question": "Does growth hormone replacement therapy reduce mortality in adults with growth hormone deficiency?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that individuals receiving growth horm",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, the study",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe study suggests that there is an",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as the study suggests that there is a",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 88,
+    "question": "Does laparoscopic cholecystectomy influence peri-sinusoidal cell activity?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe (with some caveats)\n\nThe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it seems",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided data, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 89,
+    "question": "Can routinely collected ambulance data about assaults contribute to reduction in community violence?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that there is",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that there is a high",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 90,
+    "question": "Clinical identifiers for early-stage primary/idiopathic adhesive capsulitis: are we seeing the real picture?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that one of the clinical",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the information provided in the context, it",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 91,
+    "question": "Lloyd-Davies position with Trendelenburg--a disaster waiting to happen?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The abstract suggests that the use of",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that the use of Lloyd",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The research paper suggests that the use of",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as the text mentions that a",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 92,
+    "question": "The HELPP syndrome--evidence of a possible systemic inflammatory response in pre-eclampsia?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: While the ex",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. HELLP syndrome is characterized by hem",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 93,
+    "question": "Does topical ropivacaine reduce the post-tonsillectomy morbidity in pediatric patients?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: Based on the",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes, based on the study results, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 94,
+    "question": "Does base deficit predict mortality in patients with severe traumatic brain injury?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the study data provided, Base",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 95,
+    "question": "Does having a regular primary care clinician improve quality of preventive care for young children?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes (based on the provided abstract)",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the data from the study,",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 96,
+    "question": "Are high flow nasal cannulae noisier than bubble CPAP for preterm infants?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (based on the information provided, there is",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided, there is",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, there is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, there is no clear",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 97,
+    "question": "Does multi-modal cervical physical therapy improve tinnitus in patients with cervicogenic somatic tinnitus?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (as of the provided abstract, the results",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on case studies and the ongoing trial",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The research paper describes a randomized controlled",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 98,
+    "question": "Does a 4 diagram manual enable laypersons to operate the Laryngeal Mask Supreme\u00ae?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the context provided, previous studies",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 99,
+    "question": "Does SYNTAX score predict in-hospital outcomes in patients with ST elevation myocardial infarction undergoing primary percutaneous coronary intervention?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, the study suggests that SYNTAX",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 100,
+    "question": "Can serum be used for analyzing the EGFR mutation status in patients with advanced non-small cell lung cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided data, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 101,
+    "question": "Is scintigraphy a guideline method in determining amputation levels in diabetic foot?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. While this study suggests that 3-",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided study, it appears that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 102,
+    "question": "Does ossification of the posterior longitudinal ligament affect the neurological outcome after traumatic cervical cord injury?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that there is controversy",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that there is controversy regarding",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the information provided in the context, it",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 103,
+    "question": "Is breast cancer prognosis inherited?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on this study, there seems to",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, according to the study, there seems to",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 104,
+    "question": "Does early discharge with nurse home visits affect adequacy of newborn metabolic screening?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The provided context does not explicitly state that",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "Maybe\n\nThe provided abstract does not directly address",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text does not explicitly state that",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "The provided data does not directly address the impact of",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 105,
+    "question": "Can dentists recognize manipulated digital radiographs?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "Maybe (with some difficulty)",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the results presented in this ex",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "No, based on the information provided in this context",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 106,
+    "question": "Are WHO/UNAIDS/UNICEF-recommended replacement milks for infants of HIV-infected mothers appropriate in the South African context?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The study suggests that there may be issues",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that there might be issues",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that there is limited",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that while",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the study findings, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 107,
+    "question": "Is the h-index predictive of greater NIH funding success among academic radiologists?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe (based on the provided context, the study",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the study",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided context, the study suggests that",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 108,
+    "question": "Is it necessary to insert a nasobiliary drainage tube routinely after endoscopic clearance of the common bile duct in patients with choledocholithiasis-induced cholangitis?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, there is",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided, there were",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on this study, there does not seem to",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 109,
+    "question": "Does radiotherapy around the time of pregnancy for Hodgkin's disease modify the risk of breast cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 110,
+    "question": "Can echocardiography and ECG discriminate hereditary transthyretin V30M amyloidosis from hypertrophic cardiomyopathy?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 111,
+    "question": "Does the sex of acute stroke patients influence the effectiveness of rt-PA?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the abstract, further analysis is",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the excerpt provided, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it appears that women",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 112,
+    "question": "Does septoplasty change the dimensions of compensatory hypertrophy of the middle turbinate?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (depending on how you define \"comp",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No, based on this excerpt, it",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, based on the provided information, there is",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 113,
+    "question": "Do ventricular arrhythmias in athletes subside over time?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, it suggests",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the provided excerpt,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the provided data, it suggests",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 114,
+    "question": "Is it Crohn's disease?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No, based on the provided abstract, there is",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No, the text does not mention Crohn'",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Maybe, the excerpt does not explicitly state",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, the text does not mention that the patient",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 115,
+    "question": "Can dobutamine stress echocardiography induce cardiac troponin elevation?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt, it",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, as the study suggests that elevated c",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 116,
+    "question": "Are there risk factors that increase the rate of staple line leakage in patients undergoing primary sleeve gastrectomy for morbid obesity?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the provided context, there are",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 117,
+    "question": "Is eligibility for a chemotherapy protocol a good prognostic factor for invasive bladder cancer after radical cystectomy?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Based on the provided research context, it seems that",
+        "extracted": "UNKNOWN"
+      },
+      "formal": {
+        "raw": "Based on the provided abstract, the answer is \"",
+        "extracted": "UNKNOWN"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided data, it appears that el",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 118,
+    "question": "Is anorectal endosonography valuable in dyschesia?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, anore",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 119,
+    "question": "Proof of concept study: does fenofibrate have a role in sleep apnoea syndrome?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt provided,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, based on the information provided, the study",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 120,
+    "question": "Can clinical supervision sustain our workforce in the current healthcare landscape?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe, based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that there have been",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt provides evidence that clinical",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study mentioned that clinical supervision is",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 121,
+    "question": "Are octogenarians at high risk for carotid endarterectomy?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the context provided, it can",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 122,
+    "question": "Is the 7th TNM edition suitable for biological predictor in early gastric cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The research suggests that the 7th",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that some clinicopathological",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that the 7th",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The excer",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that certain clinicopathological",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 123,
+    "question": "Does Residency Selection Criteria Predict Performance in Orthopaedic Surgery Residency?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The research context suggests that while preres",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text mentions that studies have differ",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that there is",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe\n\nThe provided context suggests that while there",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 124,
+    "question": "Estimation of basal metabolic rate in Chinese: are the current prediction equations applicable?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe (with some limitations)",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study aims to develop a new B",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (with some limitations)",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but there is a paucity of",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that there is a p",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 125,
+    "question": "Are physicians meeting the needs of family caregivers of the frail elderly?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, it does",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The excer",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it is not explicitly",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 126,
+    "question": "Screening for gestational diabetes mellitus: are the criteria proposed by the international association of the Diabetes and Pregnancy Study Groups cost-effective?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe (depending on the specific results of the",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the study",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, the study suggests that",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 127,
+    "question": "The secular growth acceleration: does it appear during fetal life?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (based on the provided context, the results",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Based on the provided abstract, the answer is maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, no definit",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, there is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided context, the study did not",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 128,
+    "question": "Predicting admission at triage: are nurses better than a simple objective score?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The research paper",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but the study suggests that the objective score",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 129,
+    "question": "Two-year follow-up survey of patients with allergic contact dermatitis from an occupational cohort: is the prognosis dependent on the omnipresence of the allergen?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that both",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The text mentions that the study investig",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 130,
+    "question": "Reporting and interpreting red blood cell morphology: is there discordance between clinical pathologists and clinicians?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, there seems to be discordance based",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 131,
+    "question": "Double reading of barium enemas: is it necessary?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, double reading",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided context, double reading",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 132,
+    "question": "Are pectins involved in cold acclimation and de-acclimation of winter oil-seed rape plants?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the provided context, pect",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 133,
+    "question": "Does gestational age misclassification explain the difference in birthweights for Australian aborigines and whites?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that at",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 134,
+    "question": "Does pediatric housestaff experience influence tests ordered for infants in the neonatal intensive care unit?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, the research",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided context, the study does not",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 135,
+    "question": "Is there a correlation between androgens and sexual desire in women?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the text, it's",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt provided,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, according to the context provided, the correlation",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 136,
+    "question": "Do patients with rheumatoid arthritis established on methotrexate and folic acid 5 mg daily need to continue folic acid supplements long term?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided in the text",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt suggests that there",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it seems that there",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 137,
+    "question": "Can 'high-risk' human papillomaviruses (HPVs) be detected in human breast milk?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No, the research paper indicates that no 'high",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 138,
+    "question": "Amblyopia: is visual loss permanent?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (depending on treatment and time)",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (improvement in visual acuity has",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but with potential for improvement in some cases",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but not necessarily permanent. The study shows",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 139,
+    "question": "Is the combination with 2-methoxyestradiol able to reduce the dosages of chemotherapeutices in the treatment of human ovarian cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The research suggests that a significant additive",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes, based on the results of the study,",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 140,
+    "question": "Is motion perception deficit in schizophrenia a consequence of eye-tracking abnormality?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study suggests",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that there might be an",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 141,
+    "question": "Is the international normalised ratio (INR) reliable?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, the IN",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 142,
+    "question": "Longer term quality of life and outcome in stroke patients: is the Barthel index alone an adequate measure of outcome?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: While the Bart",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but not entirely. While the Barthel",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 143,
+    "question": "Does responsibility affect the public's valuation of health care interventions?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 144,
+    "question": "Is the determination of specific IgE against components using ISAC 112 a reproducible technique?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided context, it can",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 145,
+    "question": "Is endometrial polyp formation associated with increased expression of vascular endothelial growth factor and transforming growth factor-beta1?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the study, endometrial",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 146,
+    "question": "Does feeding tube insertion and its timing improve survival?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "No, based on the provided excerpt,",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "No, based on the provided context, there is",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 147,
+    "question": "Is there a role for endothelin-1 in the hemodynamic changes during hemodialysis?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Maybe, based on the information provided, there is",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 148,
+    "question": "Do cytokine concentrations in pancreatic juice predict the presence of pancreatic diseases?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, it'",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt provides evidence that",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided context, the study aimed to",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 149,
+    "question": "Are UK radiologists satisfied with the training and support received in suspected child abuse?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the abstract provided, it'",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that 61",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nThe excerpt does not directly",
+        "extracted": "no"
+      },
+      "direct": {
+        "raw": "Based on the provided information, there is no direct",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 150,
+    "question": "Can static foot posture measurements predict regional plantar surface area?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 151,
+    "question": "Can bisphosphonate treatment be stopped in a growing child with skeletal fragility?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe, but it's not recommended without careful",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 152,
+    "question": "Can the Internet be used to improve sexual health awareness in web-wise young people?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The research paper",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The data suggests that a significant number of",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 153,
+    "question": "Oral mucocele/ranula: Another human immunodeficiency virus-related salivary gland disease?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, the data suggests that there is a strong",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the data provided in the context",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 154,
+    "question": "Is laparoscopic sonography a reliable and sensitive procedure for staging colorectal cancer?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, lapar",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 155,
+    "question": "Laminoplasty outcomes: is there a difference between patients with degenerative stenosis and those with ossification of the posterior longitudinal ligament?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe (based on the provided context, the study",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that there might be differences",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 156,
+    "question": "Prostatic syndrome and pleural effusion: are they different diseases?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (the text does not provide enough information to",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, there is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe. While prostatic syndrome is a condition related",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 157,
+    "question": "Are there gender differences in the reasons why African Americans delay in seeking medical help for symptoms of an acute myocardial infarction?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the provided data, there are",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 158,
+    "question": "Autoerotic asphyxiation: secret pleasure--lethal outcome?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 159,
+    "question": "Is routine intraoperative frozen-section examination of sentinel lymph nodes in breast cancer worthwhile?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that the sensitivity of frozen",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that while routine intra",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The excer",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided data, it seems that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 160,
+    "question": "Prognosis of low-tone sudden deafness - does it inevitably progress to Meniere's disease?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that a subset of patients",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but not inevitably. The study suggests",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 161,
+    "question": "Antiretroviral therapy related adverse effects: Can sub-Saharan Africa cope with the new \"test and treat\" policy of the World Health Organization?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but it presents a significant challenge. The",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe\n\nExplanation: The question asks",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 162,
+    "question": "A comparison of 500 prefilled textured saline breast implants versus 500 standard textured saline breast implants: is there a difference in deflation rates?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 163,
+    "question": "Do foreign bodies migrate through the body towards the heart?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the text provided, there were",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt mentions that two",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. While it's a common saying that",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 164,
+    "question": "Is bicompartmental knee arthroplasty more favourable to knee muscle strength and physical performance compared to total knee arthroplasty?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The study suggests that bicompart",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that bicom",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it is not possible",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 165,
+    "question": "Is there a role for fondaparinux in perioperative bridging?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but with caution due to its extended half",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but with some considerations due to its",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 166,
+    "question": "Is specialty care associated with improved survival of patients with congestive heart failure?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. The study suggests that a pattern of out",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The abstract suggests that the study examines",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, it does",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that the pattern of out",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided context, the study suggests that",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 167,
+    "question": "Comparative safety of infliximab and etanercept on the risk of serious infections: does the association vary by patient characteristics?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that a study was conducted",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that Infliximab",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study found that the crude inc",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 168,
+    "question": "High cumulative insulin exposure: a risk factor of atherosclerosis in type 1 diabetes?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, high cumulative insulin exposure appears to",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 169,
+    "question": "Telemedicine and type 1 diabetes: is technology per se sufficient to improve glycaemic control?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The text suggests that among high users of",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study shows",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but it seems that the telemonitoring",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 170,
+    "question": "MR Diagnosis of Bone Metastases at 1.5 T and 3 T: Can STIR Imaging Be Omitted?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe (with some caveats)",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Based on the provided abstract, the answer is \"",
+        "extracted": "UNKNOWN"
+      },
+      "simplified": {
+        "raw": "No, STIR imaging cannot be om",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "No, based on the provided data, STI",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 171,
+    "question": "Long-term significance of postictal psychotic episodes II. Are they predictive of interictal psychotic episodes?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, according to the study, postictal",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 172,
+    "question": "Does self-efficacy mediate the relationship between transformational leadership behaviours and healthcare workers' sleep quality?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, it does",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the provided text, there is",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, there is",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it is not explicitly",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 173,
+    "question": "Do Indigenous Australians age prematurely?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "No, based on the provided data, it does",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 174,
+    "question": "Dose end-tidal carbon dioxide measurement correlate with arterial carbon dioxide in extremely low birth weight infants in the first week of life?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 175,
+    "question": "Does pain intensity predict a poor opioid response in cancer patients?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The data provided",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but the provided data does not show a",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 176,
+    "question": "Does the Child Health Computing System adequately identify children with cerebral palsy?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (with some discrepancies)",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but there seems to be a discrep",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but it seems that there is a significant",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 177,
+    "question": "Stage I non-small cell lung carcinoma: really an early stage?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe. The abstract suggests that the overall 5",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, Stage I non-small cell lung car",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 178,
+    "question": "Can nurse-led preoperative education reduce anxiety and postoperative complications of patients undergoing cardiac surgery?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe. While the study shows a significant reduction in",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. While the study shows a significant reduction in",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. While the text indicates that nurse-led",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the excerpt provided,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, the study suggests that nurse-led pre",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 179,
+    "question": "Is transurethral catheterisation the ideal method of bladder drainage?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the findings in this study,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe, but it seems to have some drawbacks",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 180,
+    "question": "Does topical N-acetylcysteine application after myringotomy cause severe otorrhea?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 181,
+    "question": "Patient comprehension of emergency department care and instructions: are patients aware of when they do not understand?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe\n\nExplanation: The study assess",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes, according to the study, patients were asked",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 182,
+    "question": "Does elective re-siting of intravenous cannulae decrease peripheral thrombophlebitis?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 183,
+    "question": "Are pelvic anatomical structures in danger during arthroscopic acetabular labral repair?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that there is a risk",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes, there is a risk of injury to pel",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 184,
+    "question": "Does short-term treatment with proton pump inhibitors cause rebound aggravation of symptoms?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe, based on the excerpt provided,",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests a potential for rebound",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 185,
+    "question": "Aromatase inhibitor-related musculoskeletal symptoms: is preventing osteoporosis the key to eliminating these symptoms?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe. The study suggests a correlation between Arom",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study suggests that patients receiving Arom",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Maybe. While aromatase inhibitors can lead",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 186,
+    "question": "Is vitamin D insufficiency or deficiency related to the development of osteochondritis dissecans?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The study found that a distinct vitamin",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 187,
+    "question": "Is there an intrauterine influence on obesity?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe. The abstract suggests that the study is investig",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Based on the excerpt provided, the research",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 188,
+    "question": "Is alexithymia a risk factor for unexplained physical symptoms in general medical outpatients?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the information provided in the text",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the excerpt provided, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Based on the information provided, it appears that the",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 189,
+    "question": "Can emergency physicians accurately and reliably assess acute vertigo in the emergency department?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe (based on the provided abstract, the study",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes, based on the provided excerpt,",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided context, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 190,
+    "question": "Is resected stomach volume related to weight loss after laparoscopic sleeve gastrectomy?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 191,
+    "question": "Does frozen section alter surgical management of multinodular thyroid disease?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "simplified": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "No, based on the provided data, it appears",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 192,
+    "question": "Are there effects of intrauterine cocaine exposure on delinquency during early adolescence?",
+    "correct_answer": "no",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe. The study suggests that 26%",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that the study is",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe. The research paper suggests that there might be",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Yes, based on the provided context, the study",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 193,
+    "question": "Attenuation of ischemia/reperfusion-induced ovarian damage in rats: does edaravone offer protection?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe (based on the abstract provided, further analysis",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes, based on the information provided, it appears",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 194,
+    "question": "Does age moderate the effect of personality disorder on coping style in psychiatric inpatients?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it appears",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "The study does not explicitly state that age moderates",
+        "extracted": "no"
+      }
+    }
+  },
+  {
+    "id": 195,
+    "question": "Global Longitudinal Pathway: has medical education curriculum influenced medical students' skills and attitudes toward culturally diverse populations?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "direct": {
+        "raw": "Yes",
+        "extracted": "yes"
+      }
+    }
+  },
+  {
+    "id": 196,
+    "question": "Eyelid-parotid metastasis: do we screen for coexisting masses?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it seems",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe\n\nThe cases you've described suggest",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 197,
+    "question": "Measurement of head and neck paragangliomas: is volumetric analysis worth the effort?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe, as the text suggests that the automated segment",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Based on the provided excerpt, it seems",
+        "extracted": "UNKNOWN"
+      },
+      "direct": {
+        "raw": "Maybe. The study suggests that while linear dimension and",
+        "extracted": "maybe"
+      }
+    }
+  },
+  {
+    "id": 198,
+    "question": "Is irritable bowel syndrome a diagnosis of exclusion?",
+    "correct_answer": "maybe",
+    "responses": {
+      "original": {
+        "raw": "No",
+        "extracted": "no"
+      },
+      "formal": {
+        "raw": "Maybe (based on the abstract, it seems that",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Maybe (based on the text, it seems that",
+        "extracted": "maybe"
+      },
+      "roleplay": {
+        "raw": "Maybe, but the excerpt suggests that I",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided context, the survey results suggest",
+        "extracted": "UNKNOWN"
+      }
+    }
+  },
+  {
+    "id": 199,
+    "question": "Does either obesity or OSA severity influence the response of autotitrating CPAP machines in very obese subjects?",
+    "correct_answer": "yes",
+    "responses": {
+      "original": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "formal": {
+        "raw": "Maybe",
+        "extracted": "maybe"
+      },
+      "simplified": {
+        "raw": "Yes",
+        "extracted": "yes"
+      },
+      "roleplay": {
+        "raw": "Maybe. The excerpt suggests that a correlation",
+        "extracted": "maybe"
+      },
+      "direct": {
+        "raw": "Based on the provided context, it seems that there",
+        "extracted": "UNKNOWN"
+      }
+    }
+  }
+]
