@@ -1,0 +1,201 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float}
+\geometry{margin=1in}
+\doublespacing
+
+\title{\textbf{Prompt Sensitivity and Answer Consistency of Small
+Open-Source Large Language Models on Clinical Question
+Answering: Implications for Low-Resource Healthcare Deployment}}
+
+\author{Shravani Hariprasad\\
+\textit{Independent Researcher}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+To be written last.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+\section{Related Work}
+
+\section{Methods}
+
+\subsection{Datasets}
+
+We evaluated model consistency and accuracy using three established 
+clinical question answering benchmarks. MedQA \citep{jin2021disease} 
+contains multiple-choice questions derived from the United States Medical 
+Licensing Examination (USMLE), representing clinical knowledge required 
+for medical licensure. MedMCQA \citep{pal2022medmcqa} consists of 
+multiple-choice questions from Indian medical entrance examinations 
+(AIIMS/NEET), covering diverse specialties including pharmacology, 
+anatomy, and pathology, with subject labels enabling specialty-level 
+analysis. PubMedQA \citep{jin2019pubmedqa} presents biomedical research 
+questions paired with PubMed abstracts, requiring yes, no, or maybe 
+answers based on provided evidence rather than memorized knowledge. 
+From each dataset we randomly sampled 200 questions using a fixed 
+random seed (seed=42) to ensure reproducibility, yielding 600 
+questions total across three distinct clinical reasoning contexts.
+
+\subsection{Models}
+
+We evaluated four open-source small language models spanning a 
+parameter range of 2B to 7B to examine the effect of model scale 
+on prompt consistency. The selected models were Phi-3 Mini 
+\citep{abdin2024phi3} (3.8B parameters, Microsoft), Llama 3.2 
+\citep{grattafiori2024llama} (3B parameters, Meta), Gemma 2 
+\citep{team2024gemma} (2B parameters, Google), and Mistral 
+\citep{jiang2023mistral} (7B parameters, Mistral AI). These models 
+were selected because they are fully open-source, capable of running 
+on consumer CPU hardware without GPU acceleration, and represent 
+distinct model families — enabling cross-architecture comparison 
+of consistency behavior. All inference was conducted locally using 
+Ollama without any domain-specific fine-tuning, ensuring that 
+observed consistency patterns reflect inherent model behavior 
+rather than task-specific adaptation.
+
+\subsection{Prompt Variation Design}
+
+To systematically evaluate how small language models respond to 
+differently worded clinical prompts, we designed a prompt variation 
+engine that generates five semantically equivalent but stylistically 
+distinct prompt formulations for each question.
+
+\begin{itemize}
+    \item \textbf{Original:} The question exactly as it appears in 
+    the dataset, serving as the baseline condition.
+    
+    \item \textbf{Formal:} Rephrased in clinical academic language 
+    to simulate how a healthcare professional might query a model 
+    in a structured setting.
+    
+    \item \textbf{Simplified:} Written in plain everyday language, 
+    simulating how a non-expert or patient might pose the same 
+    question.
+    
+    \item \textbf{Roleplay:} The model is instructed to respond as 
+    a practicing physician, testing whether persona-based prompting 
+    affects answer consistency.
+    
+    \item \textbf{Direct:} Presents only the bare question and 
+    answer options with minimal framing, assessing model behavior 
+    without explicit instruction.
+\end{itemize}
+
+Each question across all three datasets was transformed into these 
+five prompt styles, yielding 3,000 total prompts (600 questions 
+$\times$ 5 styles). By keeping semantic content identical across 
+variations, any differences in model output can be attributed to 
+prompt sensitivity rather than question content.
+
+\subsection{Inference Setup}
+
+All models were served locally via Ollama and queried through its 
+REST API. Inference was conducted with temperature set to 0 and a 
+maximum token limit of 10 tokens per response. Setting temperature 
+to 0 ensures fully deterministic outputs — the model produces 
+identical responses for identical prompts — which is essential for 
+isolating prompt sensitivity as the source of answer variation 
+rather than stochastic sampling. Limiting output to 10 tokens 
+prevents verbose responses and constrains the model to produce 
+the single-letter (A, B, C, or D) or keyword (yes, no, or maybe) 
+answer required by each dataset format.
+
+Model responses were parsed using regular expression extraction. 
+For multiple-choice datasets (MedQA and MedMCQA), the extractor 
+identified the first standalone letter A, B, C, or D in the 
+response. For PubMedQA, the extractor identified the first 
+occurrence of yes, no, or maybe. Responses that did not contain 
+a valid answer were categorized as \texttt{UNKNOWN}, representing 
+instruction-following failures. All responses — including 
+\texttt{UNKNOWN} outputs — were retained for consistency scoring 
+and analysis.
+
+\subsection{Evaluation Metrics}
+
+We defined four complementary metrics to quantify model behavior 
+under prompt variation.
+
+\textbf{Consistency Score.} For each question, we identify the 
+majority answer — the response selected most frequently across 
+the five prompt styles — and compute the proportion of styles 
+that agree with it. Formally, given responses 
+$r_1, r_2, r_3, r_4, r_5$ for a question, the consistency 
+score is:
+
+\begin{equation}
+    C = \frac{\sum_{i=1}^{5} \mathbf{1}[r_i = \hat{r}]}{5}
+\end{equation}
+
+where $\hat{r}$ is the majority answer and $\mathbf{1}[\cdot]$ 
+is the indicator function. A score of 1.0 indicates perfect 
+consistency across all prompt styles; a score of 0.2 indicates 
+maximum inconsistency. For example, responses [A, B, B, B, A] 
+yield a majority answer of B and a consistency score of 3/5 = 0.60.
+
+\textbf{Overall Accuracy.} The majority answer for each question 
+is compared against the dataset ground-truth label, reflecting 
+task-level correctness while accounting for variability across 
+prompt styles.
+
+\textbf{Per-Style Accuracy.} Accuracy is computed separately 
+for each prompt style (original, formal, simplified, roleplay, 
+direct), enabling identification of which formulations the model 
+handles most and least reliably.
+
+\textbf{UNKNOWN Rate.} The proportion of responses that do not 
+contain a valid answer option (A--D or yes/no/maybe), representing 
+instruction-following failures that undermine clinical reliability.
+
+Together these metrics provide a holistic assessment of model 
+behavior: a model may be highly consistent but consistently wrong, 
+accurate only under specific prompt styles, or prone to 
+instruction-following failures. Evaluating any single metric 
+in isolation would obscure these clinically relevant failure modes.
+
+\section{Results}
+
+\subsection{Overall Consistency and Accuracy}
+
+\subsection{Effect of Prompt Style on Accuracy}
+
+\subsection{Instruction-Following Failure Rate}
+
+\subsection{Consistency Versus Accuracy Relationship}
+
+\section{Discussion}
+
+\subsection{Consistency and Accuracy are Independent Metrics}
+
+\subsection{Roleplay Prompts Consistently Underperform}
+
+\subsection{Implications for Low-Resource Healthcare Deployment}
+
+\subsection{Limitations}
+
+\subsection{Future Work}
+
+\section{Conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
