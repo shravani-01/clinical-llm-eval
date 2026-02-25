@@ -25,7 +25,57 @@ Answering: Implications for Low-Resource Healthcare Deployment}}
 \maketitle
 
 \begin{abstract}
-To be written last.
+
+\textbf{Background:} Artificial intelligence is increasingly 
+deployed in healthcare workflows, and small open-source language 
+models are gaining attention as viable tools for low-resource 
+settings where cloud infrastructure is unavailable. Despite 
+their growing accessibility, the reliability of these models 
+— particularly the stability of their outputs under different 
+phrasings of the same clinical question — remains poorly 
+understood.
+
+\textbf{Objective:} This study systematically evaluates prompt 
+sensitivity and answer consistency in small open-source language 
+models on clinical question answering benchmarks, with 
+implications for low-resource healthcare deployment.
+
+\textbf{Methods:} We evaluated four open-source models — 
+Gemma 2 (2B), Phi-3 Mini (3.8B), Llama 3.2 (3B), and 
+Mistral 7B — across three clinical question answering datasets 
+(MedQA, MedMCQA, and PubMedQA), sampling 200 questions from 
+each. Each question was presented in five prompt styles 
+(original, formal, simplified, roleplay, and direct). We 
+measured a majority-based consistency score, overall and 
+per-style accuracy, and instruction-following failure rate 
+(UNKNOWN rate). All inference was conducted locally on 
+consumer CPU hardware without domain-specific fine-tuning.
+
+\textbf{Results:} Consistency and accuracy were largely 
+independent across models and datasets. Gemma 2 achieved 
+the highest consistency scores (0.845--0.888) but the lowest 
+accuracy (33.0--43.5\%), while Llama 3.2 demonstrated 
+moderate consistency (0.774--0.807) alongside the highest 
+accuracy (49.0--65.0\%). Roleplay prompts consistently 
+reduced accuracy across all models and datasets, with 
+Phi-3 Mini showing the largest decline of 21.5 percentage 
+points on MedQA. Instruction-following failure rates varied 
+by model and were not determined by parameter count, with 
+Phi-3 Mini exhibiting the highest UNKNOWN rate at 10.5\% 
+on MedQA.
+
+\textbf{Conclusions:} High consistency does not imply 
+correctness in small clinical language models — models can 
+be reliably wrong, representing a particularly dangerous 
+failure mode in clinical decision support. Roleplay prompt 
+styles should be avoided in healthcare AI applications. 
+Among models evaluated, Llama 3.2 demonstrated the strongest 
+balance of accuracy and reliability for low-resource 
+deployment. These findings highlight the necessity of 
+multidimensional evaluation frameworks that assess 
+consistency, accuracy, and instruction adherence jointly 
+for safe clinical AI deployment.
+
 \end{abstract}
 
 \newpage
