@@ -565,6 +565,45 @@ rigour and real-world constraints.
 
 \section{Conclusion}
 
+In this study, we systematically evaluated prompt sensitivity 
+in four small, CPU-runnable open-source language models 
+(2B--7B parameters) across three clinical question answering 
+datasets using five controlled prompt style variations, 
+yielding 3,000 total evaluation instances.
+
+We report three principal findings. First, consistency and 
+accuracy are independent metrics: models that achieve high 
+consistency are not necessarily more accurate, with Gemma 2 
+demonstrating the most pronounced case of reliable 
+incorrectness — achieving the highest consistency scores 
+while recording the lowest accuracy across all datasets. 
+Second, roleplay-style prompts consistently reduced accuracy 
+across all models and datasets, suggesting that persona-based 
+framing introduces systematic instability in clinical 
+reasoning tasks and should be avoided in healthcare AI 
+prompt design. Third, instruction-following failures varied 
+substantially across models and were not determined by 
+parameter count alone, indicating that model size is an 
+insufficient proxy for deployment reliability under 
+hardware constraints.
+
+Taken together, these findings demonstrate that consistency 
+alone cannot serve as a proxy for clinical reliability. 
+Models that appear stable under prompt variation may still 
+pose significant patient safety risks if their answers are 
+systematically incorrect. Safe deployment of AI in clinical 
+settings — particularly in low-resource environments where 
+human oversight may be limited — requires joint evaluation 
+of accuracy, consistency, and instruction adherence.
+
+We call on the research community to move beyond 
+accuracy-only evaluation frameworks for clinical AI and 
+adopt multidimensional assessment approaches that reflect 
+the reliability requirements of real-world healthcare 
+deployment. The evaluation framework, datasets, and code 
+introduced in this study are publicly available to support 
+reproducibility and future research in this direction.
+
 \bibliographystyle{plainnat}
 \bibliography{references}
 
