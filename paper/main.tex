@@ -34,9 +34,91 @@ To be written last.
 
 \section{Introduction}
 
-\section{Related Work}
+Artificial intelligence is increasingly being integrated into 
+healthcare workflows, from clinical decision support to 
+exam-style medical question answering. While much attention 
+has focused on large, cloud-based models, smaller open-source 
+language models are gaining importance because they can run 
+locally on standard CPUs, making them viable for rural clinics, 
+community hospitals, and low-resource health systems with 
+limited infrastructure \citep{garg2024slm}. However, as these 
+smaller models become more accessible for real-world deployment, 
+questions about their reliability become critical. In clinical 
+settings, even small inaccuracies can have significant 
+consequences, and the safety of AI systems depends not only 
+on their overall performance but on how stable and predictable 
+their outputs are under different conditions. Despite rapid 
+adoption, the reliability of small, locally deployable models 
+in healthcare remains insufficiently studied.
 
-\section{Methods}
+Most existing evaluations of clinical language models focus 
+primarily on accuracy — whether a model selects the correct 
+answer on a given benchmark \citep{bedi2025systematic}. 
+However, accuracy alone does not capture how stable a model's 
+outputs are when the same clinical question is phrased 
+differently. In safety-critical domains such as healthcare, 
+this distinction matters: a model that gives different answers 
+depending on how a question is worded cannot be considered 
+reliable, regardless of its aggregate accuracy score.
+
+To our knowledge, no prior study has systematically examined 
+whether small, CPU-runnable models provide consistent answers 
+under controlled prompt variation in clinical settings. 
+The CLEVER framework \citep{cleverjmir2025} evaluates clinical 
+LLM outputs through physician preference but does not assess 
+response stability across prompt reformulations. Ngweta et al. 
+\citep{ngweta2024robustness} quantify prompt brittleness in 
+general NLP tasks but do not examine clinical datasets or 
+safety implications. Kim et al. \citep{kim2025hallucination} 
+demonstrate that foundation models frequently produce confident 
+but incorrect medical outputs, yet do not empirically measure 
+variability under prompt changes. Recent surveys on small 
+language models in healthcare \citep{garg2024slm} discuss 
+efficiency and deployment tradeoffs without analysing answer 
+consistency as a reliability dimension. This study addresses 
+that gap directly.
+
+In this work, we systematically evaluate prompt sensitivity 
+in four open-source small language models — Phi-3 Mini (3.8B), 
+Llama 3.2 (3B), Gemma 2 (2B), and Mistral 7B — across three 
+established clinical question answering benchmarks (MedQA, 
+MedMCQA, and PubMedQA) using five controlled prompt styles 
+designed to simulate realistic query reformulation. We 
+introduce a quantitative consistency score that measures how 
+often a model produces the same answer across prompt 
+variations for the same question, and analyse this alongside 
+overall accuracy, per-style accuracy, and instruction-following 
+failure rates. All experiments were conducted locally on 
+consumer CPU hardware using unmodified base models without 
+medical fine-tuning, reflecting realistic deployment conditions 
+in low-resource healthcare settings.
+
+We report three central findings. First, consistency and 
+accuracy are independent metrics: models that produce highly 
+stable answers across prompt variations are not necessarily 
+more correct, with Gemma 2 demonstrating the clearest case 
+of high consistency alongside low accuracy. Second, roleplay 
+prompt styles systematically reduce performance across all 
+models and datasets, indicating that persona-based framing 
+negatively affects clinical question answering reliability. 
+Third, instruction-following failure rates vary independently 
+of model size, demonstrating that larger parameter counts 
+do not guarantee safer or more dependable outputs under 
+constrained deployment conditions.
+
+The remainder of this paper is structured as follows. 
+Section~\ref{sec:related} reviews related work on clinical 
+LLM evaluation, prompt sensitivity, and small language models 
+in healthcare. Section~\ref{sec:methods} describes our 
+datasets, models, prompt variation design, inference setup, 
+and evaluation metrics. Section~\ref{sec:results} presents 
+experimental results. Section~\ref{sec:discussion} discusses 
+clinical implications, limitations, and future directions. 
+Section~\ref{sec:conclusion} concludes the paper.
+
+\section{Related Work}\label{sec:related}
+
+\section{Methods}\label{sec:methods}
 
 \subsection{Datasets}
 
@@ -171,7 +253,7 @@ accurate only under specific prompt styles, or prone to
 instruction-following failures. Evaluating any single metric 
 in isolation would obscure these clinically relevant failure modes.
 
-\section{Results}
+\section{Results}\label{sec:results}
 
 \subsection{Overall Consistency and Accuracy}
 
@@ -339,7 +421,7 @@ joint evaluation of both consistency and accuracy.
     \label{fig:boxplot}
 \end{figure}
 
-\section{Discussion}
+\section{Discussion}\label{sec:discussion}
 
 \subsection{Consistency and Accuracy are Independent Metrics}
 
@@ -563,7 +645,7 @@ advance this work from controlled benchmarking toward safe,
 deployable clinical AI systems grounded in both technical 
 rigour and real-world constraints.
 
-\section{Conclusion}
+\section{Conclusion}\label{sec:conclusion}
 
 In this study, we systematically evaluated prompt sensitivity 
 in four small, CPU-runnable open-source language models 
