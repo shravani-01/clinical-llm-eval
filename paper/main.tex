@@ -343,13 +343,225 @@ joint evaluation of both consistency and accuracy.
 
 \subsection{Consistency and Accuracy are Independent Metrics}
 
+A central finding of this study is that consistency and accuracy 
+represent independent dimensions of small language model performance 
+in clinical question answering. While prior evaluations of clinical 
+AI have predominantly focused on accuracy as the primary metric 
+\citep{bedi2025systematic}, our results demonstrate that a model 
+can achieve high consistency while remaining systematically 
+inaccurate — a failure mode we term \textit{reliable incorrectness}.
+
+Gemma 2 illustrates this most clearly, achieving the highest 
+mean consistency scores across all datasets (0.845--0.888) while 
+recording the lowest overall accuracy (33.0--43.5\%). This pattern 
+suggests that the model has learned stable response tendencies that 
+are nonetheless clinically wrong.
+
+The danger of reliable incorrectness is as much psychological as 
+technical. Consider a primary care physician using an AI assistant 
+to support diagnostic reasoning. If the model returns the same 
+answer regardless of how a question is phrased, this repetition 
+creates an illusion of reliability. A clinician might reason: 
+``it keeps suggesting pulmonary embolism — it must be confident.'' 
+That apparent stability feels reassuring. But if the correct 
+diagnosis is pneumonia, the model's consistency actively reinforces 
+a false conclusion. Over time, clinicians may develop misplaced 
+trust in systems that appear stable and decisive without recognising 
+that the stability reflects systematic error rather than clinical 
+knowledge. In practice, this could translate into repeated 
+misdiagnoses, inappropriate investigations, or delayed treatment 
+— not because the model behaves randomly, but because it is 
+confidently and predictably incorrect.
+
+This finding aligns with Kim et al. \citep{kim2025hallucination}, 
+who demonstrate that foundation models frequently produce 
+hallucinations with high apparent confidence, and that clinicians 
+consider such outputs particularly dangerous precisely because 
+they are difficult to detect. Our results extend this concern 
+to the domain of prompt sensitivity: a model that produces 
+consistent but wrong answers across varied prompt formulations 
+compounds this risk by appearing robust to rephrasing.
+
+These observations underscore that accuracy and consistency must 
+be evaluated jointly in any clinical AI assessment framework. 
+Neither metric alone is sufficient to characterise the safety 
+profile of a model intended for healthcare deployment.
+
 \subsection{Roleplay Prompts Consistently Underperform}
+
+Across all four models and three datasets, roleplay-style prompts 
+consistently produced lower accuracy than direct or original 
+question formats. The most pronounced decline was observed in 
+Phi-3 Mini on MedQA, where roleplay accuracy dropped 21.5 
+percentage points below the best-performing style. Critically, 
+this pattern was consistent across all model families tested, 
+suggesting a systematic rather than model-specific phenomenon.
+
+We propose that roleplay prompts introduce a form of task 
+interference that is particularly detrimental for small language 
+models. When a prompt begins with persona framing such as 
+``You are a senior physician taking a licensing examination,'' 
+the model must simultaneously interpret and simulate a clinical 
+identity while reasoning through a structured medical question. 
+For smaller models with limited representational capacity, 
+this dual requirement may dilute attention from the core 
+reasoning task. Furthermore, persona-based prompts may activate 
+patterns learned from conversational or narrative training data 
+rather than the structured exam-style reasoning required for 
+clinical QA benchmarks — effectively shifting the task from 
+question answering to performance-based text generation.
+
+This finding has direct practical implications. Prompt engineering 
+guidelines for clinical AI systems often recommend persona framing 
+to make outputs sound more authoritative or clinically appropriate 
+\citep{white2023prompt}. Our results suggest that for small 
+open-source models, such framing may paradoxically reduce factual 
+reliability. Developers building clinical decision support tools 
+on small language models should favour minimal, direct prompt 
+formulations over persona-based instructions.
+
+This observation also extends findings from Ngweta et al. 
+\citep{ngweta2024robustness}, who demonstrated that prompt 
+format changes cause measurable performance variation in general 
+NLP tasks. Our results show that in clinical settings, one 
+specific format — roleplay — is systematically and substantially 
+more harmful than others, representing a concrete and actionable 
+finding for healthcare AI deployment.
 
 \subsection{Implications for Low-Resource Healthcare Deployment}
 
+A primary motivation for this study was the practical challenge 
+of deploying AI in resource-constrained healthcare environments. 
+Many rural clinics, community hospitals, and health systems in 
+low-income settings lack access to GPU infrastructure, reliable 
+high-speed internet, or cloud-based AI services. In these 
+contexts, locally deployable open-source models in the 2B--7B 
+parameter range represent a more realistic and equitable 
+alternative to large proprietary systems. Our experimental 
+design intentionally reflected these constraints: all models 
+were evaluated on consumer CPU hardware without domain-specific 
+fine-tuning, simulating realistic deployment conditions rather 
+than idealised research environments.
+
+Our findings provide concrete guidance for model selection in 
+such settings. Although Gemma 2 demonstrated the highest 
+consistency scores, its substantially lower accuracy suggests 
+it may systematically mislead clinicians — a risk that is 
+amplified in low-oversight environments where AI outputs may 
+not be routinely verified. Mistral 7B, despite being the 
+largest model evaluated, did not clearly outperform smaller 
+alternatives and exhibited unexpected instruction-following 
+failures, suggesting that larger parameter counts do not 
+automatically justify greater hardware demands.
+
+Llama 3.2 (3B) emerged as the most balanced candidate across 
+our evaluation criteria, achieving the highest overall accuracy 
+(49.0--65.0\%), moderate consistency, and among the lowest 
+instruction-following failure rates. For low-resource healthcare 
+deployment scenarios where clinician oversight may be limited, 
+a model offering strong accuracy and reliable instruction 
+adherence is preferable to one that maximises consistency 
+at the expense of correctness.
+
+More broadly, our results suggest that deployment decisions 
+for clinical AI systems should be guided by joint evaluation 
+of accuracy, consistency, and instruction compliance rather 
+than any single metric. In settings where errors carry direct 
+patient safety implications, the cost of systematic 
+incorrectness — even when delivered consistently — outweighs 
+the benefit of apparent stability. This study provides a 
+practical evaluation framework for low-resource healthcare 
+AI deployment that can be reproduced without specialised 
+infrastructure, making it accessible to researchers and 
+practitioners in exactly the settings it is designed to serve.
+
 \subsection{Limitations}
 
+Several limitations should be considered when interpreting 
+these findings. First, we sampled 200 questions per dataset, 
+which provides a computationally feasible and reproducible 
+evaluation but may not fully capture the diversity of each 
+benchmark. Second, the three datasets used — MedQA, MedMCQA, 
+and PubMedQA — focus primarily on structured examination-style 
+and research-based questions, which may not reflect the 
+complexity of real-world clinical dialogue or unstructured 
+patient interactions.
+
+Third, we did not conduct human clinical evaluation to assess 
+whether consistent but incorrect model outputs would 
+meaningfully influence physician decision-making in practice. 
+Such evaluation would strengthen the clinical validity of our 
+findings but was beyond the scope of this study. Fourth, all 
+models were evaluated without domain-specific fine-tuning, 
+which may underestimate performance achievable through medical 
+adaptation techniques such as instruction tuning or 
+retrieval-augmented generation \citep{lewis2020rag}.
+
+Fifth, our evaluation was restricted to multiple-choice and 
+yes/no/maybe answer formats, whereas real clinical environments 
+frequently involve open-ended reasoning, differential diagnosis, 
+and contextual patient data. Sixth, hardware constraints 
+limited our evaluation to models in the 2B--7B parameter range 
+running on consumer CPU hardware, precluding direct comparison 
+with larger proprietary systems such as GPT-4 or Claude. 
+Finally, while our five prompt styles were designed to simulate 
+realistic variation in clinical query formulation, they do not 
+exhaust the full range of phrasings a clinician might use in 
+practice.
+
+Together, these limitations suggest that our results should 
+be interpreted as an initial systematic analysis of prompt 
+sensitivity under constrained deployment conditions rather 
+than a comprehensive evaluation of all clinical AI scenarios. 
+Future work should address these gaps through larger samples, 
+broader dataset coverage, and human clinical validation studies.
+
 \subsection{Future Work}
+
+Several directions emerge naturally from this study. First, 
+future research should evaluate whether domain-specific 
+fine-tuning of small models on medical corpora reduces prompt 
+sensitivity and improves consistency. If fine-tuned models 
+demonstrate stronger stability under prompt variation, this 
+would suggest that training data alignment — rather than 
+model architecture — is the primary driver of inconsistency.
+
+Second, integrating retrieval-augmented generation (RAG) 
+pipelines with small clinical models represents a promising 
+direction. RAG-augmented systems ground responses in 
+retrieved evidence, which may reduce both factual 
+hallucinations and prompt-induced answer variation. Testing 
+whether external knowledge retrieval mitigates the 
+consistency-accuracy tradeoff observed in this study would 
+be a natural extension \citep{lewis2020rag}.
+
+Third, evaluating larger open-source and proprietary models 
+— when hardware resources permit — would clarify whether 
+the independence between consistency and accuracy observed 
+here persists at greater parameter scales, or whether it 
+is specific to sub-7B models.
+
+Beyond technical extensions, human-centered validation is 
+essential. A controlled clinical study involving practicing 
+physicians could assess how consistent but incorrect model 
+outputs influence clinical reasoning, trust calibration, 
+and decision-making in realistic workflows. Such a study 
+would strengthen the ecological validity of the consistency 
+metric introduced here.
+
+Translationally, our findings support the development of 
+a lightweight clinical decision support prototype for 
+general practitioners in low-resource settings, built 
+around the model demonstrating the strongest balance of 
+accuracy and instruction adherence, with prompt engineering 
+guardrails informed by our sensitivity analysis. Finally, 
+extending this evaluation framework to multilingual datasets 
+and non-English clinical benchmarks is critical, as many 
+low-resource healthcare environments operate outside 
+English-dominant settings. Together, these directions would 
+advance this work from controlled benchmarking toward safe, 
+deployable clinical AI systems grounded in both technical 
+rigour and real-world constraints.
 
 \section{Conclusion}
 
