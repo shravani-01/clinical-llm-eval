@@ -118,6 +118,55 @@ Section~\ref{sec:conclusion} concludes the paper.
 
 \section{Related Work}\label{sec:related}
 
+Most prior work evaluating large language models in healthcare 
+has focused on accuracy, reasoning quality, and output safety. 
+The CLEVER framework \citep{cleverjmir2025} evaluates clinical 
+LLM outputs through blinded physician preference on tasks 
+including summarisation and question answering, demonstrating 
+that smaller domain-specific models can outperform larger 
+general-purpose systems on clinically relevant criteria. 
+Kim et al. \citep{kim2025hallucination} systematically examine 
+medical hallucinations in foundation models, highlighting the 
+dangers of confident but incorrect outputs and their potential 
+to mislead clinical decision-making. While these studies 
+provide critical insights into output quality and safety, 
+neither investigates whether models produce consistent answers 
+when the same clinical question is phrased differently — 
+leaving prompt sensitivity largely unexplored in healthcare AI.
+
+Growing interest in small, CPU-runnable language models has 
+emerged in response to the practical constraints of healthcare 
+deployment in low-resource settings. Garg et al. 
+\citep{garg2024slm} survey small language models in healthcare, 
+documenting their efficiency advantages and suitability for 
+local deployment under limited infrastructure. The MedQA 
+\citep{jin2021disease}, MedMCQA \citep{pal2022medmcqa}, and 
+PubMedQA \citep{jin2019pubmedqa} benchmarks provide standardised 
+evaluation tasks across diverse clinical question formats, and 
+have been widely adopted for assessing compact models. These 
+works collectively advance the case for small model deployment 
+in accessible healthcare AI, but focus primarily on task 
+accuracy and computational efficiency rather than answer 
+stability under prompt variation.
+
+Prompt sensitivity — the tendency of model outputs to change 
+in response to semantically equivalent but stylistically 
+different inputs — has been studied in general NLP research. 
+Ngweta et al. \citep{ngweta2024robustness} demonstrate that 
+minor changes in prompt formatting cause measurable performance 
+fluctuations across multiple models and benchmarks, and propose 
+mitigation strategies to reduce this brittleness. However, 
+such investigations have not been extended to clinical question 
+answering, and the safety implications of prompt sensitivity 
+for healthcare AI deployment remain unexamined.
+
+Taken together, these lines of research motivate the present 
+study, which systematically evaluates prompt sensitivity and 
+answer consistency in small open-source clinical language 
+models — complementing prior work on accuracy, hallucination, 
+and general prompt robustness with a focus on reliability 
+under realistic deployment constraints.
+
 \section{Methods}\label{sec:methods}
 
 \subsection{Datasets}
