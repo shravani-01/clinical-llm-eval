@@ -15,7 +15,7 @@ os.makedirs("figures", exist_ok=True)
 
 df = pd.read_csv("results/summary/master_summary.csv")
 
-MODELS = ["phi3_mini", "llama3.2", "gemma2", "mistral"]
+MODELS = ["phi3_mini", "llama3.2", "gemma2", "mistral", "meditron"]
 DATASETS = ["medqa", "medmcqa", "pubmedqa"]
 STYLES = ["original", "formal", "simplified", "roleplay", "direct"]
 
@@ -23,7 +23,8 @@ MODEL_LABELS = {
     "phi3_mini": "Phi-3 Mini\n(3.8B)",
     "llama3.2":  "Llama 3.2\n(3B)",
     "gemma2":    "Gemma 2\n(2B)",
-    "mistral":   "Mistral\n(7B)"
+    "mistral":   "Mistral\n(7B)",
+    "meditron":  "Meditron\n(7B)*"
 }
 
 DATASET_LABELS = {
@@ -36,7 +37,8 @@ COLORS = {
     "phi3_mini": "#4C72B0",
     "llama3.2":  "#DD8452",
     "gemma2":    "#55A868",
-    "mistral":   "#C44E52"
+    "mistral":   "#C44E52",
+    "meditron":  "#8172B2"
 }
 
 plt.rcParams.update({
@@ -123,32 +125,75 @@ def fig2_accuracy_heatmap():
 # ── Figure 3: Consistency vs Accuracy scatter ────────────────────────────────
 
 def fig3_consistency_vs_accuracy():
-    fig, ax = plt.subplots(figsize=(8, 6))
+    fig, (ax_main, ax_inset) = plt.subplots(1, 2, 
+        figsize=(16, 7), 
+        gridspec_kw={'width_ratios': [3, 1]})
 
     for model in MODELS:
         mdf = df[df.model == model]
-        x = mdf["mean_consistency"].values
-        y = mdf["overall_accuracy"].values
-        ax.scatter(x, y, color=COLORS[model], s=120, zorder=5,
-                   label=MODEL_LABELS[model].replace("\n", " "))
-
-        # label each point with dataset name
+        
+        # Main plot — exclude Meditron PubMedQA outlier
         for _, row in mdf.iterrows():
-            ax.annotate(DATASET_LABELS[row["dataset"]].replace("\n", " "),
-                        (row["mean_consistency"], row["overall_accuracy"]),
-                        textcoords="offset points", xytext=(6, 4),
-                        fontsize=8, color=COLORS[model])
+            if model == "meditron" and row["dataset"] == "pubmedqa":
+                continue
+            ax_main.scatter(row["mean_consistency"], 
+                          row["overall_accuracy"],
+                          color=COLORS[model], s=150, zorder=5)
+            ax_main.annotate(
+                DATASET_LABELS[row["dataset"]].replace("\n", " "),
+                (row["mean_consistency"], row["overall_accuracy"]),
+                textcoords="offset points", xytext=(8, 5),
+                fontsize=8, color=COLORS[model])
 
-    ax.set_xlabel("Mean Consistency Score")
-    ax.set_ylabel("Overall Accuracy (%)")
-    ax.set_title("Figure 3: Consistency vs Accuracy — Are They Correlated?",
-                 fontweight="bold")
-    ax.legend(loc="lower right", fontsize=9)
-    ax.axvline(x=0.8, color="gray", linestyle="--", alpha=0.5,
-               label="Consistency=0.8 threshold")
-    ax.grid(True, alpha=0.3)
+        # Inset plot — only Meditron
+        if model == "meditron":
+            for _, row in mdf.iterrows():
+                ax_inset.scatter(row["mean_consistency"],
+                               row["overall_accuracy"],
+                               color=COLORS[model], s=150, zorder=5)
+                ax_inset.annotate(
+                    DATASET_LABELS[row["dataset"]].replace("\n"," "),
+                    (row["mean_consistency"], row["overall_accuracy"]),
+                    textcoords="offset points", xytext=(5, 5),
+                    fontsize=8, color=COLORS[model])
+
+    # Main plot formatting
+    ax_main.set_xlabel("Mean Consistency Score", fontsize=12)
+    ax_main.set_ylabel("Overall Accuracy (%)", fontsize=12)
+    ax_main.set_title("Instruction-Tuned Models", fontweight="bold")
+    ax_main.axvline(x=0.8, color="gray", linestyle="--", alpha=0.5)
+    ax_main.set_xlim(0.65, 0.95)
+    ax_main.set_ylim(25, 70)
+    ax_main.grid(True, alpha=0.3)
+
+    # Add legend to main plot
+    handles = [plt.scatter([], [], color=COLORS[m], s=100,
+               label=MODEL_LABELS[m].replace("\n", " "))
+               for m in MODELS]
+    ax_main.legend(handles=handles, loc="upper left", fontsize=9)
+
+    # Inset plot formatting
+    ax_inset.set_xlabel("Mean Consistency Score", fontsize=10)
+    ax_inset.set_ylabel("Overall Accuracy (%)", fontsize=10)
+    ax_inset.set_title("Meditron (7B)*\n(Not Instruction-Tuned)",
+                       fontweight="bold", fontsize=10)
+    ax_inset.grid(True, alpha=0.3)
+    ax_inset.set_xlim(-0.05, 0.9)
+    ax_inset.set_ylim(-2, 40)
+
+    # Add note
+    ax_inset.text(0.05, -1.5,
+                  "* Near-complete instruction\n"
+                  "  following failure on PubMedQA\n"
+                  "  (99% UNKNOWN rate)",
+                  fontsize=7, color="#8172B2",
+                  style="italic")
+
+    fig.suptitle("Figure 3: Consistency vs Accuracy — Are They Correlated?",
+                 fontweight="bold", fontsize=13)
     plt.tight_layout()
-    plt.savefig("figures/fig3_consistency_vs_accuracy.png", bbox_inches="tight")
+    plt.savefig("figures/fig3_consistency_vs_accuracy.png",
+                bbox_inches="tight")
     plt.close()
     print("  Saved fig3_consistency_vs_accuracy.png")
 

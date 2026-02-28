@@ -1,0 +1,201 @@
+id,question,correct_answer,majority_answer,is_accurate,consistency_score,unknown_rate,dataset,model,ans_original,correct_original,ans_formal,correct_formal,ans_simplified,correct_simplified,ans_roleplay,correct_roleplay,ans_direct,correct_direct
+0,Pap smears with glandular cell abnormalities: Are they detected by rapid prescre,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+1,Are patients with Werlhof's disease at increased risk for bleeding complications,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+2,Is there a connection between sublingual varices and hypertension?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+3,Does health information exchange reduce redundant imaging?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+4,The promise of specialty pharmaceuticals: are they worth the price?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+5,The colour of pain: can patients use colour to describe osteoarthritis pain?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+6,Is fluoroscopy essential for retrieval of lower ureteric stones?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+7,Increased neutrophil migratory activity after major trauma: a factor in the etio,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+8,Does the SCL 90-R obsessive-compulsive dimension identify cognitive impairments?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+9,Can transcranial direct current stimulation be useful in differentiating unrespo,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+10,Does prostate morphology affect outcomes after holmium laser enucleation?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+11,Injury and poisoning mortality among young men--are there any common factors ame,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+12,Are stroke patients' reports of home blood pressure readings reliable?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+13,Is endothelin-1 an aggravating factor in the development of acute pancreatitis?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+14,Is leptin involved in phagocytic NADPH oxidase overactivity in obesity?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+15,Are women who are treated for hypothyroidism at risk for pregnancy complications,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+16,Does high blood pressure reduce the risk of chronic low back pain?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+17,"Do the changes in the serum levels of IL-2, IL-4, TNFalpha, and IL-6 reflect the",YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+18,Ovarian torsion in children: is oophorectomy necessary?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+19,Transsphenoidal pituitary surgery in Cushing's disease: can we predict outcome?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+20,Metastatic carcinoma to the cervical nodes from an unknown head and neck primary,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+21,Quality of life in lung cancer patients: does socioeconomic status matter?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+22,Does somatostatin confer insulinostatic effects of neuromedin u in the rat pancr,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+23,Staging laparoscopy in patients with hepatocellular carcinoma: is it useful?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+24,Can bone thickness and inter-radicular space affect miniscrew placement in poste,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+25,Is oncoplastic surgery a contraindication for accelerated partial breast radiati,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+26,Do Electrochemiluminescence Assays Improve Prediction of Time to Type 1 Diabetes,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+27,Can patient coaching reduce racial/ethnic disparities in cancer pain control?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+28,Is intensive chemotherapy safe for rural cancer patients?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+29,Are IgM-enriched immunoglobulins an effective adjuvant in septic VLBW infants?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+30,Can multiple SNP testing in BRCA2 and BRCA1 female carriers be used to improve r,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+31,Locoregional opening of the rodent blood-brain barrier for paclitaxel using Nd:Y,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+32,Is coeliac disease screening in risk groups justified?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+33,Does loss of consciousness predict neuropsychological decrements after concussio,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+34,"Marital status, living arrangement and mortality: does the association vary by g",YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+35,Transesophageal echocardiographic assessment of left ventricular function in bra,YES,no,False,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,no,False
+36,Delayed diagnosis of anorectal malformations: are current guidelines sufficient?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+37,Are higher rates of depression in women accounted for by differential symptom re,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+38,"Laparoscopic myomectomy: do size, number, and location of the myomas form limiti",NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+39,Can predilatation in transcatheter aortic valve implantation be omitted?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+40,Volume change of uterine myomas during pregnancy: do myomas really grow?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+41,Vertical lines in distal esophageal mucosa (VLEM): a true endoscopic manifestati,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+42,Is half-dose contrast-enhanced three-dimensional MR angiography sufficient for t,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+43,"Malnutrition, a new inducer for arterial calcification in hemodialysis patients?",YES,yes,True,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,yes,True,UNKNOWN,False,UNKNOWN,False
+44,Can the prognosis of polymyalgia rheumatica be predicted at disease onset?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+45,Does open access publishing increase the impact of scientific articles?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+46,Are intraoperative precursor events associated with postoperative major adverse ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+47,Is ultrasound equal to X-ray in pediatric fracture diagnosis?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+48,Is an advance care planning model feasible in community palliative care?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+49,Are 99mTc leukocyte scintigraphy and SBFT studies useful in children suspected o,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+50,Do European people with type 1 diabetes consume a high atherogenic diet?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+51,Is digoxin use for cardiovascular disease associated with risk of prostate cance,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+52,Optimism and survival: does an optimistic outlook predict better survival at adv,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+53,Do teleoncology models of care enable safe delivery of chemotherapy in rural tow,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+54,Do nomograms designed to predict biochemical recurrence (BCR) do a better job of,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+55,Necrotizing fasciitis: an indication for hyperbaric oxygenation therapy?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+56,Has the use of complementary and alternative medicine therapies by U.S. adults w,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+57,Did Chile's traffic law reform push police enforcement?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+58,Does the use of atypical antipsychotics as adjunctive therapy in depression resu,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+59,The Omega-3 Index: a new risk factor for death from coronary heart disease?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+60,The nurse cystoscopist: a feasible option?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+61,Sternal fracture in growing children : A rare and often overlooked fracture?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+62,Could Adult European Pharmacoresistant Epilepsy Patients Be Treated With Higher ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+63,Three-dimensional ultrasound-validated large-core needle biopsy: is it a reliabl,YES,no,False,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,no,False,UNKNOWN,False,UNKNOWN,False
+64,Is portable ultrasonography accurate in the evaluation of Schanz pin placement d,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+65,Does normothermic normokalemic simultaneous antegrade/retrograde perfusion impro,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+66,Endovenous laser ablation in the treatment of small saphenous varicose veins: do,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+67,Can gingival crevicular blood be relied upon for assessment of blood glucose lev,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+68,Is a specialised training of phonological awareness indicated in every preschool,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+69,Does early migraine treatment shorten time to headache peak and reduce its sever,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+70,Department of Transportation vs self-reported data on motor vehicle collisions a,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+71,Is amoxapine an atypical antipsychotic?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+72,Should all patients be optimized to the same preoperative hemoglobin level to av,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+73,Can CT predict the level of CSF block in tuberculous hydrocephalus?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+74,Prescriptions as a proxy for asthma in children: a good choice?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+75,Do approved doctors and medical referees in the UK agree when assessing a seafar,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+76,Chemoradiation instead of surgery to treat mid and low rectal tumors: is it safe,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+77,Does diabetes mellitus influence the efficacy of FDG-PET in the diagnosis of cer,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+78,Do microbiological factors account for poor pregnancy outcome among unmarried pr,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+79,Does lunar position influence the time of delivery?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+80,Inpatient Pediatric Tonsillectomy: Does Hospital Type Affect Cost and Outcomes o,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+81,Does a colonoscopy after acute diverticulitis affect its management?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+82,Are increased carotid artery pulsatility and resistance indexes early signs of v,YES,yes,True,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,yes,True,UNKNOWN,False,UNKNOWN,False
+83,Do instrumental activities of daily living predict dementia at 1- and 2-year fol,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+84,Do familiar teammates request and accept more backup?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+85,Do adjuvant aromatase inhibitors increase the cardiovascular risk in postmenopau,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+86,Can autologous platelet-rich plasma gel enhance healing after surgical extractio,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+87,Does growth hormone replacement therapy reduce mortality in adults with growth h,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+88,Does laparoscopic cholecystectomy influence peri-sinusoidal cell activity?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+89,Can routinely collected ambulance data about assaults contribute to reduction in,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+90,Clinical identifiers for early-stage primary/idiopathic adhesive capsulitis: are,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+91,Lloyd-Davies position with Trendelenburg--a disaster waiting to happen?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+92,The HELPP syndrome--evidence of a possible systemic inflammatory response in pre,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+93,Does topical ropivacaine reduce the post-tonsillectomy morbidity in pediatric pa,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+94,Does base deficit predict mortality in patients with severe traumatic brain inju,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+95,Does having a regular primary care clinician improve quality of preventive care ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+96,Are high flow nasal cannulae noisier than bubble CPAP for preterm infants?,NO,no,True,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,no,True
+97,Does multi-modal cervical physical therapy improve tinnitus in patients with cer,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+98,Does a 4 diagram manual enable laypersons to operate the Laryngeal Mask Supreme®,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+99,Does SYNTAX score predict in-hospital outcomes in patients with ST elevation myo,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+100,Can serum be used for analyzing the EGFR mutation status in patients with advanc,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+101,Is scintigraphy a guideline method in determining amputation levels in diabetic ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+102,Does ossification of the posterior longitudinal ligament affect the neurological,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+103,Is breast cancer prognosis inherited?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+104,Does early discharge with nurse home visits affect adequacy of newborn metabolic,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+105,Can dentists recognize manipulated digital radiographs?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+106,Are WHO/UNAIDS/UNICEF-recommended replacement milks for infants of HIV-infected ,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+107,Is the h-index predictive of greater NIH funding success among academic radiolog,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+108,Is it necessary to insert a nasobiliary drainage tube routinely after endoscopic,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+109,Does radiotherapy around the time of pregnancy for Hodgkin's disease modify the ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+110,Can echocardiography and ECG discriminate hereditary transthyretin V30M amyloido,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+111,Does the sex of acute stroke patients influence the effectiveness of rt-PA?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+112,Does septoplasty change the dimensions of compensatory hypertrophy of the middle,NO,yes,False,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,yes,False,UNKNOWN,False,UNKNOWN,False
+113,Do ventricular arrhythmias in athletes subside over time?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+114,Is it Crohn's disease?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+115,Can dobutamine stress echocardiography induce cardiac troponin elevation?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+116,Are there risk factors that increase the rate of staple line leakage in patients,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+117,Is eligibility for a chemotherapy protocol a good prognostic factor for invasive,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+118,Is anorectal endosonography valuable in dyschesia?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+119,Proof of concept study: does fenofibrate have a role in sleep apnoea syndrome?,YES,no,False,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,no,False
+120,Can clinical supervision sustain our workforce in the current healthcare landsca,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+121,Are octogenarians at high risk for carotid endarterectomy?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+122,Is the 7th TNM edition suitable for biological predictor in early gastric cancer,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+123,Does Residency Selection Criteria Predict Performance in Orthopaedic Surgery Res,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+124,Estimation of basal metabolic rate in Chinese: are the current prediction equati,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+125,Are physicians meeting the needs of family caregivers of the frail elderly?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+126,Screening for gestational diabetes mellitus: are the criteria proposed by the in,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+127,The secular growth acceleration: does it appear during fetal life?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+128,Predicting admission at triage: are nurses better than a simple objective score?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+129,Two-year follow-up survey of patients with allergic contact dermatitis from an o,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+130,Reporting and interpreting red blood cell morphology: is there discordance betwe,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+131,Double reading of barium enemas: is it necessary?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+132,Are pectins involved in cold acclimation and de-acclimation of winter oil-seed r,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+133,Does gestational age misclassification explain the difference in birthweights fo,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+134,Does pediatric housestaff experience influence tests ordered for infants in the ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+135,Is there a correlation between androgens and sexual desire in women?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+136,Do patients with rheumatoid arthritis established on methotrexate and folic acid,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+137,Can 'high-risk' human papillomaviruses (HPVs) be detected in human breast milk?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+138,Amblyopia: is visual loss permanent?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+139,Is the combination with 2-methoxyestradiol able to reduce the dosages of chemoth,YES,no,False,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,no,False
+140,Is motion perception deficit in schizophrenia a consequence of eye-tracking abno,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+141,Is the international normalised ratio (INR) reliable?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+142,Longer term quality of life and outcome in stroke patients: is the Barthel index,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+143,Does responsibility affect the public's valuation of health care interventions?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+144,Is the determination of specific IgE against components using ISAC 112 a reprodu,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+145,Is endometrial polyp formation associated with increased expression of vascular ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+146,Does feeding tube insertion and its timing improve survival?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+147,Is there a role for endothelin-1 in the hemodynamic changes during hemodialysis?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+148,Do cytokine concentrations in pancreatic juice predict the presence of pancreati,YES,yes,True,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,yes,True,UNKNOWN,False,UNKNOWN,False
+149,Are UK radiologists satisfied with the training and support received in suspecte,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+150,Can static foot posture measurements predict regional plantar surface area?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+151,Can bisphosphonate treatment be stopped in a growing child with skeletal fragili,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+152,Can the Internet be used to improve sexual health awareness in web-wise young pe,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+153,Oral mucocele/ranula: Another human immunodeficiency virus-related salivary glan,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+154,Is laparoscopic sonography a reliable and sensitive procedure for staging colore,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+155,Laminoplasty outcomes: is there a difference between patients with degenerative ,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+156,Prostatic syndrome and pleural effusion: are they different diseases?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+157,Are there gender differences in the reasons why African Americans delay in seeki,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+158,Autoerotic asphyxiation: secret pleasure--lethal outcome?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+159,Is routine intraoperative frozen-section examination of sentinel lymph nodes in ,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+160,Prognosis of low-tone sudden deafness - does it inevitably progress to Meniere's,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+161,Antiretroviral therapy related adverse effects: Can sub-Saharan Africa cope with,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+162,A comparison of 500 prefilled textured saline breast implants versus 500 standar,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+163,Do foreign bodies migrate through the body towards the heart?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+164,Is bicompartmental knee arthroplasty more favourable to knee muscle strength and,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+165,Is there a role for fondaparinux in perioperative bridging?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+166,Is specialty care associated with improved survival of patients with congestive ,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+167,Comparative safety of infliximab and etanercept on the risk of serious infection,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+168,High cumulative insulin exposure: a risk factor of atherosclerosis in type 1 dia,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+169,Telemedicine and type 1 diabetes: is technology per se sufficient to improve gly,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+170,MR Diagnosis of Bone Metastases at 1.5 T and 3 T: Can STIR Imaging Be Omitted?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+171,Long-term significance of postictal psychotic episodes II. Are they predictive o,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+172,Does self-efficacy mediate the relationship between transformational leadership ,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+173,Do Indigenous Australians age prematurely?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+174,Dose end-tidal carbon dioxide measurement correlate with arterial carbon dioxide,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+175,Does pain intensity predict a poor opioid response in cancer patients?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+176,Does the Child Health Computing System adequately identify children with cerebra,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+177,Stage I non-small cell lung carcinoma: really an early stage?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+178,Can nurse-led preoperative education reduce anxiety and postoperative complicati,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+179,Is transurethral catheterisation the ideal method of bladder drainage?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+180,Does topical N-acetylcysteine application after myringotomy cause severe otorrhe,YES,no,False,0.2,0.8,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,no,False,UNKNOWN,False,UNKNOWN,False
+181,Patient comprehension of emergency department care and instructions: are patient,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+182,Does elective re-siting of intravenous cannulae decrease peripheral thrombophleb,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+183,Are pelvic anatomical structures in danger during arthroscopic acetabular labral,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+184,Does short-term treatment with proton pump inhibitors cause rebound aggravation ,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+185,Aromatase inhibitor-related musculoskeletal symptoms: is preventing osteoporosis,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+186,Is vitamin D insufficiency or deficiency related to the development of osteochon,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+187,Is there an intrauterine influence on obesity?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+188,Is alexithymia a risk factor for unexplained physical symptoms in general medica,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+189,Can emergency physicians accurately and reliably assess acute vertigo in the eme,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+190,Is resected stomach volume related to weight loss after laparoscopic sleeve gast,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+191,Does frozen section alter surgical management of multinodular thyroid disease?,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+192,Are there effects of intrauterine cocaine exposure on delinquency during early a,NO,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+193,Attenuation of ischemia/reperfusion-induced ovarian damage in rats: does edaravo,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+194,Does age moderate the effect of personality disorder on coping style in psychiat,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+195,Global Longitudinal Pathway: has medical education curriculum influenced medical,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+196,Eyelid-parotid metastasis: do we screen for coexisting masses?,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+197,Measurement of head and neck paragangliomas: is volumetric analysis worth the ef,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+198,Is irritable bowel syndrome a diagnosis of exclusion?,MAYBE,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False
+199,Does either obesity or OSA severity influence the response of autotitrating CPAP,YES,UNKNOWN,False,0.0,1.0,pubmedqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False

@@ -1,0 +1,204 @@
+id,question,correct_answer,majority_answer,is_accurate,consistency_score,unknown_rate,dataset,model,ans_original,correct_original,ans_formal,correct_formal,ans_simplified,correct_simplified,ans_roleplay,correct_roleplay,ans_direct,correct_direct
+0,A healthy 23-year-old male is undergoing an exercise stress test as part of his ,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+1,A 31-year-old female patient presents with significant swelling and redness of h,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+2,A 47-year-old woman comes to the physician because of progressive muscle weaknes,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+3,"Background:
+Some patients with severe asthma have frequent exacerbations associa",A,A,True,1.0,0.0,medqa,meditron,A,True,A,True,A,True,A,True,A,True
+4,A 45-year-old man comes to the physician for a routine health maintenance examin,C,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,C,True
+5,A 38-year-old woman presents to her physician’s clinic for recurrent episodes of,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+6,A 68-year-old woman presents with an intermittent throbbing headache with an ons,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+7,A 58-year-old male presents with an acutely elevated blood pressure of 220/140 m,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+8,A 48-year-old man is brought to the emergency department for sudden onset of dif,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+9,A 3rd year resident in good standing with his residency training program would l,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+10,A 22-year-old gravida 1 presents to her physician at 15 weeks gestation for a pr,D,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+11,A 6-day-old male newborn is brought to the physician because he has become incre,A,A,True,1.0,0.0,medqa,meditron,A,True,A,True,A,True,A,True,A,True
+12,A 23-year-old woman comes to the physician because of a 2-month history of episo,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+13,"A 2-hour-old, 3.2 kg (7.0 lb) newborn boy born by cesarean delivery is being eva",C,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+14,A 2-day-old boy delivered at 34 weeks gestation is found to have a murmur on rou,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+15,"A 41-year-old G3P1 woman presents with a sudden onset throbbing headache, tinnit",A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+16,"A 27-year-old woman, gravida 2, para 1, at 40 weeks' gestation is admitted to th",A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,True,A,True,A,True
+17,A 58-year-old man comes to the physician because he is unable to achieve erectio,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+18,"A 42-year-old man with AIDS comes to the physician for intermittent fever, nonpr",D,A,False,0.4,0.6,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,UNKNOWN,False,A,False
+19,"A 45-year-old man presents to the doctor’s office with shortness of breath, coug",D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+20,A 44-year-old woman with hypothyroidism comes to the physician because of a 1-mo,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+21,A 56-year-old man with a history of hypertension presents to his physician with ,A,A,True,0.4,0.6,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,True,UNKNOWN,False,A,True
+22,A 19-year-old man is brought to the emergency department by ambulance because of,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+23,A 44-year-old woman comes to the physician because of a 6-month history of fatig,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+24,A 59-year-old man comes to the emergency department because of excruciating left,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+25,"A 28-year-old male presents with a recent onset of upsetting dreams, anxiety, an",C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,UNKNOWN,False
+26,An investigator is studying the effect of drug X on the retinoblastoma (Rb) gene,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+27,An 80-year-old man is transferred from a step-down unit to a med-surg floor in t,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+28,A 69-year-old right-handed man comes to the physician for a routine health maint,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+29,A mother brings her 6-year-old daughter to the pediatrician to discuss her child,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+30,A 62-year-old patient has been hospitalized for a week due to a stroke. One week,D,A,False,0.4,0.6,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,UNKNOWN,False
+31,A 76-year-old man with chronic obstructive pulmonary disease (COPD) presents com,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+32,"A 74-year-old woman with a history of hypertension, hyperlipidemia, and type 2 d",B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+33,A 62-year old female comes to the physician because of vaginal spotting and urin,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+34,The only immunoglobulin found as a dimer has what primary function?,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+35,"Please refer to the summary above to answer this question
+The authors of the stu",D,A,False,0.8,0.2,medqa,meditron,A,False,A,False,UNKNOWN,False,A,False,A,False
+36,A 58-year-old white man with hypertension and type 2 diabetes mellitus comes to ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+37,A 55-year-old man presents to the emergency department with complaints of nausea,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+38,A 48-year-old man is brought to the emergency department by his son with a fever,C,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+39,"A 22-year-old woman comes to the physician because of yellow vaginal discharge, ",D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+40,A 65-year old man presents with gradually worsening rigidity of his arms and leg,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+41,A 55-year-old man is brought to the emergency department 12 hours after the sudd,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+42,A 16-year-old female patient with a history of mental retardation presents to yo,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+43,A 31-year-old male comes to your office for his annual exam. He states that he r,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,UNKNOWN,False
+44,An 80-year-old African American man is brought to the emergency department in a ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+45,A 22-year-old man presents to the medical clinic after getting bit in the hand b,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+46,A 36-year-old man is brought to the emergency department 40 minutes after being ,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+47,A 72-year-old Caucasian male presents to your office with dysphagia and halitosi,D,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,C,False
+48,"The first 24 hours after delivery, a 2888 g (6.37 lb) male newborn is not feedin",A,A,True,0.8,0.2,medqa,meditron,A,True,UNKNOWN,False,A,True,A,True,A,True
+49,A 56-year-old man is brought to the emergency department. He was found unconscio,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+50,A 45-year-old mechanic presents to the emergency department complaining of acute,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+51,A 21-month-old boy is brought to the physician for a well-child examination. His,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+52,A 16-year-old girl is brought to the physician by her father because of concerns,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+53,A 49-year-old man comes to the physician for a routine health maintenance examin,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+54,A 30-year-old Japanese woman is brought to the emergency department after fainti,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+55,A 74-year-old woman is brought to her primary care doctor by her adult son. The ,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+56,A patient presents to the emergency department with severe pain in her head. She,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+57,"A 25-year-old woman comes to the physician because of an acute, painful swelling",B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+58,A 56-year-old man with a history of pancreatic cancer presents to the surgical i,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+59,A student studying pharmacology is a member of a team that is conducting researc,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,A,True,UNKNOWN,False,A,True,A,True
+60,A 45-year-old man comes to his primary-care doctor with his wife for a 4-week hi,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+61,A 35-year-old man presents with a 7 month history of insomnia. The patient admit,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+62,A 51-year-old man is brought to the physician by his wife because of a 3-week hi,B,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,C,False
+63,A 75-year-old man comes to the physician because of a 7-day history of nausea an,B,A,False,0.4,0.6,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,UNKNOWN,False,A,False
+64,A 55-year-old man presents with complaints of exertional dyspnea and dry cough. ,D,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+65,A 48-year-old man seeks evaluation at a clinic with a complaint of breathlessnes,C,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+66,A 23-year-old man presents to his primary care physician after bleeding from his,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,A,True,UNKNOWN,False,A,True,A,True
+67,A 56-year-old woman presents to a physician with severe pain and swelling of the,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+68,"A 30-year-old woman presents to your office with decreased appetite, malaise, an",C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+69,A 70-year-old man with chronic heart failure presents to the emergency departmen,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+70,A 31-year-old female patient complains of numbness and tingling in her left hand,C,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+71,A 30-year-old male presents to the emergency department with a complaint of abdo,C,A,False,0.4,0.6,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,UNKNOWN,False,A,False
+72,A 54-year-old male makes an appointment with his primary care physician due to c,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+73,A 23-year-old man comes to the physician because of a 1-week history of anorexia,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+74,A newborn is found to be extremely cyanotic immediately after birth. He then dev,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+75,A 60-year-old man comes to the physician for a routine physical examination. He ,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+76,"A 13-year-old boy is brought to the emergency room by his mother with confusion,",A,A,True,1.0,0.0,medqa,meditron,A,True,A,True,A,True,A,True,A,True
+77,A 2-year-old boy is brought to the physician for evaluation of pallor and increa,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+78,A 32-year-old man jumps off a 3 story building during a suicide attempt. Paramed,C,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,C,True
+79,A 22-year-old woman presents to the emergency department for abdominal pain. The,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+80,A 76-year-old woman visits a physician for a general medical examination. She is,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,UNKNOWN,False,A,False
+81,A 51-year-old woman goes to respiratory function testing in order to evaluate he,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+82,A 27-year-old woman presents to the emergency department with acute onset bloody,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+83,A 67-year-old man is hospitalized after several days of fever and increasing sho,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+84,A previously healthy 2-year-old boy is brought to the physician because of a 10-,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+85,A 44-year-old woman presents to her primary care physician because she has been ,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+86,A 16-year-old teenager presents to the emergency department with a sudden onset ,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+87,A 5-year-old male presents to the pediatrician with a 10-day history of cough th,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+88,"A 23-year-old man presents to the office for a circular, itchy rash over the abd",A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+89,A 32-year-old G1P1 patient presents to her obstetrician after having a positive ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+90,A previously healthy 24-year-old man comes to the physician 1 day after the onse,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,A,True,UNKNOWN,False,A,True,A,True
+91,A 49-year-old woman is brought to the emergency department with progressive dysp,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+92,"A 50-year-old man presents to his physician with chronic cough, aching joints in",D,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+93,"Thirty minutes after delivery, a 3600-g (7-lb 15-oz) newborn has noisy breathing",D,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+94,A 40-year-old patient is brought into the emergency department after suffering a,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+95,A 52-year-old man comes to the physician for the evaluation of a painless right-,A,A,True,0.6,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,C,False
+96,A 25-year-old girl is brought to the emergency room after a suicide attempt. Her,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+97,A 65-year-old woman is brought to the emergency department by her husband after ,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+98,A 28-year-old male presents to the emergency department with chest pain. He repo,B,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+99,A clinical researcher is interested in creating a new drug for HIV patients. Dar,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+100,A 46-year-old man presents to the physician with a complaint of a cough for 6 mo,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+101,A 40-year-old man is referred to an optometrist. He complains of mild vision imp,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,UNKNOWN,False,A,False
+102, A 61-year-old man was started on rosuvastatin 40 mg 8 weeks ago and presents to,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+103,A 24-year-old woman presents to a physician with a history of exposure to a clos,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+104,A 56-year-old man recently diagnosed with cirrhosis secondary to alcohol use pre,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,UNKNOWN,False
+105,"A 37-year-old woman presents to the emergency department with confusion, anxiety",D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+106,A 70-year-old man is brought to the emergency department by his wife for incompr,C,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+107,A 7-year-old boy is brought to your office with complaints of wheezing and dyspn,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+108,An investigator conducts a study to determine whether earlier detection of gliob,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+109,An 11-month-old boy is brought to the physician for a well-child examination. He,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+110,A 65-year-old male presents to his pulmonologist for a follow-up visit. He has a,B,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,B,True
+111,A 16-year-old girl comes to the emergency department because of left wrist pain ,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+112,A 45-year-old G5P4105 presents to her gynecologist’s office with six months of i,A,A,True,1.0,0.0,medqa,meditron,A,True,A,True,A,True,A,True,A,True
+113,A 40-year-old woman comes to the physician because of a 2-month history of incre,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+114,A 32-year-old man comes to the physician because of a 2-day history of a tinglin,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,A,True,UNKNOWN,False,A,True,A,True
+115,A 3-week-old male newborn is brought to the physician because of an inward turni,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+116,A 72-year-old woman is admitted to the intensive care unit for shortness of brea,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+117,A 4-year-old boy with acute lymphoblastic leukemia is admitted to the hospital t,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+118,"A 32-year-old woman comes to the physician because she feels depressed, has diff",C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+119,A 58-year-old woman comes to the physician because of intermittent painful retro,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+120,A 46-year-old woman presents to her primary care physician with one week of inte,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+121,A previously healthy 30-year-old woman comes to the physician for the evaluation,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+122,A 64-year-old man presents to the clinic with easy fatigability and breathlessne,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+123,A 50-year-old man with congestive heart failure (CHF) was started on an experime,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+124,An otherwise healthy 29-year-old man presents to his family physician with a slo,B,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+125,"A one-week-old, full-term infant born by uncomplicated vaginal delivery is broug",D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+126,A 66-year-old man is brought to the emergency room by his wife due to abdominal ,A,A,True,0.8,0.2,medqa,meditron,A,True,UNKNOWN,False,A,True,A,True,A,True
+127,A 15-year-old boy is brought to the emergency department 1 hour after falling fr,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+128,An 8-year-old girl presents to her pediatrician with intensely pruritic lesions ,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+129,A 3-year-old girl is brought to the emergency department by her parents for an a,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+130,An unidentified surgical specimen is received for histopathologic analysis. A po,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+131,A hospitalized 34-year-old man with severe diarrhea and bloating for 1 month is ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+132,A 36-year-old woman comes to the physician because of difficulty discarding item,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+133,"Please refer to the summary above to answer this question
+A medical student is e",C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+134,A 5-year-old boy is brought to his pediatrician due to sore throat and fever. He,B,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+135,A 27-year-old woman with no past medical history presents to the emergency depar,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+136,A 67-year-old man with chronic kidney disease comes to the physician because of ,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+137,A 29-year-old woman presents to the physician with a blurred vision of her right,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+138,A 45-year-old man presents to his primary care provider after feeling sad and de,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+139,A 62-year-old man is brought to the physician by his wife because of difficultie,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+140,A 56-year-old man is brought to the emergency room after a motor vehicle acciden,D,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+141,A 29-year-old man comes in for evaluation of infertility. He has been trying to ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+142,A 75-year-old man presents to the physician for his annual blood pressure visit ,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,True,A,True,A,True
+143,A 2-year-old girl is brought in to the office by her parents. They state that th,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+144,A 48-year-old man with type II diabetes mellitus complicated by peripheral neuro,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+145,A four-day-old neonate is brought to the pediatrician with vaginal discharge for,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+146,A 17-year-old female accidentally eats a granola bar manufactured on equipment t,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+147,A 3-year-old girl is brought to the physician because of a 3-day history of feve,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+148,A 19-year-old man in a 3-month relationship with a woman experiences frequent se,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+149,A 31-year-old man comes to the physician because of a 4-week history of a painle,B,A,False,0.4,0.6,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,UNKNOWN,False
+150,"A one-week-old boy presents with yellow sclerae, severe lethargy, and decreased ",A,C,False,0.2,0.8,medqa,meditron,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,UNKNOWN,False,C,False
+151,Which of the following patient presentations seen in a pediatric immunology clin,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+152,An investigator is studying the cell morphologies of the respiratory tract. He o,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+153,A 27-year-old female is brought to the emergency department by police when she a,D,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,B,False,A,False,A,False,A,False
+154,A 27-year-old HIV positive female gave birth to a 7lb 2oz (3.2 kg) baby girl. Th,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+155,A 68-year-old man presents with difficulty breathing for the last 3 hours. Upon ,C,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,B,False,A,False,A,False,A,False
+156,A 7-year-old boy is brought to the clinic by his mother with increasing swelling,C,A,False,0.8,0.2,medqa,meditron,A,False,UNKNOWN,False,A,False,A,False,A,False
+157,A 31-year-old G1-P0 woman at 28-weeks gestation presents with shortness of breat,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+158,A 19-year-old man is brought to the physician by his mother because she is worri,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+159,A 55-year-old man presents to his primary care physician for a general checkup. ,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,True,A,True,A,True
+160,A 61-year-old man with schizophrenia in a locked inpatient psychiatry unit was o,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+161,A 16-year-old female presents to her primary care physician due to lack of menst,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,False,A,False,A,False
+162,A 45-year-old woman presents to the clinic with her husband to discuss her most ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+163,An otherwise healthy 26-year-old man comes to the physician for medication couns,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+164,A 27-year-old female presents to her physician with a palpable thyroid nodule. I,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+165,A 28-year-old man comes to the physician because of diarrhea and crampy abdomina,B,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,UNKNOWN,False,A,False
+166,An investigator is studying bacterial adaptations to the environment in an infec,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+167,A 75-year-old man is admitted to the hospital because of a 3-day history of a pr,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+168,A 21-year-old man is brought to the emergency department 30 minutes after being ,D,A,False,0.6,0.2,medqa,meditron,UNKNOWN,False,C,False,A,False,A,False,A,False
+169,A 28-year-old woman comes to the obstetrics and gynecology clinic because she ha,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+170,A research group has created a novel screening test for a rare disorder. A robus,D,A,False,0.8,0.0,medqa,meditron,A,False,A,False,A,False,A,False,C,False
+171,A 72-year-old woman presents to the emergency department with altered mental sta,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+172,A 13-year-old boy is brought to the emergency department because he was vomiting,A,A,True,0.6,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,C,False
+173,A 25-year-old man is brought to the emergency department by police. He was found,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+174,A 64-year-old male presents to his primary care physician with a complaint of bi,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+175,"A 77-year-old man comes to your office for a routine visit. He is doing well, an",B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+176,A 25-year-old female is brought to the emergency department by her family. They ,A,A,True,1.0,0.0,medqa,meditron,A,True,A,True,A,True,A,True,A,True
+177,A 52-year-old fisherman presents to the clinic for an evaluation of a pigmented ,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+178,A 35-year-old woman presents to the physician because of episodes of difficulty ,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+179,A 24-year-old man is brought to the emergency room by the police after a fall. T,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+180,A 63-year-old patient presents to the emergency department because of severe lef,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+181,A 49-year-old man comes to the physician because he has had multiple falls and m,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+182,A 62-year-old man presents to his primary care doctor with continued hypertensio,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+183,A 30-year-old woman presents to the emergency department with a recent episode o,A,A,True,1.0,0.0,medqa,meditron,A,True,A,True,A,True,A,True,A,True
+184,A 38-year-old woman comes to the physician because of persistent diarrhea and fa,D,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,A,False,UNKNOWN,False,A,False
+185,A 24-year-old woman comes to the physician for a routine gynecological examinati,A,A,True,0.6,0.4,medqa,meditron,UNKNOWN,False,UNKNOWN,False,A,True,A,True,A,True
+186,A 36-year-old man is brought to the emergency department 25 minutes after being ,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+187,"A 2,300 g (5 lb) male newborn is delivered to a 29-year-old primigravid woman. T",A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+188,A 16-year-old female presents to her physician’s office after noticing a round l,C,A,False,1.0,0.0,medqa,meditron,A,False,A,False,A,False,A,False,A,False
+189,A 25-year-old man presents to the emergency department with altered mental statu,C,A,False,0.6,0.4,medqa,meditron,UNKNOWN,False,A,False,UNKNOWN,False,A,False,A,False
+190,A 17-year-old male presents to the emergency department after a motor vehicle ac,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+191,A 6-month-old boy presents to a pediatrician for the evaluation of recurrent bac,C,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+192,A 62-year-old woman comes to the physician for a routine health maintenance exam,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+193,A 30-year-old man presents to the emergency room complaining of malaise. Two hou,B,A,False,0.8,0.2,medqa,meditron,A,False,UNKNOWN,False,A,False,A,False,A,False
+194,A 65-year-old man with a longstanding history of poorly-controlled hypertension ,D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+195,"Two days after being admitted to the hospital following a fall, a 77-year-old wo",D,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+196,A 65-year-old woman comes to the physician for a routine bone mineral density sc,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True
+197,"On routine screening, a 62-year-old man is found to have positive fecal occult b",B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+198,A 28-year-old man is brought to the emergency department because of a 3-day hist,B,A,False,0.8,0.2,medqa,meditron,UNKNOWN,False,A,False,A,False,A,False,A,False
+199,A previously healthy 28-year-old man comes to the emergency department because o,A,A,True,0.8,0.2,medqa,meditron,UNKNOWN,False,A,True,A,True,A,True,A,True

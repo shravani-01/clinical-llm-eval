@@ -21,7 +21,8 @@ MODELS = {
     "phi3_mini": "phi3:mini",
     "llama3.2": "llama3.2:3b",
     "gemma2":"gemma2:2b",
-    "mistral":"mistral:7b"
+    "mistral":"mistral:7b",
+    "meditron": "meditron:latest"
 }
 
 def query_ollama(model: str, prompt: str, timeout: int = 60) -> str:
