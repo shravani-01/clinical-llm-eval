@@ -10,7 +10,7 @@ import os
 
 os.makedirs("results/stats", exist_ok=True)
 
-MODELS = ["phi3_mini", "llama3.2", "gemma2", "mistral"]
+MODELS = ["phi3_mini", "llama3.2", "gemma2", "mistral","meditron"]
 DATASETS = ["medqa", "medmcqa", "pubmedqa"]
 
 def load_scored(dataset, model):
@@ -33,6 +33,8 @@ def run_tests():
             ("gemma2", "phi3_mini"),
             ("mistral", "phi3_mini"),
             ("llama3.2", "gemma2"),
+            ("meditron", "phi3_mini"),
+            ("meditron", "llama3.2"),
         ]
 
         for m1, m2 in pairs:

@@ -9,6 +9,8 @@
 \usepackage{multirow}
 \usepackage{float}
 \geometry{margin=1in}
+\usepackage{longtable}
+\usepackage{url}
 \doublespacing
 
 \title{\textbf{Prompt Sensitivity and Answer Consistency of Small
@@ -40,9 +42,9 @@ sensitivity and answer consistency in small open-source language
 models on clinical question answering benchmarks, with 
 implications for low-resource healthcare deployment.
 
-\textbf{Methods:} We evaluated four open-source models — 
-Gemma 2 (2B), Phi-3 Mini (3.8B), Llama 3.2 (3B), and 
-Mistral 7B — across three clinical question answering datasets 
+\textbf{Methods:} We evaluated five open-source models — Gemma 2 (2B), Phi-3 Mini
+(3.8B), Llama 3.2 (3B), Mistral 7B, and Meditron-7B
+(domain-pretrained, not instruction-tuned) — across three clinical question answering datasets 
 (MedQA, MedMCQA, and PubMedQA), sampling 200 questions from 
 each. Each question was presented in five prompt styles 
 (original, formal, simplified, roleplay, and direct). We 
@@ -53,8 +55,8 @@ consumer CPU hardware without domain-specific fine-tuning.
 
 \textbf{Results:} Consistency and accuracy were largely 
 independent across models and datasets. Gemma 2 achieved 
-the highest consistency scores (0.845--0.888) but the lowest 
-accuracy (33.0--43.5\%), while Llama 3.2 demonstrated 
+the highest consistency scores (0.845--0.888) but the 
+lowest accuracy (33.0--43.5\%), while Llama 3.2 demonstrated 
 moderate consistency (0.774--0.807) alongside the highest 
 accuracy (49.0--65.0\%). Roleplay prompts consistently 
 reduced accuracy across all models and datasets, with 
@@ -62,7 +64,11 @@ Phi-3 Mini showing the largest decline of 21.5 percentage
 points on MedQA. Instruction-following failure rates varied 
 by model and were not determined by parameter count, with 
 Phi-3 Mini exhibiting the highest UNKNOWN rate at 10.5\% 
-on MedQA.
+on MedQA. Meditron-7B, a domain-pretrained model without 
+instruction tuning, exhibited near-complete instruction-following 
+failure on PubMedQA (99.0\% UNKNOWN rate), demonstrating 
+that domain knowledge alone is insufficient for structured 
+clinical question answering.
 
 \textbf{Conclusions:} High consistency does not imply 
 correctness in small clinical language models — models can 
@@ -128,9 +134,9 @@ efficiency and deployment tradeoffs without analysing answer
 consistency as a reliability dimension. This study addresses 
 that gap directly.
 
-In this work, we systematically evaluate prompt sensitivity 
-in four open-source small language models — Phi-3 Mini (3.8B), 
-Llama 3.2 (3B), Gemma 2 (2B), and Mistral 7B — across three 
+In this work, we systematically evaluate prompt sensitivity in five open-source language 
+models — Phi-3 Mini (3.8B), Llama 3.2 (3B), Gemma 2 (2B), Mistral 7B, 
+and Meditron-7B (domain-pretrained) — across three 
 established clinical question answering benchmarks (MedQA, 
 MedMCQA, and PubMedQA) using five controlled prompt styles 
 designed to simulate realistic query reformulation. We 
@@ -143,7 +149,7 @@ consumer CPU hardware using unmodified base models without
 medical fine-tuning, reflecting realistic deployment conditions 
 in low-resource healthcare settings.
 
-We report three central findings. First, consistency and 
+We report four central findings. First, consistency and 
 accuracy are independent metrics: models that produce highly 
 stable answers across prompt variations are not necessarily 
 more correct, with Gemma 2 demonstrating the clearest case 
@@ -155,6 +161,11 @@ Third, instruction-following failure rates vary independently
 of model size, demonstrating that larger parameter counts 
 do not guarantee safer or more dependable outputs under 
 constrained deployment conditions.
+Fourth, Meditron-7B, a domain-pretrained model without instruction 
+tuning, exhibited near-complete instruction-following failure despite 
+encoding substantial medical knowledge, demonstrating that domain 
+knowledge and instruction-following capability are orthogonal 
+requirements for clinical deployment.
 
 The remainder of this paper is structured as follows. 
 Section~\ref{sec:related} reviews related work on clinical 
@@ -225,11 +236,12 @@ We evaluated model consistency and accuracy using three established
 clinical question answering benchmarks. MedQA \citep{jin2021disease} 
 contains multiple-choice questions derived from the United States Medical 
 Licensing Examination (USMLE), representing clinical knowledge required 
-for medical licensure. MedMCQA \citep{pal2022medmcqa} consists of 
-multiple-choice questions from Indian medical entrance examinations 
-(AIIMS/NEET), covering diverse specialties including pharmacology, 
-anatomy, and pathology, with subject labels enabling specialty-level 
-analysis. PubMedQA \citep{jin2019pubmedqa} presents biomedical research 
+for medical licensure. MedMCQA \citep{pal2022medmcqa} consists of multiple-choice 
+questions from Indian medical entrance examinations (AIIMS/NEET), 
+covering diverse medical specialties including pharmacology, 
+anatomy, and pathology. Although the dataset includes subject 
+labels, our evaluation used a randomly sampled subset of 200 
+questions without stratification by specialty. PubMedQA \citep{jin2019pubmedqa} presents biomedical research 
 questions paired with PubMed abstracts, requiring yes, no, or maybe 
 answers based on provided evidence rather than memorized knowledge. 
 From each dataset we randomly sampled 200 questions using a fixed 
@@ -238,8 +250,8 @@ questions total across three distinct clinical reasoning contexts.
 
 \subsection{Models}
 
-We evaluated four open-source small language models spanning a 
-parameter range of 2B to 7B to examine the effect of model scale 
+We evaluated five open-source small language models spanning a 
+parameter range of 2B to 7B, including one domain-adapted medical pretraining model to examine the effect of model scale 
 on prompt consistency. The selected models were Phi-3 Mini 
 \citep{abdin2024phi3} (3.8B parameters, Microsoft), Llama 3.2 
 \citep{grattafiori2024llama} (3B parameters, Meta), Gemma 2 
@@ -252,6 +264,23 @@ of consistency behavior. All inference was conducted locally using
 Ollama without any domain-specific fine-tuning, ensuring that 
 observed consistency patterns reflect inherent model behavior 
 rather than task-specific adaptation.
+
+In addition to these instruction-tuned general models, we 
+included Meditron-7B \citep{chen2023meditron}, a domain-adapted 
+language model developed by EPFL. Meditron-7B is built on 
+Llama-2 and continued-pretrained on a curated medical corpus 
+comprising PubMed articles, biomedical abstracts, and 
+internationally recognised clinical practice guidelines. 
+Critically, Meditron-7B is a base pretraining model without 
+instruction tuning, meaning it has not been trained to follow 
+structured task instructions. We include it explicitly to 
+examine whether domain-specific medical pretraining alone — 
+in the absence of instruction tuning — is sufficient for 
+structured clinical question answering, and to contrast its 
+behaviour with that of general instruction-tuned models. 
+This comparison addresses a practical question for clinical 
+AI deployment: is domain knowledge alone sufficient, or is 
+instruction-following capability equally essential?
 
 \subsection{Prompt Variation Design}
 
@@ -352,9 +381,133 @@ accurate only under specific prompt styles, or prone to
 instruction-following failures. Evaluating any single metric 
 in isolation would obscure these clinically relevant failure modes.
 
+% \clearpage
 \section{Results}\label{sec:results}
 
 \subsection{Overall Consistency and Accuracy}
+
+\begin{table}[H]
+\centering
+\small
+\caption{Summary of consistency scores, overall accuracy, and 
+instruction-following failure rates across all models and datasets. 
+Best value among instruction-tuned models shown in \textbf{bold}. 
+$\dagger$Meditron-7B is a pretraining model without instruction 
+tuning — high UNKNOWN rates reflect instruction-following failure 
+rather than lack of domain knowledge.}
+\label{tab:results}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{llccccccccc}
+\toprule
+\textbf{Dataset} & \textbf{Model} & \textbf{Mean} & \textbf{Fully} & \textbf{Overall} & \textbf{UNKNOWN} & \textbf{Acc.} & \textbf{Acc.} & \textbf{Acc.} & \textbf{Acc.} & \textbf{Acc.} \\
+ & & \textbf{Cons.} & \textbf{Cons.} & \textbf{Acc.} & \textbf{Rate} & \textbf{Orig.} & \textbf{Form.} & \textbf{Simp.} & \textbf{Role.} & \textbf{Dir.} \\
+ & & & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} & \textbf{(\%)} \\
+\midrule
+\multirow{5}{*}{MedQA}
+ & Phi-3 Mini  & 0.698 & 19.5 & 48.0 & 10.5 & 44.5 & 44.5 & 42.5 & 26.5 & 48.0 \\
+ & Llama 3.2   & 0.776 & 35.0 & \textbf{49.0} & \textbf{0.8} & 47.5 & 44.5 & 46.0 & 47.0 & 43.5 \\
+ & Gemma 2     & \textbf{0.888} & \textbf{63.5} & 40.0 & 2.1 & 39.0 & 39.0 & 37.0 & 35.0 & 35.0 \\
+ & Mistral 7B  & 0.800 & 41.0 & 45.0 & 4.7 & 45.5 & 41.5 & 43.0 & 34.0 & \textbf{50.5} \\
+ & Meditron$\dagger$ & 0.761 & 10.0 & 30.0 & 22.8 & 4.0 & 26.5 & 28.0 & 29.5 & 30.5 \\
+\midrule
+\multirow{5}{*}{MedMCQA}
+ & Phi-3 Mini  & 0.730 & 27.0 & 53.0 & 4.6 & 52.0 & 49.5 & 48.5 & 37.5 & 52.0 \\
+ & Llama 3.2   & 0.774 & 38.5 & \textbf{55.5} & \textbf{1.5} & \textbf{56.5} & 50.5 & 51.5 & 48.0 & 53.0 \\
+ & Gemma 2     & \textbf{0.851} & \textbf{56.5} & 43.5 & 0.9 & 42.5 & 39.0 & 38.0 & 40.5 & 44.0 \\
+ & Mistral 7B  & 0.812 & 45.5 & 45.5 & 4.7 & 44.5 & 43.0 & 42.5 & 41.5 & 44.0 \\
+ & Meditron$\dagger$ & 0.762 & 8.0 & 33.5 & 22.4 & 4.0 & 33.0 & 30.0 & 33.5 & 29.5 \\
+\midrule
+\multirow{5}{*}{PubMedQA}
+ & Phi-3 Mini  & 0.830 & 41.0 & 48.0 & 0.0 & 42.5 & \textbf{53.5} & 52.5 & 47.5 & 31.0 \\
+ & Llama 3.2   & 0.807 & 45.5 & \textbf{65.0} & 2.8 & \textbf{59.5} & 51.0 & \textbf{64.5} & \textbf{65.0} & 56.5 \\
+ & Gemma 2     & \textbf{0.845} & \textbf{50.5} & 33.0 & \textbf{1.3} & 28.0 & 41.5 & 47.5 & 27.0 & 30.5 \\
+ & Mistral 7B  & 0.825 & 49.5 & 42.5 & 7.2 & 39.5 & 39.5 & 45.5 & 34.5 & 45.5 \\
+ & Meditron$\dagger$ & 0.010 & 0.0 & 2.0 & 99.0 & 0.0 & 0.0 & 1.5 & 0.0 & 0.5 \\
+\bottomrule
+\end{tabular}
+}
+\begin{tablenotes}
+\small
+\item $\dagger$ Meditron 7B not instruction-tuned. High UNKNOWN rates reflect 
+instruction-following failure, not lack of domain knowledge.
+\end{tablenotes}
+\end{table}
+
+Statistical significance of observed differences was assessed 
+using the Wilcoxon signed-rank test for consistency scores 
+and McNemar's test for accuracy comparisons. Consistency 
+differences between models were statistically significant 
+on MedQA and MedMCQA (p$<$0.001 for most pairwise 
+comparisons) but not on PubMedQA, suggesting that dataset 
+characteristics influence the degree of prompt sensitivity. 
+Accuracy differences were generally non-significant on MedQA, 
+while on PubMedQA, Llama 3.2 significantly outperformed both 
+Phi-3 Mini and Gemma 2 (p$<$0.001), confirming its superior 
+clinical reasoning on biomedical evidence-based questions. 
+Full significance test results are provided in 
+Table~\ref{tab:stats}.
+
+\begin{longtable}{llllcc}
+\caption{Pairwise statistical significance tests. Wilcoxon 
+signed-rank test for consistency; McNemar test for accuracy.
+*** p$<$0.001, ** p$<$0.01, * p$<$0.05, ns = not significant.
+$\dagger$Meditron PubMedQA comparisons reflect instruction-following 
+failure (99\% UNKNOWN rate).}
+\label{tab:stats}\\
+\toprule
+\textbf{Dataset} & \textbf{M1} & \textbf{M2} & 
+\textbf{Metric} & \textbf{p} & \textbf{Sig.} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Dataset} & \textbf{M1} & \textbf{M2} & 
+\textbf{Metric} & \textbf{p} & \textbf{Sig.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{\small\itshape Continued on next page} \\
+\endfoot
+\bottomrule
+\endlastfoot
+MedQA & Llama 3.2 & Phi-3 & Cons. & 0.0005 & *** \\
+ & Gemma 2 & Phi-3 & Cons. & $<$.0001 & *** \\
+ & Mistral & Phi-3 & Cons. & $<$.0001 & *** \\
+ & Llama 3.2 & Gemma 2 & Cons. & $<$.0001 & *** \\
+ & Meditron & Phi-3 & Cons. & $<$.0001 & *** \\
+ & Meditron & Llama 3.2 & Cons. & 0.3342 & ns \\
+ & Llama 3.2 & Phi-3 & Acc. & 0.9020 & ns \\
+ & Gemma 2 & Phi-3 & Acc. & 0.0689 & ns \\
+ & Mistral & Phi-3 & Acc. & 0.5383 & ns \\
+ & Llama 3.2 & Gemma 2 & Acc. & 0.0512 & ns \\
+ & Meditron & Phi-3 & Acc. & 0.0004 & *** \\
+ & Meditron & Llama 3.2 & Acc. & 0.0001 & *** \\
+\midrule
+MedMCQA & Llama 3.2 & Phi-3 & Cons. & 0.0437 & * \\
+ & Gemma 2 & Phi-3 & Cons. & $<$.0001 & *** \\
+ & Mistral & Phi-3 & Cons. & 0.0001 & *** \\
+ & Llama 3.2 & Gemma 2 & Cons. & 0.0001 & *** \\
+ & Meditron & Phi-3 & Cons. & 0.0007 & *** \\
+ & Meditron & Llama 3.2 & Cons. & 0.2052 & ns \\
+ & Llama 3.2 & Phi-3 & Acc. & 0.5962 & ns \\
+ & Gemma 2 & Phi-3 & Acc. & 0.0327 & * \\
+ & Mistral & Phi-3 & Acc. & 0.1060 & ns \\
+ & Llama 3.2 & Gemma 2 & Acc. & 0.0075 & ** \\
+ & Meditron & Phi-3 & Acc. & 0.0002 & *** \\
+ & Meditron & Llama 3.2 & Acc. & $<$.0001 & *** \\
+\midrule
+PubMedQA & Llama 3.2 & Phi-3 & Cons. & 0.1055 & ns \\
+ & Gemma 2 & Phi-3 & Cons. & 0.8497 & ns \\
+ & Mistral & Phi-3 & Cons. & 0.6172 & ns \\
+ & Llama 3.2 & Gemma 2 & Cons. & 0.1055 & ns \\
+ & Meditron$\dagger$ & Phi-3 & Cons. & $<$.0001 & *** \\
+ & Meditron$\dagger$ & Llama 3.2 & Cons. & $<$.0001 & *** \\
+ & Llama 3.2 & Phi-3 & Acc. & $<$.0001 & *** \\
+ & Gemma 2 & Phi-3 & Acc. & 0.0002 & *** \\
+ & Mistral & Phi-3 & Acc. & 0.1930 & ns \\
+ & Llama 3.2 & Gemma 2 & Acc. & $<$.0001 & *** \\
+ & Meditron & Phi-3 & Acc. & $<$.0001 & *** \\
+ & Meditron & Llama 3.2 & Acc. & $<$.0001 & *** \\
+\end{longtable}
 
 Across all three datasets, consistency scores varied across models 
 without a clear correlation with model size (Figure~\ref{fig:consistency}). 
@@ -376,6 +529,22 @@ high consistency does not imply high accuracy. Models can be
 across all prompt variations — which represents a particularly 
 dangerous failure mode in clinical decision support contexts.
 
+Meditron-7B, included as a domain-adapted pretraining model 
+without instruction tuning, exhibited markedly different 
+behaviour from all instruction-tuned models. While it 
+achieved moderate consistency on MedQA and MedMCQA 
+(0.761 and 0.762 respectively), its UNKNOWN rates were 
+substantially higher (22.8\% and 22.4\%), indicating 
+frequent instruction-following failures. On PubMedQA, 
+Meditron-7B produced near-complete failure — a consistency 
+score of 0.010, 2.0\% accuracy, and 99.0\% UNKNOWN rate 
+— suggesting the model is unable to produce structured 
+yes/no/maybe responses without instruction tuning. These 
+results indicate that domain-specific pretraining alone 
+is insufficient for structured clinical question answering, 
+and that instruction-following capability is a prerequisite 
+for clinical deployment.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{figures/fig1_consistency_heatmap.png}
@@ -395,7 +564,7 @@ dangerous failure mode in clinical decision support contexts.
 \subsection{Effect of Prompt Style on Accuracy}
 
 Prompt style demonstrated a consistent and measurable effect on 
-model accuracy across all four models and three datasets 
+model accuracy across all five models and three datasets 
 (Figure~\ref{fig:style_accuracy}). The Roleplay prompt style 
 — in which models were instructed to respond as a practicing 
 physician — consistently underperformed relative to all other 
@@ -451,6 +620,18 @@ rates across datasets (0.8\%--2.8\% and 0.9\%--2.1\%
 respectively), consistently producing responses in the expected 
 format. These results suggest that instruction adherence is a 
 model-specific characteristic independent of parameter count.
+
+Meditron-7B exhibited the most severe instruction-following 
+failures of all models evaluated, with UNKNOWN rates of 
+22.8\% on MedQA, 22.4\% on MedMCQA, and 99.0\% on 
+PubMedQA. The near-complete failure on PubMedQA — where 
+99 of 100 responses were invalid — is consistent with 
+Meditron's architecture as a base pretraining model 
+without instruction tuning. Unlike the instruction-following 
+failures observed in Phi-3 Mini, which appear to be 
+prompt-style dependent, Meditron's failures reflect a 
+fundamental absence of structured response capability 
+rather than prompt sensitivity.
 
 From a clinical deployment perspective, high UNKNOWN rates 
 represent a critical reliability concern. A model that 
@@ -570,7 +751,7 @@ profile of a model intended for healthcare deployment.
 
 \subsection{Roleplay Prompts Consistently Underperform}
 
-Across all four models and three datasets, roleplay-style prompts 
+Across all five models and three datasets, roleplay-style prompts 
 consistently produced lower accuracy than direct or original 
 question formats. The most pronounced decline was observed in 
 Phi-3 Mini on MedQA, where roleplay accuracy dropped 21.5 
@@ -656,8 +837,39 @@ AI deployment that can be reproduced without specialised
 infrastructure, making it accessible to researchers and 
 practitioners in exactly the settings it is designed to serve.
 
-\subsection{Limitations}
+\subsection{Domain Knowledge Versus Instruction Following}
 
+The inclusion of Meditron-7B reveals an important distinction 
+between two capabilities required for clinical AI deployment: 
+domain knowledge and instruction adherence. Meditron-7B was 
+pretrained on a curated medical corpus comprising PubMed 
+articles and clinical guidelines \citep{chen2023meditron}, 
+encoding substantial medical domain knowledge. However, 
+without instruction tuning, it failed to produce structured 
+responses in the required format across all three datasets, 
+with UNKNOWN rates reaching 99.0\% on PubMedQA.
+
+This finding suggests that domain knowledge and task 
+usability are orthogonal capabilities. A model can encode 
+rich medical knowledge through continued pretraining yet 
+remain clinically unusable for structured question answering 
+without the ability to follow task-specific instructions. 
+For practitioners deploying AI in clinical settings, this 
+distinction has direct practical implications: selecting 
+a model based on its training data alone — without 
+verifying instruction-following capability — may result 
+in a system that is knowledgeable but functionally 
+unusable in structured workflows.
+
+This also motivates a clear direction for future work: 
+instruction-tuning Meditron or similar domain-pretrained 
+models on structured clinical QA data, and evaluating 
+whether the combination of domain knowledge and 
+instruction following produces models that are both 
+more accurate and more consistent than general 
+instruction-tuned alternatives.
+
+\subsection{Limitations}
 Several limitations should be considered when interpreting 
 these findings. First, we sampled 200 questions per dataset, 
 which provides a computationally feasible and reproducible 
@@ -685,10 +897,14 @@ and contextual patient data. Sixth, hardware constraints
 limited our evaluation to models in the 2B--7B parameter range 
 running on consumer CPU hardware, precluding direct comparison 
 with larger proprietary systems such as GPT-4 or Claude. 
-Finally, while our five prompt styles were designed to simulate 
+Seventh, while our five prompt styles were designed to simulate 
 realistic variation in clinical query formulation, they do not 
 exhaust the full range of phrasings a clinician might use in 
-practice.
+practice. Finally, Meditron-7B was evaluated in its base 
+pretraining form without instruction tuning, which limits 
+direct comparison with instruction-tuned models and may 
+underrepresent the potential of domain-adapted models when 
+properly instruction-tuned for structured clinical tasks.
 
 Together, these limitations suggest that our results should 
 be interpreted as an initial systematic analysis of prompt 
@@ -696,7 +912,6 @@ sensitivity under constrained deployment conditions rather
 than a comprehensive evaluation of all clinical AI scenarios. 
 Future work should address these gaps through larger samples, 
 broader dataset coverage, and human clinical validation studies.
-
 \subsection{Future Work}
 
 Several directions emerge naturally from this study. First, 
@@ -706,6 +921,14 @@ sensitivity and improves consistency. If fine-tuned models
 demonstrate stronger stability under prompt variation, this 
 would suggest that training data alignment — rather than 
 model architecture — is the primary driver of inconsistency.
+
+In particular, instruction-tuning Meditron-7B or similar 
+domain-pretrained models on structured clinical QA data 
+represents a direct next step — testing whether combining 
+domain knowledge with instruction-following capability 
+produces models that are both more accurate and more 
+consistent than general instruction-tuned alternatives 
+evaluated in this study.
 
 Second, integrating retrieval-augmented generation (RAG) 
 pipelines with small clinical models represents a promising 
@@ -747,12 +970,13 @@ rigour and real-world constraints.
 \section{Conclusion}\label{sec:conclusion}
 
 In this study, we systematically evaluated prompt sensitivity 
-in four small, CPU-runnable open-source language models 
-(2B--7B parameters) across three clinical question answering 
-datasets using five controlled prompt style variations, 
-yielding 3,000 total evaluation instances.
+in five open-source language models (2B--7B parameters), 
+including four general instruction-tuned models and one 
+domain-adapted pretraining model, across three clinical 
+question answering datasets using five controlled prompt 
+style variations, yielding 3,000 total evaluation instances.
 
-We report three principal findings. First, consistency and 
+We report four principal findings. First, consistency and 
 accuracy are independent metrics: models that achieve high 
 consistency are not necessarily more accurate, with Gemma 2 
 demonstrating the most pronounced case of reliable 
@@ -766,7 +990,12 @@ prompt design. Third, instruction-following failures varied
 substantially across models and were not determined by 
 parameter count alone, indicating that model size is an 
 insufficient proxy for deployment reliability under 
-hardware constraints.
+hardware constraints. Fourth, Meditron-7B, a domain-adapted model without 
+instruction tuning, exhibited near-complete failure on 
+structured clinical QA tasks despite encoding substantial 
+medical domain knowledge — demonstrating that domain 
+knowledge and instruction-following capability are 
+orthogonal requirements for clinical AI deployment.
 
 Taken together, these findings demonstrate that consistency 
 alone cannot serve as a proxy for clinical reliability. 
@@ -782,7 +1011,8 @@ accuracy-only evaluation frameworks for clinical AI and
 adopt multidimensional assessment approaches that reflect 
 the reliability requirements of real-world healthcare 
 deployment. The evaluation framework, datasets, and code 
-introduced in this study are publicly available to support 
+introduced in this study are publicly available at 
+\url{https://github.com/shravani-01/clinical-llm-eval} to support 
 reproducibility and future research in this direction.
 
 \bibliographystyle{plainnat}
