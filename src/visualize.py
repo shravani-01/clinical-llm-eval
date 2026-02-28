@@ -1,17 +1,23 @@
 """
 Visualization script for Clinical LLM Consistency Study.
 Generates all publication-ready figures for the paper.
+
+Figure order as they appear in paper:
+Figure 1 - Consistency heatmap
+Figure 2 - Accuracy heatmap
+Figure 3 - Accuracy by prompt style
+Figure 4 - Roleplay gap
+Figure 5 - Unknown rate
+Figure 6 - Consistency vs Accuracy scatter
+Figure 7 - Consistency distribution box plots
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 import numpy as np
 import os
 
 os.makedirs("figures", exist_ok=True)
-
-# ── Load master summary ──────────────────────────────────────────────────────
 
 df = pd.read_csv("results/summary/master_summary.csv")
 
@@ -50,7 +56,7 @@ plt.rcParams.update({
 })
 
 
-# ── Figure 1: Consistency heatmap ────────────────────────────────────────────
+# ── Figure 1: Consistency heatmap ─────────────────────────────────────────────
 
 def fig1_consistency_heatmap():
     matrix = []
@@ -63,7 +69,7 @@ def fig1_consistency_heatmap():
         matrix.append(row)
 
     matrix = np.array(matrix)
-    fig, ax = plt.subplots(figsize=(8, 5))
+    fig, ax = plt.subplots(figsize=(8, 6))
     im = ax.imshow(matrix, cmap="RdYlGn", vmin=0.5, vmax=1.0)
 
     ax.set_xticks(range(len(DATASETS)))
@@ -86,7 +92,7 @@ def fig1_consistency_heatmap():
     print("  Saved fig1_consistency_heatmap.png")
 
 
-# ── Figure 2: Accuracy heatmap ───────────────────────────────────────────────
+# ── Figure 2: Accuracy heatmap ────────────────────────────────────────────────
 
 def fig2_accuracy_heatmap():
     matrix = []
@@ -99,7 +105,7 @@ def fig2_accuracy_heatmap():
         matrix.append(row)
 
     matrix = np.array(matrix)
-    fig, ax = plt.subplots(figsize=(8, 5))
+    fig, ax = plt.subplots(figsize=(8, 6))
     im = ax.imshow(matrix, cmap="RdYlGn", vmin=20, vmax=70)
 
     ax.set_xticks(range(len(DATASETS)))
@@ -122,90 +128,14 @@ def fig2_accuracy_heatmap():
     print("  Saved fig2_accuracy_heatmap.png")
 
 
-# ── Figure 3: Consistency vs Accuracy scatter ────────────────────────────────
+# ── Figure 3: Accuracy by prompt style ───────────────────────────────────────
 
-def fig3_consistency_vs_accuracy():
-    fig, (ax_main, ax_inset) = plt.subplots(1, 2, 
-        figsize=(16, 7), 
-        gridspec_kw={'width_ratios': [3, 1]})
-
-    for model in MODELS:
-        mdf = df[df.model == model]
-        
-        # Main plot — exclude Meditron PubMedQA outlier
-        for _, row in mdf.iterrows():
-            if model == "meditron" and row["dataset"] == "pubmedqa":
-                continue
-            ax_main.scatter(row["mean_consistency"], 
-                          row["overall_accuracy"],
-                          color=COLORS[model], s=150, zorder=5)
-            ax_main.annotate(
-                DATASET_LABELS[row["dataset"]].replace("\n", " "),
-                (row["mean_consistency"], row["overall_accuracy"]),
-                textcoords="offset points", xytext=(8, 5),
-                fontsize=8, color=COLORS[model])
-
-        # Inset plot — only Meditron
-        if model == "meditron":
-            for _, row in mdf.iterrows():
-                ax_inset.scatter(row["mean_consistency"],
-                               row["overall_accuracy"],
-                               color=COLORS[model], s=150, zorder=5)
-                ax_inset.annotate(
-                    DATASET_LABELS[row["dataset"]].replace("\n"," "),
-                    (row["mean_consistency"], row["overall_accuracy"]),
-                    textcoords="offset points", xytext=(5, 5),
-                    fontsize=8, color=COLORS[model])
-
-    # Main plot formatting
-    ax_main.set_xlabel("Mean Consistency Score", fontsize=12)
-    ax_main.set_ylabel("Overall Accuracy (%)", fontsize=12)
-    ax_main.set_title("Instruction-Tuned Models", fontweight="bold")
-    ax_main.axvline(x=0.8, color="gray", linestyle="--", alpha=0.5)
-    ax_main.set_xlim(0.65, 0.95)
-    ax_main.set_ylim(25, 70)
-    ax_main.grid(True, alpha=0.3)
-
-    # Add legend to main plot
-    handles = [plt.scatter([], [], color=COLORS[m], s=100,
-               label=MODEL_LABELS[m].replace("\n", " "))
-               for m in MODELS]
-    ax_main.legend(handles=handles, loc="upper left", fontsize=9)
-
-    # Inset plot formatting
-    ax_inset.set_xlabel("Mean Consistency Score", fontsize=10)
-    ax_inset.set_ylabel("Overall Accuracy (%)", fontsize=10)
-    ax_inset.set_title("Meditron (7B)*\n(Not Instruction-Tuned)",
-                       fontweight="bold", fontsize=10)
-    ax_inset.grid(True, alpha=0.3)
-    ax_inset.set_xlim(-0.05, 0.9)
-    ax_inset.set_ylim(-2, 40)
-
-    # Add note
-    ax_inset.text(0.05, -1.5,
-                  "* Near-complete instruction\n"
-                  "  following failure on PubMedQA\n"
-                  "  (99% UNKNOWN rate)",
-                  fontsize=7, color="#8172B2",
-                  style="italic")
-
-    fig.suptitle("Figure 3: Consistency vs Accuracy — Are They Correlated?",
-                 fontweight="bold", fontsize=13)
-    plt.tight_layout()
-    plt.savefig("figures/fig3_consistency_vs_accuracy.png",
-                bbox_inches="tight")
-    plt.close()
-    print("  Saved fig3_consistency_vs_accuracy.png")
-
-
-# ── Figure 4: Accuracy by prompt style ──────────────────────────────────────
-
-def fig4_accuracy_by_style():
+def fig3_accuracy_by_style():
     fig, axes = plt.subplots(1, 3, figsize=(15, 5), sharey=False)
 
     for ax, dataset in zip(axes, DATASETS):
         x = np.arange(len(STYLES))
-        width = 0.2
+        width = 0.15
 
         for i, model in enumerate(MODELS):
             mdf = df[(df.model == model) & (df.dataset == dataset)]
@@ -215,28 +145,88 @@ def fig4_accuracy_by_style():
                    color=COLORS[model], alpha=0.85)
 
         ax.set_title(DATASET_LABELS[dataset], fontweight="bold")
-        ax.set_xticks(x + width * 1.5)
+        ax.set_xticks(x + width * 2)
         ax.set_xticklabels([s.capitalize() for s in STYLES],
                            rotation=20, ha="right")
         ax.set_ylabel("Accuracy (%)")
         ax.set_ylim(0, 80)
         ax.grid(True, alpha=0.3, axis="y")
-        ax.legend(fontsize=8)
+        ax.legend(fontsize=7)
 
-    fig.suptitle("Figure 4: Accuracy by Prompt Style Across Models and Datasets",
+    fig.suptitle("Figure 3: Accuracy by Prompt Style Across Models and Datasets",
                  fontweight="bold", fontsize=13)
     plt.tight_layout()
-    plt.savefig("figures/fig4_accuracy_by_style.png", bbox_inches="tight")
+    plt.savefig("figures/fig3_accuracy_by_style.png", bbox_inches="tight")
     plt.close()
-    print("  Saved fig4_accuracy_by_style.png")
+    print("  Saved fig3_accuracy_by_style.png")
 
 
-# ── Figure 5: Unknown rate comparison ───────────────────────────────────────
+# ── Figure 4: Roleplay vs best style gap ─────────────────────────────────────
+
+def fig4_roleplay_gap():
+    fig, axes = plt.subplots(1, 3, figsize=(15, 5), sharey=False)
+
+    for ax, dataset in zip(axes, DATASETS):
+        models_list = []
+        roleplay_acc = []
+        best_acc = []
+        gaps = []
+
+        for model in MODELS:
+            mdf = df[(df.model == model) & (df.dataset == dataset)]
+            rp = mdf["acc_roleplay"].values[0]
+            best = max(
+                mdf["acc_original"].values[0],
+                mdf["acc_formal"].values[0],
+                mdf["acc_simplified"].values[0],
+                mdf["acc_direct"].values[0]
+            )
+            models_list.append(MODEL_LABELS[model].replace("\n", " "))
+            roleplay_acc.append(rp)
+            best_acc.append(best)
+            gaps.append(best - rp)
+
+        x = np.arange(len(MODELS))
+        width = 0.35
+
+        ax.bar(x - width/2, best_acc, width,
+               label="Best non-roleplay style",
+               color="#4C72B0", alpha=0.85)
+        ax.bar(x + width/2, roleplay_acc, width,
+               label="Roleplay style",
+               color="#C44E52", alpha=0.85)
+
+        for i, (b, r, g) in enumerate(zip(best_acc, roleplay_acc, gaps)):
+            ax.annotate(f"↓{g:.1f}%",
+                        xy=(x[i] + width/2, r),
+                        xytext=(0, 5),
+                        textcoords="offset points",
+                        ha="center", fontsize=9,
+                        color="#C44E52", fontweight="bold")
+
+        ax.set_title(DATASET_LABELS[dataset], fontweight="bold")
+        ax.set_xticks(x)
+        ax.set_xticklabels(models_list, rotation=15, ha="right")
+        ax.set_ylabel("Accuracy (%)")
+        ax.set_ylim(0, 80)
+        ax.legend(fontsize=8)
+        ax.grid(True, alpha=0.3, axis="y")
+
+    fig.suptitle(
+        "Figure 4: Roleplay Prompt Accuracy vs Best Performing Style",
+        fontweight="bold", fontsize=13)
+    plt.tight_layout()
+    plt.savefig("figures/fig4_roleplay_gap.png", bbox_inches="tight")
+    plt.close()
+    print("  Saved fig4_roleplay_gap.png")
+
+
+# ── Figure 5: Unknown rate ────────────────────────────────────────────────────
 
 def fig5_unknown_rate():
-    fig, ax = plt.subplots(figsize=(9, 5))
+    fig, ax = plt.subplots(figsize=(10, 5))
     x = np.arange(len(DATASETS))
-    width = 0.2
+    width = 0.15
 
     for i, model in enumerate(MODELS):
         vals = []
@@ -248,7 +238,7 @@ def fig5_unknown_rate():
                label=MODEL_LABELS[model].replace("\n", " "),
                color=COLORS[model], alpha=0.85)
 
-    ax.set_xticks(x + width * 1.5)
+    ax.set_xticks(x + width * 2)
     ax.set_xticklabels([DATASET_LABELS[d] for d in DATASETS])
     ax.set_ylabel("Unknown Rate (%)")
     ax.set_title("Figure 5: Instruction-Following Failure Rate (Unknown Responses)",
@@ -261,37 +251,74 @@ def fig5_unknown_rate():
     print("  Saved fig5_unknown_rate.png")
 
 
-# ── Figure 6: Fully consistent questions ────────────────────────────────────
+# ── Figure 6: Consistency vs Accuracy scatter ─────────────────────────────────
 
-def fig6_fully_consistent():
-    fig, ax = plt.subplots(figsize=(9, 5))
-    x = np.arange(len(DATASETS))
-    width = 0.2
+def fig6_consistency_vs_accuracy():
+    fig, (ax_main, ax_inset) = plt.subplots(1, 2,
+        figsize=(16, 7),
+        gridspec_kw={'width_ratios': [3, 1]})
 
-    for i, model in enumerate(MODELS):
-        vals = []
-        for dataset in DATASETS:
-            val = df[(df.model == model) & (df.dataset == dataset)
-                     ]["fully_consistent_pct"].values[0]
-            vals.append(val)
-        ax.bar(x + i * width, vals, width,
-               label=MODEL_LABELS[model].replace("\n", " "),
-               color=COLORS[model], alpha=0.85)
+    for model in MODELS:
+        mdf = df[df.model == model]
 
-    ax.set_xticks(x + width * 1.5)
-    ax.set_xticklabels([DATASET_LABELS[d] for d in DATASETS])
-    ax.set_ylabel("Fully Consistent Questions (%)")
-    ax.set_title("Figure 6: Percentage of Questions with Perfect Consistency",
-                 fontweight="bold")
-    ax.legend(fontsize=9)
-    ax.grid(True, alpha=0.3, axis="y")
+        for _, row in mdf.iterrows():
+            if model == "meditron" and row["dataset"] == "pubmedqa":
+                continue
+            ax_main.scatter(row["mean_consistency"],
+                          row["overall_accuracy"],
+                          color=COLORS[model], s=150, zorder=5)
+            ax_main.annotate(
+                DATASET_LABELS[row["dataset"]].replace("\n", " "),
+                (row["mean_consistency"], row["overall_accuracy"]),
+                textcoords="offset points", xytext=(8, 5),
+                fontsize=8, color=COLORS[model])
+
+        if model == "meditron":
+            for _, row in mdf.iterrows():
+                ax_inset.scatter(row["mean_consistency"],
+                               row["overall_accuracy"],
+                               color=COLORS[model], s=150, zorder=5)
+                ax_inset.annotate(
+                    DATASET_LABELS[row["dataset"]].replace("\n", " "),
+                    (row["mean_consistency"], row["overall_accuracy"]),
+                    textcoords="offset points", xytext=(5, 5),
+                    fontsize=8, color=COLORS[model])
+
+    ax_main.set_xlabel("Mean Consistency Score", fontsize=12)
+    ax_main.set_ylabel("Overall Accuracy (%)", fontsize=12)
+    ax_main.set_title("Instruction-Tuned Models", fontweight="bold")
+    ax_main.axvline(x=0.8, color="gray", linestyle="--", alpha=0.5)
+    ax_main.set_xlim(0.65, 0.95)
+    ax_main.set_ylim(25, 70)
+    ax_main.grid(True, alpha=0.3)
+
+    handles = [plt.scatter([], [], color=COLORS[m], s=100,
+               label=MODEL_LABELS[m].replace("\n", " "))
+               for m in MODELS]
+    ax_main.legend(handles=handles, loc="upper left", fontsize=9)
+
+    ax_inset.set_xlabel("Mean Consistency Score", fontsize=10)
+    ax_inset.set_ylabel("Overall Accuracy (%)", fontsize=10)
+    ax_inset.set_title("Meditron (7B)*\n(Not Instruction-Tuned)",
+                       fontweight="bold", fontsize=10)
+    ax_inset.grid(True, alpha=0.3)
+    ax_inset.set_xlim(-0.05, 0.9)
+    ax_inset.set_ylim(-2, 40)
+    ax_inset.text(0.05, -1.5,
+                  "* Near-complete instruction\n"
+                  "  following failure on PubMedQA\n"
+                  "  (99% UNKNOWN rate)",
+                  fontsize=7, color="#8172B2", style="italic")
+
+    fig.suptitle("Figure 6: Consistency vs Accuracy — Are They Correlated?",
+                 fontweight="bold", fontsize=13)
     plt.tight_layout()
-    plt.savefig("figures/fig6_fully_consistent.png", bbox_inches="tight")
+    plt.savefig("figures/fig6_consistency_vs_accuracy.png", bbox_inches="tight")
     plt.close()
-    print("  Saved fig6_fully_consistent.png")
-    
+    print("  Saved fig6_consistency_vs_accuracy.png")
 
-# ── Figure 7: Consistency score distribution (box plots) ─────────────────────
+
+# ── Figure 7: Consistency distribution box plots ─────────────────────────────
 
 def fig7_consistency_distribution():
     fig, axes = plt.subplots(1, 3, figsize=(15, 5), sharey=True)
@@ -328,78 +355,15 @@ def fig7_consistency_distribution():
     print("  Saved fig7_consistency_distribution.png")
 
 
-# ── Figure 8: Roleplay vs best style performance gap ────────────────────────
-
-def fig8_roleplay_gap():
-    fig, axes = plt.subplots(1, 3, figsize=(15, 5), sharey=False)
-
-    for ax, dataset in zip(axes, DATASETS):
-        models_list = []
-        roleplay_acc = []
-        best_acc = []
-        gaps = []
-
-        for model in MODELS:
-            mdf = df[(df.model == model) & (df.dataset == dataset)]
-            rp = mdf["acc_roleplay"].values[0]
-            best = max(
-                mdf["acc_original"].values[0],
-                mdf["acc_formal"].values[0],
-                mdf["acc_simplified"].values[0],
-                mdf["acc_direct"].values[0]
-            )
-            models_list.append(MODEL_LABELS[model].replace("\n", " "))
-            roleplay_acc.append(rp)
-            best_acc.append(best)
-            gaps.append(best - rp)
-
-        x = np.arange(len(MODELS))
-        width = 0.35
-
-        ax.bar(x - width/2, best_acc, width,
-               label="Best non-roleplay style",
-               color="#4C72B0", alpha=0.85)
-        ax.bar(x + width/2, roleplay_acc, width,
-               label="Roleplay style",
-               color="#C44E52", alpha=0.85)
-
-        # annotate gap
-        for i, (b, r, g) in enumerate(zip(best_acc, roleplay_acc, gaps)):
-            ax.annotate(f"↓{g:.1f}%",
-                        xy=(x[i] + width/2, r),
-                        xytext=(0, 5),
-                        textcoords="offset points",
-                        ha="center", fontsize=9,
-                        color="#C44E52", fontweight="bold")
-
-        ax.set_title(DATASET_LABELS[dataset], fontweight="bold")
-        ax.set_xticks(x)
-        ax.set_xticklabels(models_list, rotation=15, ha="right")
-        ax.set_ylabel("Accuracy (%)")
-        ax.set_ylim(0, 80)
-        ax.legend(fontsize=8)
-        ax.grid(True, alpha=0.3, axis="y")
-
-    fig.suptitle(
-        "Figure 8: Roleplay Prompt Accuracy vs Best Performing Style",
-        fontweight="bold", fontsize=13)
-    plt.tight_layout()
-    plt.savefig("figures/fig8_roleplay_gap.png", bbox_inches="tight")
-    plt.close()
-    print("  Saved fig8_roleplay_gap.png")
-
-
-# ── Run all figures ──────────────────────────────────────────────────────────
+# ── Run all figures ───────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     print("Generating figures...")
     fig1_consistency_heatmap()
     fig2_accuracy_heatmap()
-    fig3_consistency_vs_accuracy()
-    fig4_accuracy_by_style()
+    fig3_accuracy_by_style()
+    fig4_roleplay_gap()
     fig5_unknown_rate()
-    fig6_fully_consistent()
+    fig6_consistency_vs_accuracy()
     fig7_consistency_distribution()
-    fig8_roleplay_gap()
-    print("\n✅ All figures saved to figures/")
-    print("\n✅ All figures saved to figures/")
+    print("\n✅ All 7 figures saved to figures/")
