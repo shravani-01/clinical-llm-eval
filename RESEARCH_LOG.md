@@ -104,9 +104,17 @@ suggesting that accuracy alone is insufficient to evaluate clinical LLM safety.
     consistently wrong, which is dangerous in clinical settings
 
 ### 02/27/2026 — Day 9
-- Completed Mistral 7B inference and scoring
+- Completed Mistral 7B and Meditron inference and scoring
 - All 4 models now complete across all 3 datasets
 - Full experimental results ready for analysis and visualization
+
+### 02/28/2026 — Submission Day
+- Paper submitted to arXiv under cs.CL
+- Title: Prompt Sensitivity and Answer Consistency of Small 
+  Open-Source Large Language Models on Clinical Question 
+  Answering: Implications for Low-Resource Healthcare Deployment
+- Awaiting arXiv ID and public posting (1-2 business days)
+- Next: Submit to JMIR AI after arXiv link is live
 
 -------------------------------------------------------------------------
 
@@ -291,13 +299,3 @@ methodological precedent — Ngweta et al.
 clinical motivation — Kim et al.
 ```
 ---
-
-To do list:
-```
-✅ Day 1 — Environment setup
-✅ Day 2 — Datasets loaded (600 questions)
-✅ Day 3 — Prompt variations built (3000 prompts total)
-✅ Day 4 — Model inference engine (feed prompts to LLMs, collect answers)
-✅ Day 5 — Consistency scorer (calculate your core metric)
-✅ Day 6 — Run first model (Phi-3 Mini — fastest on CPU)
-✅ Day 7 — Analysis + visualizations
