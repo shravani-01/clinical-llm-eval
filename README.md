@@ -10,7 +10,7 @@ Low-Resource Healthcare Deployment"**
 
 > Shravani Hariprasad, Independent Researcher, 2026
 
-📄 **arXiv preprint:** [link coming soon]  
+📄 **arXiv preprint:** https://arxiv.org/abs/2603.00917  
 📊 **Target journal:** JMIR AI
 
 ---
@@ -181,3 +181,4 @@ This project is licensed under the MIT License.
 ## Contact
 Shravani Hariprasad — Independent Researcher  
 GitHub: [@shravani-01](https://github.com/shravani-01)
+
